@@ -1,0 +1,2 @@
+C# is a programming language which is built on .NET framework. .NET framework is like a library for all
+Microsoft programming languages and thus connects them all and that's why they are similar.

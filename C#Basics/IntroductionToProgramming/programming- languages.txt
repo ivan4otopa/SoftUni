@@ -1,0 +1,4 @@
+C++, Java, PHP, HTML, Python, Shell, Ruby. C# and C++ are quite similar.
+The declarations and initializations are the same. C# uses Console.WriteLine() for printing and Console.ReadLine() for
+reading input from the user. C++ doesn't use foreach loop. C# and Java are similar too. Although the declarations are different.
+HTML and C# are very different. 
