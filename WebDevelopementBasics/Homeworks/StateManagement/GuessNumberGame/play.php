@@ -1,0 +1,31 @@
+<?php
+	if (!isset($_COOKIE['name'])) {
+		header('Location: index.php');
+	}
+?>
+
+<form action="" method="POST">
+	<input type="text" name="userNumber" placeholder="[1...100]" />
+	<input type="submit" value="Enter" />
+</form>
+
+<?php
+	if (isset($_POST['userNumber'])) {
+		$userNumber = $_POST['userNumber'];
+		$winningNumber = $_COOKIE['randomNumber'];
+		
+		if (1 > $userNumber || $userNumber > 100) {
+			echo 'Invalid Number';
+		} else if ($userNumber == $winningNumber ) {
+			echo 'Congatulations, ' . $_COOKIE['name'] . '</br><a href="index.php">Play Again</a>';
+		} else if ($userNumber < $winningNumber) {
+			echo 'Up';
+		} else {
+			echo 'Down';
+		}		
+		
+		setcookie('name', '', time() - 3600);
+		
+		unset($_COOKIE['name']);
+	}
+?>
