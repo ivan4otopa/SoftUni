@@ -1,0 +1,46 @@
+.box {
+    width: 320px;
+}
+
+canvas {
+    float: left;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#canvas1 {
+    border-top: none;
+    border-left: none;
+}
+
+#canvas2 {
+    border-top: none;
+}
+
+#canvas3 {
+    border-top: none;
+    border-right: none;
+}
+
+#canvas4 {
+    border-left: none;
+}
+
+#canvas6 {
+    border-right: none;
+}
+
+#canvas7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+#canvas8 {
+    border-bottom: none;
+}
+
+#canvas9 {
+    border-bottom: none;
+    border-right: none;
+}
