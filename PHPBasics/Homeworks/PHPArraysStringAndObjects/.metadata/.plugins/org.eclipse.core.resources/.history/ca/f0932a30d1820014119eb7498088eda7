@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SidebarBuilder</title>
+	</head>
+	<body>
+		<form method="get">
+			<label>Categories:</label>
+			<input type="text" name="categories" /><br />
+			<label>Tags:</label>
+			<input type="text" name="tags" /><br />
+			<label>Months:</label>
+			<input type="text" name="months" />
+			<button>Generate</button>
+		</form>
+	</body>
+</html>

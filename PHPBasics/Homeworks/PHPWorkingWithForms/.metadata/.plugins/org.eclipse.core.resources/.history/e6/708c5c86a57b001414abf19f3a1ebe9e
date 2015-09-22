@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PrintTags</title>
+	<link rel="stylesheet" href="styles/PrintTags.css"/>
+</head>
+<body>
+	<form method="get">
+		<label>Enter Tags:</label>
+		<input type="text" name="tags" />
+		<button>Submit</button>
+	</form>
+	<?php
+	var_dump($_GET);
+	?>
+</body>
+</html>

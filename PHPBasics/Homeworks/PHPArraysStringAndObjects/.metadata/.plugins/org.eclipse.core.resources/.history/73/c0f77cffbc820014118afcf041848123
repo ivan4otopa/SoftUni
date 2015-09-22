@@ -1,0 +1,11 @@
+table, tr, td {
+	border: 1px solid gray;
+}
+
+table {
+	background-color: rgb(211, 211, 211);
+}
+
+td {
+	font-weight: bold;
+}

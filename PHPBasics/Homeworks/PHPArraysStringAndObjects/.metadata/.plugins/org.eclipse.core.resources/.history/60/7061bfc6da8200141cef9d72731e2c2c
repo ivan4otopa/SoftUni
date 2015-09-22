@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TextFilter</title>
+	</head>
+	<body>
+		<form method="get">
+			<input type="text" name="text" />
+			<input type="text" name="bans" />
+			<button>Submit</button>
+		</form>
+		<?php
+		if(isset($_GET['text'], $_GET['bans'])) {
+			$text = $_GET['text'];
+			$bans = $_GET['bans'];
+			$textPattern = '/[.,!]/';
+			$removeSymbols = preg_replace($textPattern, '', $text);
+			$words = explode(', ', $removeSymbols);
+			var_dump($words);
+		}
+		?>
+	</body>
+</html>

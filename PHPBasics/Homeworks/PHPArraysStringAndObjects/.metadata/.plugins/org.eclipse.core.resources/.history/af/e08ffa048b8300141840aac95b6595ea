@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URLReplacer</title>
+	</head>
+	<body>
+		<form method="get">
+			<textarea name="text">
+				
+			</textarea>
+			<button>Submit</button>
+		</form>
+		<?php
+		if(isset($_GET['text'])) {
+			$text = $_GET['text'];
+			str_replace('<a href="', '[URL="', htmlspecialchars($text));
+			str_replace('">', '"]', htmlspecialchars($text));
+			str_replace('</a>', '[/URL]', htmlspecialchars($text));
+			echo htmlspecialchars($text);
+		}
+		?>
+	</body>
+</html>

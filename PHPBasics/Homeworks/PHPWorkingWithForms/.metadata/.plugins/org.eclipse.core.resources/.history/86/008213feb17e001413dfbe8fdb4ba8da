@@ -1,0 +1,17 @@
+var count = 0;
+            function addProgLanguage() {
+                var element = document.getElementsByClassName('clone')[count].cloneNode(true);
+                element.setAttribute('id', 'proglang' + progLangId);
+                var parent = document.getElementById('compskills');
+                var childBefore = document.getElementById('remove');
+                parent.insertBefore(element, childBefore);
+                count++;
+            }
+            
+// var counter = 0;
+// function addLang() {
+    // var element = document.getElementsByClassName("clone")[counter];
+    // var clone = element.cloneNode(true);
+    // pcSkills.appendChild(clone);
+    // counter++;
+// }

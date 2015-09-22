@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CarRandomizer</title>
+	</head>
+	<body>
+		<form method="get">
+			<label>Enter Cars</label>
+			<input type="text" name="cars" />
+			<button>Show result</button>
+		</form>
+	</body>
+</html>

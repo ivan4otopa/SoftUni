@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PrintTags</title>
+	<link rel="stylesheet" href="styles/MostFrequentTag.css"/>
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<form method="get">
+		<label>Enter Tags:</label>
+		<input type="text" name="tags"/>
+		<button>Submit</button>
+	</form>
+	<?php
+	$count = 1;
+	$newTags = array(array('a' => '', 'b' => 0));
+	var_dump($newTags);
+	if(isset($_GET['tags'])) {
+		$tags = explode(', ', $_GET['tags']);
+		for($i = 0; $i < count($tags); $i++) {
+			for($j = $i + 1; $j < count($tags); $j++) {
+				if($tags[$i] == $tags[$j])
+				$count++;
+			}
+			$newTags[$i] = $tags[$i];
+			// $newTags[$i][$j] = $count;
+			$counst = 1;
+		}
+	}
+	echo array_unique($newTags);
+	?>
+</body>
+</html>

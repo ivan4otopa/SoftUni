@@ -1,0 +1,11 @@
+var progLangId = 0;
+            var langId = 0;
+            
+            function addProgLanguage() {
+                progLangId++;
+                var divToAdd = document.getElementById('clone').cloneNode(true);
+                divToAdd.setAttribute('id', 'proglang' + progLangId);
+                var parent = document.getElementById('compskills');
+                var childBefore = document.getElementById('remProgLang');
+                parent.insertBefore(divToAdd, childBefore);
+            }

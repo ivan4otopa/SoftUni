@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WordMapper</title>
+		<link rel="stylesheet" href="styles/WordMapper.css" />
+	</head>
+	<body>
+		<form method="get">
+			<textarea name="text">
+				
+			</textarea>
+			<button>Count Words</button>
+		</form>
+		<?php
+		if(isset($_GET['text'])):
+			$text = $_GET['text'];
+			$replacePattern = '/[!.\/]/';
+			$text = preg_replace($replacePattern, '', $text);
+			$text = strtolower($text);
+			$words = array();
+			$pattern = '/[a-zA-Z]+\s+/';
+			preg_match_all($pattern, $text, $words);
+			for($i = 0; $i < count($words); $i++) {
+				for($j = 0; $j < count($words[$i]); $j++)
+					$words[$i][$j] = rtrim($words[$i][$j]);
+			}
+			$flatWordsArray = array();
+			for($i = 0; $i < count($words); $i++) {
+				for($j = 0; $j < count($words[$i]); $j++)
+					$flatWordsArray[$j] = $words[$i][$j];
+			}
+			$uniqueWords = array_count_values($flatWordsArray);
+		?>
+		<table>
+			<tbody>
+				<?php foreach ($uniqueWords as $key => $value): ?>
+				<tr>
+					<td><?= $key ?></td>
+					<td><?= $value ?></td>
+				</tr>
+				<?php endforeach; ?>
+			</tbody>
+		</table>
+		<?php endif; ?>
+	</body>
+</html>

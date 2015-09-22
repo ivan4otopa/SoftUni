@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TextColorer</title>
+	</head>
+	<body>
+		<form method="get">
+			<textarea name="text">
+				
+			</textarea>
+			<button>Color text</button>
+		</form>
+		<?php
+		if(isset($_GET['text'])) {
+			$text = $_GET['text'];
+			$letters = str_split($text);
+			var_dump($letters);
+		}
+		?>
+	</body>
+</html>

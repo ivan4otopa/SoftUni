@@ -1,0 +1,4 @@
+function removeForm() {
+	var form = document.getElementById('form');
+	document.body.removeChild(form);
+}

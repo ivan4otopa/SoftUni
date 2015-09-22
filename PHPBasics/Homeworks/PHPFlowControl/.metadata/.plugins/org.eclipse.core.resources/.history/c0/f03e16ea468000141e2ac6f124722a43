@@ -1,0 +1,36 @@
+<?php
+$count = 0;
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PrimesInRange</title>
+	</head>
+	<body>
+		<form method="get">
+			<label>Starting Index:</label>
+			<input type="text" name="start" />
+			<label>End:</label>
+			<input type="text" name="end" />
+			<button>Submit</button>
+		</form>
+		<?php
+		if(isset($_GET['start'], $_GET['end'])):
+			$start = $_GET['start'];
+			$end = $_GET['end'];
+		?>
+		<?php for($i = $start; $i <= $end; $i++):
+		for($j = 1; $j <= $i; $j++) {
+			if($i % $j == 0)
+				$count++;
+		}
+		?>
+		<?php if($count == 2): ?>
+		<b><?= $i ?></b>
+		<?php else: ?>
+		<?= $i ?>
+		<?php endif; ?>
+		<?php endfor; ?>
+		<?php endif; ?>
+	</body>
+</html>

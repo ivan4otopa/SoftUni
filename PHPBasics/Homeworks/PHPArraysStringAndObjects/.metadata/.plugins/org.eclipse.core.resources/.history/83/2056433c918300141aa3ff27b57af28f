@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URLReplacer</title>
+	</head>
+	<body>
+		<form method="get">
+			<textarea name="text">
+				
+			</textarea>
+			<button>Submit</button>
+		</form>
+		<?php
+		if(isset($_GET['text'])) {
+			$text = $_GET['text'];
+			$pattern = '/<a\shref([^>]+)>([^<]+)<\/a>/';
+			$replace = "[URL$1]$2[/URL]";
+			$text = preg_replace($pattern, $replace, $text);
+			echo $text;
+		}
+		?>
+	</body>
+</html>

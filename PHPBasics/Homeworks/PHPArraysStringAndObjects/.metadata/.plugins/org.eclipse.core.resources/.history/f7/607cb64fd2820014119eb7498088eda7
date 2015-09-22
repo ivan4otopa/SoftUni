@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SidebarBuilder</title>
+	</head>
+	<body>
+		<form method="get">
+			<label>Categories:</label>
+			<input type="text" name="categories" /><br />
+			<label>Tags:</label>
+			<input type="text" name="tags" /><br />
+			<label>Months:</label>
+			<input type="text" name="months" />
+			<button>Generate</button>
+		</form>
+		<?php
+		if(isset($_GET['categories'], $_GET['tags'], $_GET['months'])):
+			$categories = $_GET['categories'];
+			$tags = $_GET['tags'];
+			$months = $_GET['months'];
+			$categoriesArray = explode(', ', $categories);
+			$tagsArray = explode(', ', $tags);
+			$monthsArray = explode(', ', $months);
+		?>
+		<aside>
+			<label>Categories</label>
+			<hr>
+			<ul>
+				<?php foreach ($categoriesArray as $value): ?>
+				<li><?= $value ?></li>
+			</ul>
+		</aside>
+		<aside>
+			<label>Tags</label>
+			<hr>
+			<ul>
+				<?php foreach ($tagsArray as $value): ?>
+				<li><?= $value ?></li>
+			</ul>
+		</aside>
+		<aside>
+			<label>Months</label>
+			<hr>
+			<ul>
+				<?php foreach ($monthsArray as $value): ?>
+				<li><?= $value ?></li>
+			</ul>
+		</aside>
+		<?php endif; ?>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CalculateInterest</title>
+	<link rel="stylesheet" href="styles/CalculateInterest.css" />
+</head>
+<body>
+	<form method="get">
+		<label>Enter Amount</label>
+		<input type="text" name="amount" /><br>
+		<input type="radio" name="currency" id="usd" />
+		<label for="usd">USD</label>
+		<input type="radio" name="currency" id="eur" />
+		<label for="eur">EUR</label>
+		<input type="radio" name="currency" id="bgn" />
+		<label for="bgn">BGN</label><br>
+		<label>Compound Interest Amount</label>
+		<input type="text" name="interest" />
+		<select name="period">
+			<option>6 Months</option>
+			<option>1 Year</option>
+			<option>2 Years</option>
+			<option>5 Years</option>
+		</select>
+		<button>Calculate</button>
+	</form>
+	<?php
+	if(isset($_GET['amount']) && isset($_GET['currency']) && isset($_GET['interest']) && isset($_GET['period'])) {
+		$amount = $_GET['amount'];
+		$currency = $_GET['currency'];
+		$interest = $_GET['interest'];
+		$period = $_GET['period'];
+		$interestPerMonth = $interest / 12;
+		$amountOfMoney = 0;
+		if($period == '6 Months')
+			$amountOfMoney *= ($interestPerMonth + 100) / 100;
+		echo $amountOfMoney;
+	}
+	?>
+</body>
+</html>

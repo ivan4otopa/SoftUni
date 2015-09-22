@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WordMapper</title>
+	</head>
+	<body>
+		<form method="get">
+			<textarea name="text">
+				
+			</textarea>
+			<button>Count Words</button>
+		</form>
+		<?php
+		if(isset($_GET['text'])):
+			$text = $_GET['text'];
+			$replacePattern = '/[!.\/]/';
+			$text = preg_replace($replacePattern, '', $text);
+			echo $text;
+			$words = array();
+			$pattern = '/[a-zA-Z]+\s+/';
+			preg_match_all($pattern, $text, $words);
+			$words = trim($words);
+			var_dump($words);
+		?>
+		<?php endif; ?>
+	</body>
+</html>

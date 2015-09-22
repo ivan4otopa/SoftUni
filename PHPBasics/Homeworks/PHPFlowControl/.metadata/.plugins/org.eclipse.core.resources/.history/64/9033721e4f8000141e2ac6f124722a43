@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SumOfDigits</title>
+	</head>
+	<body>
+		<form method="get">
+			<label>Input string:</label>
+			<input type="text" name="sting" />
+			<button>Submit</button>
+		</form>
+		<?php
+		if(isset($_GET['string'])):
+			$input = explode(',', $_GET['string']);
+		?>
+		<table>
+			<tbody>
+				<?php foreach($input as $value): ?>
+				<tr>
+					<td><?= $value; ?></td>
+				</tr>
+				<?php endforeach; ?>
+			</tbody>
+		</table>
+		<?php endif; ?>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+form {
+	width: 540px;
+	float: left;
+}
+
+table, tr, td, th {
+	border: 1px solid black;
+}
+
+table {
+	margin-top: 30px;
+}

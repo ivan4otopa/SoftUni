@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;CVGenerator&apos; to &apos;5CVGenerator&apos;" description="Rename resource &apos;CVGenerator&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/CVGenerator" name="5CVGenerator" stamp="1417787343646" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;5CVGenerator/php&apos;" deleteContents="false" description="Delete resource &apos;5CVGenerator/php&apos;" element1="/5CVGenerator/php" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1417792743613"/>
+</session>

@@ -1,0 +1,4 @@
+<?php
+if(isset($_GET['fname']))
+var_dump($_GET['fname']);
+?>

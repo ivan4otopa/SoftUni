@@ -1,0 +1,12 @@
+var count = 0;
+function addProgLanguage() {
+    var element = document.getElementsByClassName('clone')[count].cloneNode(true);
+    var parent = document.getElementById('compskills');
+    var childBefore = document.getElementById('remove');
+    parent.insertBefore(element, childBefore);
+    count++;
+}
+
+function removeProgLanguage() {
+  
+}

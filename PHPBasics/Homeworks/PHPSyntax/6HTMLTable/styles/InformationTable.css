@@ -1,0 +1,21 @@
+table {
+	height: 150px;
+}
+
+table, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+tr>td:first-child {
+	background-color: rgb(255, 156, 0);
+	font-weight: bold;
+	padding-left: 5px;
+	width: 110px;
+}
+
+tr>td:nth-of-type(2) {
+	text-align: right;
+	padding-right: 5px;
+	width: 105px;
+}

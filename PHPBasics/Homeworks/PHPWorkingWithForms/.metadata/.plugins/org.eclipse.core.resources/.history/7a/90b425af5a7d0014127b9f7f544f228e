@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CVGenerator</title>
+		<link rel="stylesheet" href="styles/CVGenerator.css" />
+	</head>
+	<body>
+		<form method="get">
+			<fieldset>
+				<legend>
+					Personal Information
+				</legend>
+				<input type="text" name="fname" placeholder="First Name" />
+				<br />
+				<input type="text" name="lname" placeholder="Last Name" />
+				<br />
+				<input type="email" name="email" placeholder="Email" />
+				<br />
+				<input type="tel" name="phone" placeholder="Phone Number" />
+				<br />
+				<label for="female">Female</label>
+				<input type="radio" name="gender" id="female" value="Female"/>
+				<label for="male">Male</label>
+				<input type="radio" name="gender" id="male" value="Male"/>
+				<br />
+				<label for="birthday">Birthday</label>
+				<br />
+				<input type="date" name="bday" />
+				<br />
+				<label for="nationality">Nationality</label>
+				<br />
+				<select name="nationality">
+					<option>Bulgarian</option>
+					<option>German</option>
+					<option>English</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Last Work Position
+				</legend>
+				<label>Company Name</label>
+				<input type="text" name="company" />
+				<br />
+				<label>From</label>
+				<input type="date" name="from" />
+				<br />
+				<label>To</label>
+				<input type="date" name="to" />
+				<br />
+			</fieldset>
+			<fieldset>
+				<legend>
+					Computer Skills
+				</legend>
+				<label>Programming Languages</label>
+				<br />
+				<input type="text" name="proglang[]"/>
+				<select name="progrlang[]">
+					<option>Beginner</option>
+					<option>Programmer</option>
+					<option>Ninja</option>
+				</select>
+				<button>
+					Remove Language
+				</button>
+				<button>
+					Add Language
+				</button>
+			</fieldset>
+			<fieldset>
+				<legend>
+					Other Skills
+				</legend>
+				<label>Languages</label>
+				<br />
+				<input type="text" name="lang[]" />
+				<select name="compr[]">
+					<option disabled="disabled" selected="selected">-Comprehension-</option>
+					<option>intermediate</option>
+					<option>advanced</option>
+				</select>
+				<select name="read[]">
+					<option disabled="disabled" selected="selected">-Reading-</option>
+					<option>intermediate</option>
+					<option>advanced</option>
+				</select>
+				<select name="write[]">
+					<option disabled="disabled" selected="selected">-Writing-</option>
+					<option>intermediate</option>
+					<option>advanced</option>
+				</select>
+				<button>
+					Remove Language
+				</button>
+				<button>
+					Add Language
+				</button>
+				<br />
+				<label>Driver`s License</>
+					<br />
+					<label for="b">B</label>
+					<input type="checkbox" name="b" />
+					<label for="a">A</label>
+					<input type="checkbox" name="a" />
+					<label for="c">C</label>
+					<input type="checkbox" name="c" />
+			</fieldset>
+			<button>
+				Generate CV
+			</button>
+		</form>
+		<?php
+		if (isset($_GET['fname'])) {
+			var_dump($_GET);
+		}
+		?>
+	</body>
+</html>

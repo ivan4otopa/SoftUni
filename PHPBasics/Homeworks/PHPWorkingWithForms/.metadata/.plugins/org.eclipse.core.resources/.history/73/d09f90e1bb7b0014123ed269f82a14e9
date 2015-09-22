@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PrintTags</title>
+	<link rel="stylesheet" href="styles/MostFrequentTag.css"/>
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<form method="get">
+		<label>Enter Tags:</label>
+		<input type="text" name="tags"/>
+		<button>Submit</button>
+	</form>
+</body>
+</html>

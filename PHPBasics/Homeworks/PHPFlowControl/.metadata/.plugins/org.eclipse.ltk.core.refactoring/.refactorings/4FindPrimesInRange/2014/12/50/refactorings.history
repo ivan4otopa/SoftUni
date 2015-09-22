@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;4FindPrimesInRange/styles/PrimesInRange&apos; to &apos;PrimesInRange.css&apos;" description="Rename resource &apos;PrimesInRange&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="styles/PrimesInRange" name="PrimesInRange.css" stamp="1418201046359" updateReferences="true"/>
+</session>

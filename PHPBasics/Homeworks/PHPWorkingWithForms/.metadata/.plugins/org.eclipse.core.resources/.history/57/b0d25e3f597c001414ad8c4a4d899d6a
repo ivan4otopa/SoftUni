@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CalculateInterest</title>
+	<link rel="stylesheet" href="styles/CalculateInterest.css" />
+</head>
+<body>
+	<form method="get">
+		<label>Enter Amount</label>
+		<input type="text" name="amount" /><br>
+		<input type="radio" name="currency" id="usd" />
+		<label for="usd">USD</label>
+		<input type="radio" name="currency" id="eur" />
+		<label for="eur">EUR</label>
+		<input type="radio" name="currency" id="bgn" />
+		<label for="bgn">BGN</label><br>
+		<label>Compound Interest Amount</label>
+		<input type="text" name="interest" />
+		<select name="period">
+			<option>6 months</option>
+			<option>1 year</option>
+			<option>2 years</option>
+			<option>5 years</option>
+		</select>
+		<button>Calculate</button>
+	</form>
+</body>
+</html>

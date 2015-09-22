@@ -1,0 +1,13 @@
+    var counter = 0;
+    function addProgLanguage() {
+        var element = document.getElementsByClassName("clone")[counter];
+        var clone = element.cloneNode(true);
+        lang.appendChild(clone);
+        counter++;
+    }
+    function removeElement(){
+        if(counter != 0) {
+            counter--;
+            lang.removeChild(document.getElementsByClassName("clone")[counter + 1]);
+        }
+    }

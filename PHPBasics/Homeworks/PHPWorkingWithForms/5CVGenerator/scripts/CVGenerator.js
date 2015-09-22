@@ -1,0 +1,34 @@
+var count = 0;
+var count2 = 0;
+
+function addProgLanguage() {
+    var element = document.getElementsByClassName('clone')[count].cloneNode(true);
+    var parent = document.getElementById('compskills');
+    var childBefore = document.getElementById('remove');
+    parent.insertBefore(element, childBefore);
+    count++;
+}
+
+function removeProgLanguage() {
+	if(count > 0) {
+		count--;
+		var parent = document.getElementById('compskills');
+		parent.removeChild(document.getElementsByClassName('clone')[count + 1]);
+	}
+}
+
+function addLanguage() {
+	var element = document.getElementsByClassName('clone2')[count2].cloneNode(true);
+	var parent = document.getElementById('otherskills');
+	var childBefore = document.getElementById('remove2');
+	parent.insertBefore(element, childBefore);
+	count2++;
+}
+
+function removeLanguage() {
+	if(count2 > 0) {
+		count2--;
+		var parent = document.getElementById('otherskills');
+		parent.removeChild(document.getElementsByClassName('clone2')[count2 + 1]);
+	}
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URLReplacer</title>
+	</head>
+	<body>
+		<form method="get">
+			<textarea name="text">
+				
+			</textarea>
+			<button>Submit</button>
+		</form>
+		<?php
+		if(isset($_GET['text'])) {
+			$text = $_GET['text'];
+			for($i = 3; $i < strlen($text) - 3; $i++) {
+				if(substr($text, $i, 2) == '<a')
+					substr($text, $i, 2) = '[URL';
+				else if(substr($text, $i, 1) == '>')
+					substr($text, $i, 1) = ']';
+				else if(substr($text, $i, 4) == '</a>');
+					substr($text, $i, 4) = '[/URL]';
+			}
+			echo $text;
+		}
+		?>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SentenceExtractor</title>
+	</head>
+	<body>
+		<form method="get">
+			<textarea name="text">
+				
+			</textarea>
+			<input type="text" name="word" />
+			<button>Submit</button>
+		</form>
+		<?php
+		if(isset($_GET['text'], $_GET['word'])) {
+			$text = $_GET['text'];
+			$word = ' ' . $_GET['word'] . ' ';
+			$text = trim($text);
+			$textPattern = '/(?<=[.!?])\s+/';
+			$sentences = preg_split($textPattern, $text);
+			var_dump($sentences);
+			echo substr($sentences[0], 0, strlen($word)) . '<br>';
+			echo $word;
+			for($i = 0; $i < count($sentences); $i++) {
+				echo substr($sentences[$i], $i, strlen($word)) . ' '. $word;
+				if(substr($sentences[$i], $i, strlen($word)) == $word)
+					echo substr($sentences[$i], $i, strlen($word));
+			}	
+		}
+		?>
+	</body>
+</html>
