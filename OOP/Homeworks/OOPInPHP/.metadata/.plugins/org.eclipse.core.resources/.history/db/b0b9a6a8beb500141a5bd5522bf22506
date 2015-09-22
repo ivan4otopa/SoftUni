@@ -1,0 +1,11 @@
+<?php
+
+function __autoload($className) {
+	require_once('./' . $className . '.class.php');
+}
+
+$g = new Guest('Petko', 'Kirov', 1929384756);
+
+$r = new Reservation(date('15.02.2015'), date('19.02.2015'), $g);
+
+echo $r;

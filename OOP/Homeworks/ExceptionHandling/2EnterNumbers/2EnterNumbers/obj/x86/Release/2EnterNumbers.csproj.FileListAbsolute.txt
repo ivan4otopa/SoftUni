@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\2EnterNumbers\2EnterNumbers\bin\Release\2EnterNumbers.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\2EnterNumbers\2EnterNumbers\bin\Release\2EnterNumbers.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\2EnterNumbers\2EnterNumbers\obj\x86\Release\2EnterNumbers.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\2EnterNumbers\2EnterNumbers\obj\x86\Release\2EnterNumbers.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\2EnterNumbers\2EnterNumbers\obj\x86\Release\2EnterNumbers.csprojResolveAssemblyReference.cache

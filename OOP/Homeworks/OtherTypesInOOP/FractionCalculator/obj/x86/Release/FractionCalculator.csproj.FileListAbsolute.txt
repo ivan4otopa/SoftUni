@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\FractionCalculator\bin\Release\FractionCalculator.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\FractionCalculator\bin\Release\FractionCalculator.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\FractionCalculator\obj\x86\Release\FractionCalculator.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\FractionCalculator\obj\x86\Release\FractionCalculator.pdb

@@ -1,0 +1,7 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\PCCatalog\PCCatalog\obj\x86\Release\PCCatalog.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\PCCatalog\PCCatalog\bin\Release\PCCatalog.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\PCCatalog\PCCatalog\bin\Release\PCCatalog.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\PCCatalog\PCCatalog\obj\x86\Release\PCCatalog.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\PCCatalog\PCCatalog\obj\x86\Release\PCCatalog.pdb
+C:\Users\lenovo\Documents\SoftUniCourses\OOP\MadeHomeworks\1DefiningClasses\PCCatalog\PCCatalog\obj\x86\Release\PCCatalog.exe
+C:\Users\lenovo\Documents\SoftUniCourses\OOP\MadeHomeworks\1DefiningClasses\PCCatalog\PCCatalog\obj\x86\Release\PCCatalog.pdb

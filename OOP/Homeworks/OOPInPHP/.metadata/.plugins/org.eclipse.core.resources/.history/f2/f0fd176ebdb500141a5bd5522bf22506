@@ -1,0 +1,49 @@
+<?php
+
+class Reservation {
+	private $startDate;
+	private $endDate;
+	private $guest;
+	
+	function __construct($startDate, $endDate, $guest) {
+		$this->setStartDate($startDate);
+		$this->setEndDate($endDate);
+		$this->setGuest($guest);
+	}
+	
+	public function getStartDate()
+	{
+	 	return $this->startDate;
+	}
+	
+	public function setStartDate($value)
+	{
+		if ($value < date('d.m.Y', time())) {
+			trigger_error('Start Date cannot be a previous day.');
+		}
+		
+		$this->startDate = $value;
+	}
+	
+	public function getEndDate()
+	{
+	 	return $this->endDate;
+	}
+	
+	public function setEndDate($value)
+	{
+		if ($value <= $this->getStartDate) {
+			trigger_error('End Date cannot be a previous day from start date nor the same day.');
+		}
+		
+		$this->endDate = $value;
+	}
+	
+	public function getGuest() {
+		return $this->guest;
+	}
+	
+	public function setGuest($value) {
+		$this->guest = $value;
+	}
+}

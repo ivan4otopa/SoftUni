@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GalacticGPS\bin\Release\GalacticGPS.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GalacticGPS\bin\Release\GalacticGPS.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GalacticGPS\obj\x86\Release\GalacticGPS.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GalacticGPS\obj\x86\Release\GalacticGPS.pdb

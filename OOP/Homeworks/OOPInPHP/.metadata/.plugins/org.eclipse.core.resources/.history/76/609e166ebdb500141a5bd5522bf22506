@@ -1,0 +1,9 @@
+<?php
+
+function __autoload($className) {
+	require_once('./' . $className . '.class.php');
+}
+
+$g = new Guest('Petko', 'Mirov', 231457982);
+
+echo $g;

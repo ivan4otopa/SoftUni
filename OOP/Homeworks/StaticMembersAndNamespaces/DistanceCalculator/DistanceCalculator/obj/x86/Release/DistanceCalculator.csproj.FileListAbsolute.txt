@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\DistanceCalculator\DistanceCalculator\obj\x86\Release\DistanceCalculator.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\DistanceCalculator\DistanceCalculator\bin\Release\DistanceCalculator.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\DistanceCalculator\DistanceCalculator\bin\Release\DistanceCalculator.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\DistanceCalculator\DistanceCalculator\obj\x86\Release\DistanceCalculator.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\DistanceCalculator\DistanceCalculator\obj\x86\Release\DistanceCalculator.pdb

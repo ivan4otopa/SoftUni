@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculator", "InterestCalculator\InterestCalculator.csproj", "{F6FD2FF4-8426-41C4-9797-B68C589EC2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousTimer", "AsynchronousTimer\AsynchronousTimer.csproj", "{C11FB6C7-D5E3-475F-8C2B-615C3521C79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentClass", "StudentClass\StudentClass.csproj", "{7B1AFFE0-D285-47C8-AAEA-FE272B11B312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6FD2FF4-8426-41C4-9797-B68C589EC2F3}.Debug|x86.ActiveCfg = Debug|x86
+		{F6FD2FF4-8426-41C4-9797-B68C589EC2F3}.Debug|x86.Build.0 = Debug|x86
+		{F6FD2FF4-8426-41C4-9797-B68C589EC2F3}.Release|x86.ActiveCfg = Release|x86
+		{F6FD2FF4-8426-41C4-9797-B68C589EC2F3}.Release|x86.Build.0 = Release|x86
+		{C11FB6C7-D5E3-475F-8C2B-615C3521C79C}.Debug|x86.ActiveCfg = Debug|x86
+		{C11FB6C7-D5E3-475F-8C2B-615C3521C79C}.Debug|x86.Build.0 = Debug|x86
+		{C11FB6C7-D5E3-475F-8C2B-615C3521C79C}.Release|x86.ActiveCfg = Release|x86
+		{C11FB6C7-D5E3-475F-8C2B-615C3521C79C}.Release|x86.Build.0 = Release|x86
+		{7B1AFFE0-D285-47C8-AAEA-FE272B11B312}.Debug|x86.ActiveCfg = Debug|x86
+		{7B1AFFE0-D285-47C8-AAEA-FE272B11B312}.Debug|x86.Build.0 = Debug|x86
+		{7B1AFFE0-D285-47C8-AAEA-FE272B11B312}.Release|x86.ActiveCfg = Release|x86
+		{7B1AFFE0-D285-47C8-AAEA-FE272B11B312}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

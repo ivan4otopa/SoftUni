@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\StudentClass\bin\Release\StudentClass.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\StudentClass\bin\Release\StudentClass.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\StudentClass\obj\x86\Release\StudentClass.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\StudentClass\obj\x86\Release\StudentClass.pdb

@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\HumanStudentAndWorker\bin\Debug\HumanStudentAndWorker.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\HumanStudentAndWorker\bin\Debug\HumanStudentAndWorker.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\HumanStudentAndWorker\obj\x86\Debug\HumanStudentAndWorker.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\HumanStudentAndWorker\obj\x86\Debug\HumanStudentAndWorker.pdb

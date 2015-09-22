@@ -1,0 +1,8 @@
+C:\Users\lenovo\AppData\Local\Temporary Projects\InheritanceAndAbstraction\bin\Release\InheritanceAndAbstraction.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\InheritanceAndAbstraction\bin\Release\InheritanceAndAbstraction.pdb
+C:\Users\lenovo\AppData\Local\Temporary Projects\InheritanceAndAbstraction\obj\x86\Release\InheritanceAndAbstraction.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\InheritanceAndAbstraction\obj\x86\Release\InheritanceAndAbstraction.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\bin\Release\School.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\bin\Release\School.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\obj\x86\Release\School.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\obj\x86\Release\School.pdb

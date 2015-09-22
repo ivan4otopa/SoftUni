@@ -1,0 +1,8 @@
+C:\Users\lenovo\AppData\Local\Temporary Projects\1SquareRoot\bin\Release\1SquareRoot.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\1SquareRoot\bin\Release\1SquareRoot.pdb
+C:\Users\lenovo\AppData\Local\Temporary Projects\1SquareRoot\obj\x86\Release\1SquareRoot.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\1SquareRoot\obj\x86\Release\1SquareRoot.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\1SquareRoot\1SquareRoot\obj\x86\Release\1SquareRoot.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\1SquareRoot\1SquareRoot\obj\x86\Release\1SquareRoot.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\1SquareRoot\1SquareRoot\bin\Release\1SquareRoot.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\3ExceptionHandling\1SquareRoot\1SquareRoot\bin\Release\1SquareRoot.pdb

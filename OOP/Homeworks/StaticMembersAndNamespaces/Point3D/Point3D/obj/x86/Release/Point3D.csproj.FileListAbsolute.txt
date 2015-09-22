@@ -1,0 +1,8 @@
+C:\Users\lenovo\AppData\Local\Temporary Projects\Point3D\bin\Release\Point3D.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\Point3D\bin\Release\Point3D.pdb
+C:\Users\lenovo\AppData\Local\Temporary Projects\Point3D\obj\x86\Release\Point3D.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\Point3D\obj\x86\Release\Point3D.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\Point3D\Point3D\obj\x86\Release\Point3D.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\Point3D\Point3D\obj\x86\Release\Point3D.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\Point3D\Point3D\bin\Release\Point3D.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\2StaticMembersAndNamespaces\Point3D\Point3D\bin\Release\Point3D.pdb

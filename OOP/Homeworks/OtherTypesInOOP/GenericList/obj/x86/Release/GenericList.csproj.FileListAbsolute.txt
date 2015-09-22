@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GenericList\bin\Release\GenericList.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GenericList\bin\Release\GenericList.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GenericList\obj\x86\Release\GenericList.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\OtherTypesInOOP\GenericList\obj\x86\Release\GenericList.pdb

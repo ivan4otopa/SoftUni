@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\InterestCalculator\bin\Release\InterestCalculator.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\InterestCalculator\bin\Release\InterestCalculator.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\InterestCalculator\obj\x86\Release\InterestCalculator.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\DelegatesAndEvents\InterestCalculator\obj\x86\Release\InterestCalculator.pdb

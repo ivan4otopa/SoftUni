@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\ClassStudent\bin\Debug\ClassStudent.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\ClassStudent\bin\Debug\ClassStudent.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\ClassStudent\obj\x86\Debug\ClassStudent.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\ClassStudent\obj\x86\Debug\ClassStudent.pdb

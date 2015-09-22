@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\LaptopShop\LaptopShop\bin\Release\LaptopShop.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\LaptopShop\LaptopShop\bin\Release\LaptopShop.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\LaptopShop\LaptopShop\obj\x86\Release\LaptopShop.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\LaptopShop\LaptopShop\obj\x86\Release\LaptopShop.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\1DefiningClasses\LaptopShop\LaptopShop\obj\x86\Release\LaptopShop.pdb

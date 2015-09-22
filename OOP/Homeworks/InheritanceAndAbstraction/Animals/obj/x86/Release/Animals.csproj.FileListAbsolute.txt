@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\Animals\bin\Release\Animals.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\Animals\bin\Release\Animals.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\Animals\obj\x86\Release\Animals.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\Animals\obj\x86\Release\Animals.pdb

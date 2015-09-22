@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\bin\Debug\School.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\bin\Debug\School.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\obj\x86\Debug\School.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\School\obj\x86\Debug\School.pdb

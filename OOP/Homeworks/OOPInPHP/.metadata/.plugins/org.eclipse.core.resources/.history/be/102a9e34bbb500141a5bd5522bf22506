@@ -1,0 +1,9 @@
+<?php
+
+function __autoload($className) {
+	require_once('./' . $className . '.class.php');
+}
+
+$s = new Room(1, TRUE, FALSE, 1, 222, 'TV, air-conditioner', 2.99);
+
+echo $s;

@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\EncapsulationAndPolymorphism\BankOfKurtovoKonare\bin\Release\BankOfKurtovoKonare.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\EncapsulationAndPolymorphism\BankOfKurtovoKonare\bin\Release\BankOfKurtovoKonare.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\EncapsulationAndPolymorphism\BankOfKurtovoKonare\obj\x86\Release\BankOfKurtovoKonare.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\EncapsulationAndPolymorphism\BankOfKurtovoKonare\obj\x86\Release\BankOfKurtovoKonare.pdb

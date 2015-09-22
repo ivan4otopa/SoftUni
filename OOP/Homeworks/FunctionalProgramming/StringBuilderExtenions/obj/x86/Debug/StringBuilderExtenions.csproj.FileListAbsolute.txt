@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\StringBuilderExtenions\bin\Debug\StringBuilderExtenions.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\StringBuilderExtenions\bin\Debug\StringBuilderExtenions.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\StringBuilderExtenions\obj\x86\Debug\StringBuilderExtenions.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\FunctionalProgramming\StringBuilderExtenions\obj\x86\Debug\StringBuilderExtenions.pdb

@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\Customer\bin\Release\Customer.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\Customer\bin\Release\Customer.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\Customer\obj\x86\Release\Customer.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\Customer\obj\x86\Release\Customer.pdb

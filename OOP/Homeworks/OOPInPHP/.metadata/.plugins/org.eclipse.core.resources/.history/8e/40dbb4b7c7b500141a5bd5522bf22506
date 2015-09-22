@@ -1,0 +1,14 @@
+<?php
+
+class BookingManager {
+	public static function bookRoom($room, $reservation) {
+		try {
+			$room->addReservation($reservation);
+			echo 'Room <strong>' . $room->getRoomNumber() . '</strong> succesfully booked for <strong>' . 
+				$reservation->guest->getFiurstName . '</strong> from <time>' . $reservation->getStartDate . '</time> to <time>' .
+				$reservation->getEndDate . '</time>';
+		} catch(EReservationException $ex) {
+			echo 'Room ' . $room->getRoomNumber . $ex->getMessage();
+		}
+	}
+}

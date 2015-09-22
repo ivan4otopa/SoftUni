@@ -1,0 +1,1 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\4InheritanceAndAbstraction\School\CompanyHierarchy\obj\x86\Release\CompanyHierarchy.csprojResolveAssemblyReference.cache

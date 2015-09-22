@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\StringDisperser\bin\Release\StringDisperser.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\StringDisperser\bin\Release\StringDisperser.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\StringDisperser\obj\x86\Release\StringDisperser.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\CommonTypeSystem\StringDisperser\obj\x86\Release\StringDisperser.pdb
