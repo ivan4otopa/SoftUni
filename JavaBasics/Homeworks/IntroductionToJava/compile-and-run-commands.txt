@@ -1,0 +1,12 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\lenovo>set PATH=c:\Program Files\java\jdk1.8.0_20\bin
+
+C:\Users\lenovo>cd Documents\EclipseProjects\Intro-Java-Homework\src
+
+C:\Users\lenovo\Documents\EclipseProjects\Intro-Java-Homework\src>javac Problem6
+SumTwoNumbers.java
+5
+2
+7
