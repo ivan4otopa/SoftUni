@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Assertions-and-Exceptions\Exceptions\bin\Debug\Exceptions-Homework.exe
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Assertions-and-Exceptions\Exceptions\bin\Debug\Exceptions-Homework.pdb
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Assertions-and-Exceptions\Exceptions\obj\Debug\Exceptions-Homework.exe
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Assertions-and-Exceptions\Exceptions\obj\Debug\Exceptions-Homework.pdb

@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\InheritanceAndPolymorphism\bin\Release\InheritanceAndPolymorphism.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\InheritanceAndPolymorphism\bin\Release\InheritanceAndPolymorphism.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\InheritanceAndPolymorphism\obj\x86\Release\InheritanceAndPolymorphism.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\InheritanceAndPolymorphism\obj\x86\Release\InheritanceAndPolymorphism.pdb

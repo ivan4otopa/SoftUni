@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2012\Projects\Logger\Logger\bin\Debug\Logger.exe.config
+C:\Users\lenovo\documents\visual studio 2012\Projects\Logger\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\documents\visual studio 2012\Projects\Logger\Logger\bin\Debug\Logger.exe
+C:\Users\lenovo\documents\visual studio 2012\Projects\Logger\Logger\bin\Debug\Logger.pdb
+C:\Users\lenovo\documents\visual studio 2012\Projects\Logger\Logger\obj\Debug\Logger.exe
+C:\Users\lenovo\documents\visual studio 2012\Projects\Logger\Logger\obj\Debug\Logger.pdb

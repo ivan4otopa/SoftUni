@@ -1,0 +1,4 @@
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\bin\Debug\HighQualityMethods.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\bin\Debug\HighQualityMethods.pdb
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\obj\x86\Debug\HighQualityMethods.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\obj\x86\Debug\HighQualityMethods.pdb

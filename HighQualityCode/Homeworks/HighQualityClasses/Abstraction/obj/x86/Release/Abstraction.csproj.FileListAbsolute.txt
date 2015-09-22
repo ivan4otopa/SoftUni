@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\bin\Release\Abstraction.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\bin\Release\Abstraction.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\obj\x86\Release\Abstraction.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\obj\x86\Release\Abstraction.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\obj\x86\Release\Abstraction.csprojResolveAssemblyReference.cache

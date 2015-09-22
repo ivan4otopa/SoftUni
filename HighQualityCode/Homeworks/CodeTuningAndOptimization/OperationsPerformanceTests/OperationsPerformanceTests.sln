@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddSubtractIncrementMultiplyDivide", "AddSubtractIncrementMultiplyDivide\AddSubtractIncrementMultiplyDivide.csproj", "{1994D5DC-E153-4B3C-B80F-E67E832CEEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareRootNaturalLogarithmSinus", "SquareRootNaturalLogarithmSinus\SquareRootNaturalLogarithmSinus.csproj", "{DFD37BF8-4F25-4E6D-803A-E28CE6DEF7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSortSelectionSortQuicksort", "InsertionSortSelectionSortQuicksort\InsertionSortSelectionSortQuicksort.csproj", "{023A15BD-9E16-4D1E-B1CC-1A43DEAB30B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1994D5DC-E153-4B3C-B80F-E67E832CEEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1994D5DC-E153-4B3C-B80F-E67E832CEEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1994D5DC-E153-4B3C-B80F-E67E832CEEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1994D5DC-E153-4B3C-B80F-E67E832CEEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD37BF8-4F25-4E6D-803A-E28CE6DEF7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD37BF8-4F25-4E6D-803A-E28CE6DEF7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD37BF8-4F25-4E6D-803A-E28CE6DEF7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD37BF8-4F25-4E6D-803A-E28CE6DEF7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{023A15BD-9E16-4D1E-B1CC-1A43DEAB30B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023A15BD-9E16-4D1E-B1CC-1A43DEAB30B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023A15BD-9E16-4D1E-B1CC-1A43DEAB30B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023A15BD-9E16-4D1E-B1CC-1A43DEAB30B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

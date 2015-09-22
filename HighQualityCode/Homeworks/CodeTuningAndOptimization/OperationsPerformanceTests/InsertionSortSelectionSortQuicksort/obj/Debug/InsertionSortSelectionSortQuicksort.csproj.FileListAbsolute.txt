@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\InsertionSortSelectionSortQuicksort\bin\Debug\InsertionSortSelectionSortQuicksort.exe.config
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\InsertionSortSelectionSortQuicksort\bin\Debug\InsertionSortSelectionSortQuicksort.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\InsertionSortSelectionSortQuicksort\bin\Debug\InsertionSortSelectionSortQuicksort.pdb
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\InsertionSortSelectionSortQuicksort\obj\Debug\InsertionSortSelectionSortQuicksort.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\InsertionSortSelectionSortQuicksort\obj\Debug\InsertionSortSelectionSortQuicksort.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\InsertionSortSelectionSortQuicksort\obj\Debug\InsertionSortSelectionSortQuicksort.pdb

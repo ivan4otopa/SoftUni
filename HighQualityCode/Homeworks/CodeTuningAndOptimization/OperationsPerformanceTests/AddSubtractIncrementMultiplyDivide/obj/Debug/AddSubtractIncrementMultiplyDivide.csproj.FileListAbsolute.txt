@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\AddSubtractIncrementMultiplyDivide\bin\Debug\AddSubtractIncrementMultiplyDivide.exe.config
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\AddSubtractIncrementMultiplyDivide\bin\Debug\AddSubtractIncrementMultiplyDivide.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\AddSubtractIncrementMultiplyDivide\bin\Debug\AddSubtractIncrementMultiplyDivide.pdb
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\AddSubtractIncrementMultiplyDivide\obj\Debug\AddSubtractIncrementMultiplyDivide.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\AddSubtractIncrementMultiplyDivide\obj\Debug\AddSubtractIncrementMultiplyDivide.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\AddSubtractIncrementMultiplyDivide\obj\Debug\AddSubtractIncrementMultiplyDivide.pdb

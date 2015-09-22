@@ -1,0 +1,6 @@
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\bin\Release\HighQualityMethods.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\bin\Release\HighQualityMethods.pdb
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\obj\x86\Release\HighQualityMethods.exe
+C:\Users\lenovo\AppData\Local\Temporary Projects\HighQualityMethods\obj\x86\Release\HighQualityMethods.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityMethods\HighQualityMethods\obj\x86\Release\HighQualityMethods.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityMethods\HighQualityMethods\obj\x86\Release\HighQualityMethods.pdb

@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\bin\Debug\Abstraction.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\bin\Debug\Abstraction.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\obj\x86\Debug\Abstraction.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\Abstraction\obj\x86\Debug\Abstraction.pdb

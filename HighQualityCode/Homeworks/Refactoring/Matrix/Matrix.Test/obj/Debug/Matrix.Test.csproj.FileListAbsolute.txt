@@ -1,0 +1,7 @@
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Matrix.Test\obj\Debug\Matrix.Test.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Matrix.Test\bin\Debug\Matrix.Test.dll
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Matrix.Test\bin\Debug\Matrix.Test.pdb
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Matrix.Test\bin\Debug\GameFifteen.exe
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Matrix.Test\bin\Debug\GameFifteen.pdb
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Matrix.Test\obj\Debug\Matrix.Test.dll
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\Matrix.Test\obj\Debug\Matrix.Test.pdb

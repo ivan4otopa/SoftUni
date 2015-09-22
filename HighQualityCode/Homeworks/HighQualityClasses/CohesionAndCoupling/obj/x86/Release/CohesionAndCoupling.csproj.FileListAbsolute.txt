@@ -1,0 +1,4 @@
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\CohesionAndCoupling\bin\Release\CohesionAndCoupling.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\CohesionAndCoupling\bin\Release\CohesionAndCoupling.pdb
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\CohesionAndCoupling\obj\x86\Release\CohesionAndCoupling.exe
+C:\Users\lenovo\Documents\Visual Studio 2010\Projects\HighQualityClasses\CohesionAndCoupling\obj\x86\Release\CohesionAndCoupling.pdb

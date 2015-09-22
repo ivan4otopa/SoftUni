@@ -1,0 +1,5 @@
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\SquareRootNaturalLogarithmSinus\bin\Debug\SquareRootNaturalLogarithmSinus.exe.config
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\SquareRootNaturalLogarithmSinus\bin\Debug\SquareRootNaturalLogarithmSinus.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\SquareRootNaturalLogarithmSinus\bin\Debug\SquareRootNaturalLogarithmSinus.pdb
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\SquareRootNaturalLogarithmSinus\obj\Debug\SquareRootNaturalLogarithmSinus.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\OperationsPerformanceTests\SquareRootNaturalLogarithmSinus\obj\Debug\SquareRootNaturalLogarithmSinus.pdb
