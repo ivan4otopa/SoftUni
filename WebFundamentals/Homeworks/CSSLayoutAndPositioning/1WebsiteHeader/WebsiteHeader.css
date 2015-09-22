@@ -1,0 +1,102 @@
+table {
+	width: 1200px;
+	height: 100px;
+	background-color: rgb(35, 68, 101);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#tdLogo {
+	width: 200px;
+}
+
+.td {
+	height: 50px;
+	text-align: right;
+}
+
+#td1 {
+	text-align: right;
+}
+
+#td2 {
+	width: 630px;
+}
+
+#td3 {
+	width: 65px;
+	color: white;
+}
+
+input {
+	border: 0;
+	width: 200px;
+	height: 30px;
+	padding-left: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+button {
+	float: right;
+	background: url(search.png) no-repeat 7px center white;
+	width: 30px;
+	height: 32px;
+	border-width: 0px 0px 0px 1px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
+
+form {
+	padding-right: 15px;
+}
+
+.list1 {
+	display: inline;
+	margin: 20px;
+}
+
+#ul2 {
+	position: absolute;
+	top: 92px;
+	left: 340px;
+}
+
+#ul3 {
+	position: absolute;
+	top: 92px;
+	left: 576px;
+}
+
+.list2 {
+	width: 200px;
+	height: 35px;
+	background-color: rgb(35, 68, 101);
+	padding-left: 5px;
+	color: white;
+	border-bottom: 1px solid gray;
+	line-height: 35px;
+}
+
+#about {
+	display: inline;
+	margin: 20px;
+}
+
+#courses {
+	display: inline;
+	margin: 20px;
+	color: white;
+}
+
+ul li ul {
+	display: none;
+}
+
+ul li:hover ul {
+	display: block;
+}

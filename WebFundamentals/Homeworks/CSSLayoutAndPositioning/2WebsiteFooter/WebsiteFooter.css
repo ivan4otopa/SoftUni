@@ -1,0 +1,120 @@
+#content {
+	width: 1700px;
+	height: 320px;
+	background-color: rgb(35, 68, 101);
+}
+
+#section1 {
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+
+button {
+	border: 2px solid rgb(220, 142, 16);
+	color: white;
+	text-align: center;
+	margin-left: 200px;
+	width: 180px;
+	height: 50px;
+	background-color: rgb(35, 68, 101);
+}
+
+#button1 {
+	margin-top: 70px;
+}
+
+#button2 {
+	margin-top: 15px;
+}
+
+#section2 {
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-top: 85px;
+}
+
+#div1 {
+	font-size: 20px;
+	color: rgb(220, 142, 16);
+	position: absolute;
+	top: 73px;
+	left: 446px;
+}
+
+.list1 {
+	margin-top: 10px;
+	color: white;
+}
+
+#section3 {
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-top: 85px;
+}
+
+#div2 {
+	font-size: 20px;
+	color: rgb(220, 142, 16);
+	position: absolute;
+	top: 73px;
+	left: 735px;
+}
+
+#ul1 {
+	margin-left: -12px;
+}
+
+#section4 {
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-top: 160px;
+}
+
+#div3 {
+	position: absolute;
+	top: 73px;
+	left: 1000px;
+	font-size: 20px;
+	color: rgb(220, 142, 16);
+	width: 350px;
+}
+
+#div4 {
+	position: absolute;
+	top: 135px;
+	left: 1000px;
+	color: white;
+	width: 265px;
+}
+
+.list2 {
+	display: inline;
+	margin-right: 5px;
+}
+
+#ul2 {
+	margin-left: -47px;
+}
+
+section {
+	float: left;
+}
+
+#section5 {
+	width: 300px;
+	height: 400px;
+	float: left;
+	background-image: url(facebook-block.png);
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

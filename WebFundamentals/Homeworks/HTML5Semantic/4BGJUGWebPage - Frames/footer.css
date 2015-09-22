@@ -1,0 +1,63 @@
+body {
+	background-color: black;
+}
+
+#bg {
+	width: 200px;
+	color: white;
+	font-size: 30px;
+	float: left;
+}
+
+ul {
+	float: left;
+}
+
+li {
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+li:first-of-type {
+	font-weight: normal;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+div {
+	color: white;
+}
+
+article {
+	width: 300px;
+	margin-left: 140px;
+	display: inline-block;
+}
+
+#latest {
+	font-weight: normal;
+}
+
+#aa {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#lorem {
+	margin-top: 10px;
+	color: rgb(200, 200, 200);
+}
+
+article:nth-of-type(2) {
+	width: 248px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+#y1 {
+	display: inline-block;
+	width: 200px;
+	color: rgb(200, 200, 200)
+}

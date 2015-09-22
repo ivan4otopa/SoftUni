@@ -1,0 +1,336 @@
+#div1 {
+	background-color: rgb(59, 89, 151);
+	width: 1100px;
+	height: 600px;
+}
+
+#div2 {
+	font-size: 100px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: -5px;
+	left: 330px;
+}
+
+#span1 {
+	margin: 5px;
+	font-size: 20px;
+}
+
+#div3 {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 85px;
+	left: 455px;
+	font-weight: bold; 	
+}
+
+#div4 {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	top: 150px;
+	left: 440px;
+}
+
+#form1 {
+	position: absolute;
+	top: 200px;
+	left: 40px;
+	width: 400px;
+}
+
+#fieldset1 {
+	height: 280px;
+	border-radius: 25px;
+} 
+
+#legend1 {
+	margin-left: 85px;
+	color: white;
+}
+
+#input1 {
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input2 {
+	position: absolute;
+	top: 29px;
+	left: 200px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border:0px;
+}
+
+#input3 {
+	position: absolute;
+	top: 69px;
+	left: 26px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px
+}
+
+#input4 {
+	position: absolute;
+	top: 69px;
+	left: 200px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input5 {
+	position: absolute;
+	top: 109px;
+	left: 26px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input6 {
+	position: absolute;
+	top: 109px;
+	left: 200px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#label1 {
+	position: absolute;
+	top: 149px;
+	left: 26px;
+	color: white;
+	font-weight: bold;
+}
+
+#select1 {
+	position: absolute;
+	top: 169px;
+	left: 26px;
+	width: 255px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input7 {
+	position: absolute;
+	top: 209px;
+	left: 26px;
+}
+
+#label2 {
+	position: absolute;
+	top: 209px;
+	left: 46px;
+	color: white;
+}
+
+#input8 {
+	position: absolute;
+	top: 209px;
+	left: 131px;
+}
+
+#label3 {
+	position: absolute;
+	top: 209px;
+	left: 151px;
+	color: white;
+}
+
+#input9 {
+	position: absolute;
+	top: 209px;
+	left: 216px;
+}
+
+#label4 {
+	position: absolute;
+	top: 209px;
+	left: 236px;
+	color: white;
+}
+
+#form2 {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	width: 560px;
+}
+
+#fieldset2 {
+	height: 280px;
+	border-radius: 25px;
+}
+
+#legend2 {
+	color: white;
+	margin-left: 145px;
+}
+
+#select2 {
+	position: absolute;
+	top: 28px;
+	left: 28px;
+	width: 165px;
+	height: 33px;
+	border-radius: 5px;
+	border: 0px;	
+}
+
+#input10 {
+	position: absolute;
+	top: 28px;
+	left: 203px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input11 {
+	position: absolute;
+	top: 28px;
+	left: 378px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input12 {
+	position: absolute;
+	top: 68px;
+	left: 28px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input13 {
+	position: absolute;
+	top: 68px;
+	left: 203px;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input14 {
+	position: absolute;
+	top: 68px;
+	left: 293px;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input15 {
+	position: absolute;
+	top: 68px;
+	left: 383px;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#label5 {
+	color: white;
+	position: absolute;
+	top: 108px;
+	left: 28px;
+}
+
+#input16 {
+	position: absolute;
+	top: 128px;
+	left: 28px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#input17 {
+	position: absolute;
+	top: 128px;
+	left: 203px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#select3 {
+	position: absolute;
+	top: 128px;
+	left: 378px;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#label6 {
+	position: absolute;
+	top: 168px;
+	left: 28px;
+	color: white;
+}
+
+#button1 {
+	position: absolute;
+	top: 510px;
+	left: 43px;
+	background-color: rgb(221, 221, 221);
+	width: 395px;
+	height: 80px;
+	color: rgb(117, 136, 176);
+	font-size: 25px;
+	border-radius: 10px;
+	border: 0px;
+}
+
+textarea {
+	position: absolute;
+	top: 188px;
+	left: 28px;
+	width: 510px;
+	height: 85px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#button2 {
+	position: absolute;
+	top: 510px;
+	left: 500px;
+	background-color: rgb(221, 221, 221);
+	width: 560px;
+	height: 80px;
+	color: rgb(117, 136, 176);
+	font-size: 30px;
+	border-radius: 10px;
+	border: 0px;
+}

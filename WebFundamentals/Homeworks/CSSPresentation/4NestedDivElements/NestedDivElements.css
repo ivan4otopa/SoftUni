@@ -1,0 +1,9 @@
+body {
+    width: 1454px;
+}
+div {
+    background: rgb(255, 156, 0);
+    border-radius: 60px;            
+    border: 1px solid rgb(35, 68, 101);            
+    padding-right: 6%;          
+}

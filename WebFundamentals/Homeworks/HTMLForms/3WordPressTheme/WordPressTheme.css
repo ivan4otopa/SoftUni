@@ -1,0 +1,35 @@
+#div1 {
+	width: 400px;
+	height: 300px;
+}
+
+#div2 {
+	background-image: url(logo.png);
+	width: 245px;
+	height: 55px;
+}
+
+#button1 {
+	margin: 5px;
+	width: 120px;
+	height: 30px;
+}
+
+#span {
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+#input1 {
+	height: 35px;
+}
+
+#button2 {
+	background-image: url(button.png);
+	width: 28px;
+	height: 25px;
+	position: absolute;
+	top: 122px;
+	left: 340px;
+	border: 0px;
+}

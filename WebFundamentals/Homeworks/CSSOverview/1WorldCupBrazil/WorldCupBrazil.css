@@ -1,0 +1,316 @@
+body {
+	background-color: rgb(0, 146, 62);
+}
+
+.paddedDiv {
+    border: 0px;
+    background: rgb(248, 199, 17);
+    width: 1329px;
+    height: 649px;
+    border-radius: 25px;
+}
+
+.topBorder {
+	border: 2px solid black;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	height: 105px;
+	overflow: auto;
+	overflow: hidden;
+}
+
+.whiteBorder {
+	border: 2px solid black;
+	border-top: hidden;
+	background: rgb(255, 255, 255);
+	height: 106px;
+	overflow: auto;
+	overflow: hidden;
+}
+
+.greyBorder {
+	border: 2px solid black;
+	border-top: hidden;
+	background: rgb(200, 200, 200);
+	height: 106px;
+	overflow: auto;
+	overflow: hidden;
+}
+
+.bottomBorder {
+	border: 2px solid black;
+	background: rgb(255, 255, 255);
+	border-top: hidden;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	height: 106px;
+	overflow: auto;
+	overflow: hidden;
+}
+
+.countryBorder1 {
+	border: 2px solid black;
+	border-top: hidden;
+	border-left: hidden;
+	border-bottom: hidden;
+	height:105px;
+	width: 18%;
+	font-size: 60px;
+	text-align: right;
+	float: left;
+	padding-top: 20px;
+}
+
+.countryBorder2 {
+	border: 2px solid black;
+	border-top: hidden;
+	border-left: hidden;
+	border-bottom: hidden;
+	height:105px;
+	width: 18%;
+	font-size: 60px;
+	text-align: left;
+	float: left;
+	padding-top: 20px;
+}
+
+.resultBorder {
+	border: 2px solid black;
+	border-top: hidden;
+	border-left: hidden;
+	border-bottom: hidden;
+	height: 105px;
+	width: 12%;
+	font-size: 60px;
+	text-align: center;
+	float: left;
+	padding-top: 20px;
+}
+
+.placeABetBorder {
+	height: 105px;
+	width: 520px;
+	font-size: 60px;
+	text-align: center;
+	float: left;
+	padding-top: 20px;
+}
+
+.brasilBorder1 {
+	width: 12%;
+	height: 106px;
+	text-align: right;
+	float: left;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+.leftFlagBorder1 {
+	background-image: url(brasil.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.result {
+	border: 2px solid black;
+	border-top: hidden;
+	border-bottom: hidden;
+	height: 106px;
+	width: 12%;
+	float: left;
+	font-size: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.rightFlagBorder1 {
+	background-image: url(mexico.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.mexicoBorder1 {
+	width: 158px;
+	height: 106px;
+	text-align: left;
+	float: left;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+.brasilBorder2 {
+	width: 8%;
+	height: 106px;
+	text-align: right;
+	float: left;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+.bet {
+	background-image: url(betred.png);
+	border: 2px solid black;
+	border-top: hidden;
+	border-bottom: hidden;
+	height: 106px;
+	width: 15%;
+	float: left;
+}
+
+.mexicoBorder2 {
+	border: 2px solid black;
+	border-left: hidden;
+	border-top: hidden;
+	width: 100px;
+	height: 106px;
+	text-align: left;
+	float: left;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+.redButton {
+	background-image: url(redbutton.png);
+	float: left;
+	width: 111px;
+	height: 106px;
+}
+
+.leftFlagBorder2 {
+	background-image: url(spain.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.rightFlagBorder2 {
+	background-image: url(netherlands.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.betGrey {
+	background-image: url(betredgrey.png);
+	border: 2px solid black;
+	border-top: hidden;
+	border-bottom: hidden;
+	height: 106px;
+	width: 15%;
+	float: left;
+}
+
+.netherlandsBorder2 {
+	border: 2px solid black;
+	border-left: hidden;
+	border-top: hidden;
+	width: 100px;
+	height: 106px;
+	text-align: left;
+	float: left;
+	padding-top: 35px;
+	font-size: 20px;
+}
+
+.redButtonGrey {
+	background-image: url(redbuttongrey.png);
+	float: left;
+	width: 111px;
+	height: 106px;
+}
+
+.leftFlagBorder3 {
+	background-image: url(italy.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.rightFlagBorder3 {
+	background-image: url(england.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.leftFlagBorder4 {
+	background-image: url(argentina.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.rightFlagBorder4 {
+	background-image: url(bosnia.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.argentinaBorder2 {
+	width: 8%;
+	height: 106px;
+	text-align: right;
+	float: left;
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+.betGreenGrey {
+	background-image: url(betgreengrey.png);
+	border: 2px solid black;
+	border-top: hidden;
+	border-bottom: hidden;
+	height: 106px;
+	width: 15%;
+	float: left;
+}
+
+.greenButtonGrey {
+	background-image: url(greenbuttongrey.png);
+	float: left;
+	width: 111px;
+	height: 106px;
+}
+
+.betGreen {
+	background-image: url(betgreen.png);
+	border: 2px solid black;
+	border-top: hidden;
+	border-bottom: hidden;
+	float: left;
+	width: 15%;
+	height: 106px;
+}
+
+.greenButton {
+	background-image: url(greenbutton.png);
+	float: left;
+	width: 111px;
+	height: 106px;
+}
+
+.germanyBorder2 {
+	width: 8%;
+	height: 106px;
+	text-align: right;
+	float: left;
+	padding-top: 40px;
+	font-size: 20px;
+}
+
+.leftFlagBorder5 {
+	background-image: url(germany.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}
+
+.rightFlagBorder5 {
+	background-image: url(portugal.png);
+	width: 80px;
+	height: 106px;
+	float: left;
+}

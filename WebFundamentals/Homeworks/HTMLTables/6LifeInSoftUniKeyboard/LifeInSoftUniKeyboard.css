@@ -1,0 +1,33 @@
+.tdThirdRow {
+	width: 100px;
+}
+
+body>table>tbody>tr>td {
+	height: 100px;
+}
+
+body>table>tbody>tr>td>table {
+	width: 90px;
+	height: 85px;
+	margin: 5px;
+}
+
+th {
+	height: 100px;
+}
+
+.button {
+	font-size: 20px;
+	color: rgb(0, 0, 255);
+}
+
+#th {
+	font-size: 30px;
+	color: rgb(0, 0, 255);
+}
+
+#beer {
+	font-size: 23px;
+	color: rgb(0, 0, 255);
+	text-align: right;
+}

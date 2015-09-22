@@ -1,0 +1,503 @@
+#div1 {
+	width: 1100px;
+	height: 700px;
+}
+
+#div2 {
+	color: rgb(44, 66, 90);
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#form1 {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	width: 190px;
+}
+
+#fieldset1 {
+	border: 1px solid;
+	border-color: #CDE9FF;
+	height: 200px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+}
+
+#button1 {
+	border: 0px;
+	color: rgb(44, 66, 90);
+	font-size: 16px;
+	height: 22px;
+	background-color: white;
+}
+
+#button2 {
+	color: rgb(44, 66, 90);
+	font-size: 13px;
+	border: 0px;
+	background-color: white;
+	height: 30px;
+	text-align: left;
+}
+
+#button3 {
+	border: 0px;
+	background-image: url(pc1.png);
+	position: absolute;
+	top: 70px;
+	left: 35px;
+	width: 114px;
+	height: 65px;
+}
+
+#button4 {
+	background-color: rgb(44, 66, 90);
+	width: 98px;
+	height: 45px;
+	border-top-left-radius: 5px;
+	position: absolute;
+	top: 172px;
+	left: 90px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	border: 0px;
+}
+
+#form2 {
+	position: absolute;
+	top: 50px;
+	left: 215px;
+	width: 190px;
+}
+
+#fieldset2 {
+	border: 1px solid;
+	border-color: #CDE9FF;
+	height: 200px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+}
+
+#label3 {
+	color: rgb(44, 66, 90);
+	font-size: 19px;
+}
+
+#label4 {
+	color: rgb(44, 66, 90);
+	font-size: 16px;
+}
+
+#div5 {
+	background-image: url(pc2.png);
+	position: absolute;
+	top: 65px;
+	left: 30px;
+	width: 130px;
+	height: 75px;
+}
+
+#div6 {
+	background-color: rgb(44, 66, 90);
+	width: 98px;
+	height: 35px;
+	border-top-left-radius: 5px;
+	position: absolute;
+	top: 172px;
+	left: 90px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#form3 {
+	position: absolute;
+	top: 50px;
+	left: 410px;
+	width: 190px;
+}
+
+#fieldset3 {
+	border: 1px solid;
+	border-color: #CDE9FF;
+	height: 200px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+}
+
+#label5 {
+	color: rgb(44, 66, 90);
+	font-size: 19px;
+}
+
+#label6 {
+	color: rgb(44, 66, 90);
+	font-size: 16px;
+}
+
+#div7 {
+	background-image: url(pc3.png);
+	position: absolute;
+	top: 66px;
+	left: 35px;
+	width: 120px;
+	height: 70px;
+}
+
+#div8 {
+	background-color: rgb(44, 66, 90);
+	width: 98px;
+	height: 35px;
+	border-top-left-radius: 5px;
+	position: absolute;
+	top: 172px;
+	left: 90px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#form4 {
+	position: absolute;
+	top: 275px;
+	left: 20px;
+	width: 190px;
+}
+
+#fieldset4 {
+	border: 1px solid;
+	border-color: #CDE9FF;
+	height: 200px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+}
+
+#label7 {
+	color: rgb(44, 66, 90);
+	font-size: 19px;
+}
+
+#label8 {
+	color: rgb(44, 66, 90);
+	font-size: 16px;
+}
+
+#div9 {
+	background-image: url(pc4.png);
+	position: absolute;
+	top: 70px;
+	left: 35px;
+	width: 114px;
+	height: 65px;
+}
+
+#div10 {
+	background-color: rgb(44, 66, 90);
+	width: 98px;
+	height: 35px;
+	border-top-left-radius: 5px;
+	position: absolute;
+	top: 172px;
+	left: 90px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#form5 {
+	position: absolute;
+	top: 275px;
+	left: 215px;
+	width: 190px;
+}
+
+#fieldset5 {
+	border: 1px solid;
+	border-color: #CDE9FF;
+	height: 200px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+}
+
+#label9 {
+	color: rgb(44, 66, 90);
+	font-size: 19px;
+}
+
+#label10 {
+	color: rgb(44, 66, 90);
+	font-size: 16px;
+}
+
+#div11 {
+	background-image: url(pc5.png);
+	position: absolute;
+	top: 65px;
+	left: 35px;
+	width: 114px;
+	height: 65px;
+}
+
+#div12 {
+	background-color: rgb(44, 66, 90);
+	width: 98px;
+	height: 35px;
+	border-top-left-radius: 5px;
+	position: absolute;
+	top: 172px;
+	left: 90px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#form6 {
+	position: absolute;
+	top: 275px;
+	left: 410px;
+	width: 190px;
+}
+
+#fieldset6 {
+	border: 1px solid;
+	border-color: #CDE9FF;
+	height: 200px;
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+}
+
+#label11 {
+	color: rgb(44, 66, 90);
+	font-size: 19px;
+}
+
+#label12 {
+	color: rgb(44, 66, 90);
+	font-size: 16px;
+}
+
+#div13 {
+	background-image: url(pc6.png);
+	position: absolute;
+	top: 66px;
+	left: 40px;
+	width: 114px;
+	height: 65px;
+}
+
+#div14 {
+	background-color: rgb(44, 66, 90);
+	width: 98px;
+	height: 35px;
+	border-top-left-radius: 5px;
+	position: absolute;
+	top: 172px;
+	left: 90px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#form7 {
+	position: absolute;
+	top: 20px;
+	left: 610px;
+	width: 250px;
+}
+
+#fieldset7 {
+	border: 1px solid;
+	border-color: #CDE9FF;
+	background-color: rgba(205, 233, 255, .3);
+	height: 470px;
+}
+
+#label13 {
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	color: rgb(44, 66, 90);
+}
+
+#label14 {
+	position: absolute;
+	top: 30px;
+	left: 5px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#label15 {
+	position: absolute;
+	top: 30px;
+	left: 210px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#input1 {
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 245px;
+}
+
+#label16 {
+	position: absolute;
+	top: 80px;
+	left: 105px;
+	color: rgb(44, 66, 90);
+}
+
+#label17 {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#label18 {
+	position: absolute;
+	top: 100px;
+	left: 210px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#input2 {
+	position: absolute;
+	top: 110px;
+	left: 0px;
+	width: 245px;
+}
+
+#label19 {
+	position: absolute;
+	top: 150px;
+	left: 105px;
+	color: rgb(44, 66, 90);
+}
+
+#label20 {
+	position: absolute;
+	top: 170px;
+	left: 5px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#label21 {
+	position: absolute;
+	top: 170px;
+	left: 190px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#input3 {
+	position: absolute;
+	top: 180px;
+	left: 0px;
+	width: 245px;
+}
+
+#label22 {
+	position: absolute;
+	top: 220px;
+	left: 105px;
+	color: rgb(44, 66, 90);
+}
+
+#label23 {
+	position: absolute;
+	top: 240px;
+	left: 5px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#label24 {
+	position: absolute;
+	top: 240px;
+	left: 210px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#input4 {
+	position: absolute;
+	top: 250px;
+	left: 0px;
+	width: 245px;
+}
+
+#label25 {
+	position: absolute;
+	top: 290px;
+	left: 105px;
+	color: rgb(44, 66, 90);
+}
+
+#label26 {
+	position: absolute;
+	top: 310px;
+	left: 5px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#label27 {
+	position: absolute;
+	top: 310px;
+	left: 210px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#input5 {
+	position: absolute;
+	top: 320px;
+	left: 0px;
+	width: 245px;
+}
+
+#label28 {
+	position: absolute;
+	top: 360px;
+	left: 105px;
+	color: rgb(44, 66, 90);
+}
+
+#label29 {
+	position: absolute;
+	top: 380px;
+	left: 5px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#label30 {
+	position: absolute;
+	top: 380px;
+	left: 175px;
+	font-size: 15px;
+	color: rgb(44, 66, 90);
+}
+
+#input6 {
+	position: absolute;
+	top: 400px;
+	left: 0px;
+	width: 245px;
+}

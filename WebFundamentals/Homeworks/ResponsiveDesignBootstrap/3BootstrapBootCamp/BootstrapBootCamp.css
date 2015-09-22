@@ -1,0 +1,59 @@
+div.container {
+	width: 100%;
+	padding: 0;
+}
+
+nav.navbar-default {
+	background-color: #0003FF;
+	border-color: #000000;
+}
+
+div.col-lg-9.col-md-10.col-sm-11.col-xs-10  {
+	margin-left: 8.33333333%;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:hover,
+ .navbar-default .navbar-nav>.active>a:focus {
+	color: black;
+	background-color: #37FF00;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+}
+
+div.jumbotron {
+	background-color: #F00;
+	color: black;
+}
+
+div.panel {
+	background-color: rgb(255, 255, 0);
+}
+
+div.panel-primary {
+	border-color: rgb(0, 0, 255);
+}
+
+.panel-primary>.panel-heading {
+	background-color: rgb(0, 0, 255);
+	border-color: rgb(0, 0, 255);
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+div.panel-body {
+	border-bottom: 1px solid blue;
+}
+
+div.panel-body:last-of-type {
+	border-bottom: none;
+}

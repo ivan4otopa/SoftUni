@@ -1,0 +1,26 @@
+table {
+	width: 1100px;
+	height: 100px;
+	background-color: rgb(35, 68, 101);
+}
+
+#tdLogo {
+	width: 300px;
+}
+
+.td {
+	height: 50px;
+	text-align: right;
+}
+
+#td1 {
+	text-align: right;
+}
+
+#td2 {
+	width: 470px;
+}
+
+#td3 {
+	width: 50px;
+}

@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<th colspan="4"><input type="text" name="input" id="screen" style="width:100%;height:100%" class="fontsize"></th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><button id="1" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">1</button></td>
+				<td><button id="2" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">2</button></td>
+				<td><button id="3" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">3</button></td>
+				<td><button id="plus" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">+</button></td>
+			</tr>
+			<tr>
+				<td><button id="4" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">4</button></td>
+				<td><button id="5" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">5</button></td>
+				<td><button id="6" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">6</button></td>
+				<td><button id="minus" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">-</button></td>
+			</tr>
+			<tr>
+				<td><button id="7" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">7</button></td>
+				<td><button id="8" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">8</button></td>
+				<td><button id="9" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">9</button></td>
+				<td><button id="multiply" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">*</button></td>
+			</tr>
+			<tr>
+				<td><button id="clear" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">C</button></td>
+				<td><button id="0" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">0</button></td>
+				<td><button id="result" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">=</button></td>
+				<td><button id="devide" onclick="makeString(this.id)" style="width:100%;height:100%" class="fontSize">/</button></td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript">
+        var calcDisplay = document.getElementById("screen");
+        var stringToEvaluate = "0";
+        calcDisplay.value = stringToEvaluate;
+
+        stringToEvaluate = "";
+
+        function makeString(clickedID) {
+            if (clickedID != "result" && clickedID != "clear") {
+                switch (clickedID) {
+                    case "plus": stringToEvaluate += "+"; calcDisplay.value = stringToEvaluate; break;
+                    case "minus": stringToEvaluate += "-"; calcDisplay.value = stringToEvaluate; break;
+                    case "multiply": stringToEvaluate += "*"; calcDisplay.value = stringToEvaluate; break;
+                    case "devide": stringToEvaluate += "/"; calcDisplay.value = stringToEvaluate; break;
+                    default: stringToEvaluate += clickedID; calcDisplay.value = stringToEvaluate; break;
+                }
+            }
+            else if (clickedID == "clear") {
+                stringToEvaluate = "0";
+                calcDisplay.value=stringToEvaluate;
+                stringToEvaluate = "";
+            }
+            else if (clickedID == "result") {
+                var resultString = eval(stringToEvaluate);
+                calcDisplay.value = resultString;
+                stringToEvaluate = resultString;
+            }
+        }
+	</script>
+</body>
+</html>

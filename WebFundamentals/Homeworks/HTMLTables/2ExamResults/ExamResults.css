@@ -1,0 +1,26 @@
+table {
+	border: 1px solid black;
+}
+
+tbody>tr>td {
+	border: 1px solid black;
+	text-align: left;
+}
+
+.secondRow {
+	text-align: center;
+	font-weight: bold;
+}
+
+tfoot {
+	text-align: right;
+}
+
+th {
+	border: 1px solid black;
+	font-size: 20px;
+}
+
+td {
+	border: 1px solid black;
+}

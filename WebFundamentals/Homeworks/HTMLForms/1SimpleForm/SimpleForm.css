@@ -1,0 +1,173 @@
+#div1 {
+	width: 900px;
+	height: 500px;
+	background-color: rgb(238, 238, 238);
+}
+
+#div2 {
+	color: rgb(27, 62, 96);
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#div3 {
+	padding-left: 10px;
+	font-size: 15px;
+	color: rgb(172, 172, 172);
+}
+
+#form1 {
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+#label1 {
+	color: rgb(99, 99, 99);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#span1 {
+	color: rgb(37, 69, 102);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#input1 {
+	position: absolute;
+	top: 150px;
+	left: 35px;
+	width: 380px;
+	height: 50px;
+	color: rgb(207, 207, 207);
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#input2 {
+	position: absolute;
+	top: 220px;
+	left: 35px;
+	width: 380px;
+	height: 50px;
+	color: rgb(207, 207, 207);
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#input3 {
+	position: absolute;
+	top: 290px;
+	left: 35px;
+	width: 380px;
+	height: 50px;
+	color: rgb(207, 207, 207);
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#input4 {
+	position: absolute;
+	top: 360px;
+	left: 35px;
+	width: 380px;
+	height: 50px; 
+	color: rgb(207, 207, 207);
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#button1 {
+	border: 1px solid;
+	border-color: rgb(79, 105, 130);
+	color: rgb(37, 70, 102);
+	position: absolute;
+	top: 430px;
+	left: 250px;
+	width: 179px;
+	height: 50px;
+	font-size: 15px;
+}
+
+#form2 {
+	position: absolute;
+	top: 132px;
+	left: 478px;
+	width: 400px;
+}
+
+#div4 {
+	background-color: rgb(35, 68, 101);
+	width: 430px;
+	height: 365px;
+	position: absolute;
+	top: 115px;
+	left: 450px;
+}
+
+#label2 {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#input5 {
+	position: absolute;
+	top: 38px;
+	left: -10px;
+	width: 380px;
+	height: 50px; 
+	color: rgb(207, 207, 207);
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#input6 {
+	position: absolute;
+	top: 108px;
+	left: -10px;
+	width: 380px;
+	height: 50px; 
+	color: rgb(207, 207, 207);
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#input7 {
+	position: absolute;
+	top: 175px;
+	left: -10px;
+	width: 20px;
+	height: 20px;
+}
+
+#label3 {
+	position: absolute;
+	top: 175px;
+	left: 20px;
+	color: white;
+}
+
+#button2 {
+	border: 1px solid;
+	border-color: rgb(225, 144, 14);
+	color: white;
+	background-color: rgb(35, 68, 101);
+	position: absolute;
+	top: 178px;
+	left: 220px;
+	width: 165px;
+	height: 50px;
+	font-size: 22px;
+}
+
+#label4 {
+	position: absolute;
+	top: 240px;
+	left: 270px;
+	font-size: 15px;
+	color: white;
+	text-decoration: underline;
+}

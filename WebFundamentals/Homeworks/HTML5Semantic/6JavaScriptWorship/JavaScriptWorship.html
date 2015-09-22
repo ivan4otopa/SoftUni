@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScriptWorship</title>
+	<link rel="stylesheet" type="text/css" href="JavaScriptWorship.css">
+</head>
+<body>
+	<canvas id="mycanvas" width="400" height="400">
+	</canvas>
+	<script type="text/javascript">
+		var ctx = document.getElementById("mycanvas").getContext("2d");
+		ctx.font = "50px Arial";
+		ctx.fillText("I love JavaScript", 15, 80);
+		ctx.fillStyle = "rgb(241, 218, 78)";
+		ctx.fillRect(80, 130, 240, 220);
+		ctx.font = "200px bold Arial";
+		ctx.fillStyle = "rgb(0, 0, 0);"
+		ctx.fillText("JS", 140, 340);
+	</script>
+</body>
+</html>
