@@ -1,0 +1,5 @@
+A primary key is a unique identifier given to each row so that it is easier to search through the table. It can be anything but mostly used are numbers 1, 2, 3...n.
+
+A foreign key is a primary key of another table used to make relations to other table.
+
+A primary key is unique to a table, whereas a foreign key may not be.

@@ -1,0 +1,30 @@
+Data integrity refers to maintaining and assuring the accuracy and consistency of data over its entire life-cycle, and is a critical aspect to the design, 
+implementation and usage of any system which stores, processes, or retrieves data.
+
+Primary Key Constraint
+The PRIMARY KEY constraint uniquely identifies each record in a database table.
+
+Primary keys must contain UNIQUE values.
+
+A primary key column cannot contain NULL values.
+
+Most tables should have a primary key, and each table can have only ONE primary key.
+
+Unique Key Constraint
+The UNIQUE constraint uniquely identifies each record in a database table.
+
+The UNIQUE and PRIMARY KEY constraints both provide a guarantee for uniqueness for a column or set of columns.
+
+A PRIMARY KEY constraint automatically has a UNIQUE constraint defined on it.
+
+Note that you can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table.
+
+Foreign Key Constraint
+A FOREIGN KEY in one table points to a PRIMARY KEY in another table.
+
+Check Constraint
+The CHECK constraint is used to limit the value range that can be placed in a column.
+
+If you define a CHECK constraint on a single column it allows only certain values for this column.
+
+If you define a CHECK constraint on a table it can limit the values in certain columns based on values in other columns in the row.

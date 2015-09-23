@@ -1,0 +1,2 @@
+{"_id":{"$oid":"55a51438fbc286fad04980fb"},"date":{"$date":"2015-07-14T13:48:52.611Z"},"isRead":true,"text":"hi","user":{"fullName":"Rambo Silek","username":"rambo","website":"http://sportal.bg"}}
+{"_id":{"$oid":"55a51438fbc286fad04980fc"},"date":{"$date":"2015-07-14T13:50:25.887Z"},"isRead":true,"text":"hi","user":{"fullName":"Liza Mishpeka","username":"liza","website":"http://9gag.com"}}

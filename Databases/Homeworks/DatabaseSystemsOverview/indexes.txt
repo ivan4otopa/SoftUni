@@ -1,0 +1,54 @@
+A database index is a data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure. 
+Indexes are used to quickly locate data without having to search every row in a database table every time a database table is accessed. 
+Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records.
+
+Indexing methods
+Non-clustered - The data is present in arbitrary order, but the logical ordering is specified by the index.
+
+Clustered - Clustering alters the data block into a certain distinct order to match the index, resulting in the row data being stored in order. 
+Therefore, only one clustered index can be created on a given database table. Clustered indices can greatly increase overall speed of retrieval, 
+but usually only where the data is accessed sequentially in the same or reverse order of the clustered index, or when a range of items is selected.
+Since the physical records are in this sort order on disk, the next row item in the sequence is immediately before or after the last one,
+and so fewer data block reads are required. 
+The primary feature of a clustered index is therefore the ordering of the physical data rows in accordance with the index blocks that point to them. 
+Some databases separate the data and index blocks into separate files, others put two completely different data blocks within the same physical file(s).
+
+B-tree
+A B-tree is a tree data structure that keeps data sorted and allows searches, sequential access, insertions, and deletions in logarithmic time.
+
+Columnstore index
+A columnstore index is a technology for storing, retrieving and managing data by using a columnar data format, called a columnstore.
+
+Full-text index
+Full-Text Search in SQL Server and Azure SQL Database lets users and applications run full-text queries against character-based data in SQL Server tables. 
+Before you can run full-text queries on a table, the database administrator must create a full-text index on the table. 
+The full-text index includes one or more character-based columns in the table. 
+These columns can have any of the following data types: char, varchar, nchar, nvarchar, text, ntext, image, xml, or varbinary(max) and FILESTREAM. 
+Each full-text index indexes one or more columns from the table, and each column can use a specific language.
+
+Spatial index
+Spatial Index is like an ordinary index with this difference that Spatial objects are not 1D data points rather are in higher dimension space (e.g. 2D) and thus Ordinary indexes such as BTree are not appropriate for indexing such data. 
+The well-known spatial Index technique is R-tree.
+
+Pros and cons of using indexes
+If indexes are used, writing to table (for example inserting rows) is
+slower, because in addition to just writing the data, MySQL needs to
+handle the index file also. This is an issue usually only if you need
+very fast inserts or you need to insert thousands of rows at the same
+time and fast.
+
+They might increase query speed or they might not. Basic rule is that if
+you are searching some specific key in a table, using indexes in that
+field will make query faster, but if you have index in some other field,
+it won't make a difference.
+
+For example if you have a table with 1000000 rows in it, and you want to
+make this query:
+
+select id,name from table_x where id=123123;
+
+You will get a lot faster results if you have index in the id field.
+
+On the other hand, if you don't have index in the id, but only in the
+name field, the query will be as slow (or even few cpu ticks slower)
+than it would be without indexes at all.

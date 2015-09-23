@@ -1,0 +1,42 @@
+SQL stands for Structured Query Language. SQL is used to communicate with a database. According to ANSI, it is the standard language for relational database 
+management systems. SQL statements are used to perform tasks such as update data on a database, or retrieve data from a database. Some common relational database 
+management systems that use SQL are: Oracle, Sybase, Microsoft SQL Server, Access, Ingres, etc. Although most database systems use SQL, most of them also have their 
+own additional proprietary extensions that are usually only used on their system. However, the standard SQL commands such as "Select", "Insert", "Update", "Delete", 
+"Create", and "Drop" can be used to accomplish almost everything that one needs to do with a database.
+
+A data manipulation language (DML) is a family of syntax elements similar to a computer programming language used for selecting, inserting, deleting and updating data 
+in a database. Performing read-only queries of data is sometimes also considered a component of DML.
+
+A data definition language or data description language (DDL) is a syntax similar to a computer programming language for defining data structures, especially database 
+schemas.
+
+The SELECT statement is used to select data from a database. The result is stored in a result table, called the result-set.
+
+The WHERE clause is used to extract only those records that fulfill a specified criterion.
+
+The ORDER BY keyword is used to sort the result-set by one or more columns. The ORDER BY keyword sorts the records in ascending order by default. To sort the records 
+in a descending order, you can use the DESC keyword.
+
+The INSERT INTO statement is used to insert new records in a table.
+
+The UPDATE statement is used to update existing records in a table.
+
+The DELETE statement is used to delete rows in a table.
+
+An SQL JOIN clause is used to combine rows from two or more tables, based on a common field between them.
+
+The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns in both tables.
+
+The LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2). The result is NULL in the right side when 
+there is no match.
+
+The RIGHT JOIN keyword returns all rows from the right table (table2), with the matching rows in the left table (table1). The result is NULL in the left side when 
+there is no match.
+
+The FULL OUTER JOIN keyword returns all rows from the left table (table1) and from the right table (table2). The FULL OUTER JOIN keyword combines the result of both 
+LEFT and RIGHT joins.
+
+The UNION operator is used to combine the result-set of two or more SELECT statements.
+
+Notice that each SELECT statement within the UNION must have the same number of columns. The columns must also have similar data types. Also, the columns in each 
+SELECT statement must be in the same order.

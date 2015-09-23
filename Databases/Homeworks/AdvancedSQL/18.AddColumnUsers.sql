@@ -1,0 +1,3 @@
+ALTER TABLE Users
+ADD GroupID int FOREIGN KEY 
+REFERENCES Groups(Id)

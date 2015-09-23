@@ -1,0 +1,1 @@
+SELECT CONVERT(varchar(10), GETDATE(), 4) + ' ' + CONVERT(varchar(24), GETDATE(), 114)

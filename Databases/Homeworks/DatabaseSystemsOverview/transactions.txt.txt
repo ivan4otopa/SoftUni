@@ -1,0 +1,26 @@
+A transaction symbolizes a unit of work performed within a database management system (or similar system) against a database, 
+and treated in a coherent and reliable way independent of other transactions. A transaction generally represents any change in database.
+Transactions in a database environment have two main purposes:
+
+To provide reliable units of work that allow correct recovery from failures and keep a database consistent even in cases of system failure, 
+when execution stops (completely or partially) and many operations upon a database remain uncompleted, with unclear status.
+
+To provide isolation between programs accessing a database concurrently. If this isolation is not provided, the program's outcome are possibly erroneous.
+
+The ACID accronym stands for atomic, consistent, isolated, durable. The transaction must be ACID.
+
+In an atomic transaction, a series of database operations either all occur, or nothing occurs. 
+The series of operations cannot be divided apart and executed partially from each other, which makes the series of operations "indivisible", hence the name.
+
+Consistency in database systems refers to the requirement that any given database transaction must only change affected data in allowed ways. 
+Any data written to the database must be valid according to all defined rules, including constraints, cascades, triggers, and any combination thereof.
+
+In database systems, isolation determines how transaction integrity is visible to other users and systems.
+
+In database systems, durability is the ACID property which guarantees that transactions that have committed will survive permanently. 
+For example, if a flight booking reports that a seat has successfully been booked, then the seat will remain booked even if the system crashes.
+
+Transaction log
+In the field of databases in computer science, a transaction log (also transaction journal, database log, binary log or audit trail)
+is a history of actions executed by a database management system to guarantee ACID properties over crashes or hardware failures. 
+Physically, a log is a file listing changes to the database, stored in a stable storage format.

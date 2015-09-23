@@ -1,0 +1,8 @@
+SQL means Structured Query Language. It is the standard language used for handling relational databases.
+Databases are, basically, programs that can store and retrieve efficiently large amounts of information and the relational ones store this data as relations. 
+Relations can be thought as tables, where each column is an attribute and each row is an entry.
+
+Example
+SELECT     EmployeeID, FirstName, LastName, HireDate, City
+FROM       Employees
+WHERE      (HireDate >= '1-june-1992') AND (HireDate <= '15-december-1993')
