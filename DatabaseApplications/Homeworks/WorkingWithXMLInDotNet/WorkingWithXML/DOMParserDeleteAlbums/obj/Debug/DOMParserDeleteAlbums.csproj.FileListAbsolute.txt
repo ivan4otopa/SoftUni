@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserDeleteAlbums\bin\Debug\DOMParserDeleteAlbums.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserDeleteAlbums\bin\Debug\DOMParserDeleteAlbums.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserDeleteAlbums\bin\Debug\DOMParserDeleteAlbums.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserDeleteAlbums\obj\Debug\DOMParserDeleteAlbums.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserDeleteAlbums\obj\Debug\DOMParserDeleteAlbums.pdb

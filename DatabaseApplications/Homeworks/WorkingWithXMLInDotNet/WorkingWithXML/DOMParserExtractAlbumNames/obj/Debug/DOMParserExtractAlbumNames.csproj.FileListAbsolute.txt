@@ -1,0 +1,6 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserExtractAlbumNames\bin\Debug\DOMParserExtractAlbumNames.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserExtractAlbumNames\bin\Debug\DOMParserExtractAlbumNames.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserExtractAlbumNames\bin\Debug\DOMParserExtractAlbumNames.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserExtractAlbumNames\obj\Debug\DOMParserExtractAlbumNames.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserExtractAlbumNames\obj\Debug\DOMParserExtractAlbumNames.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\DOMParserExtractAlbumNames\obj\Debug\DOMParserExtractAlbumNames.pdb

@@ -1,0 +1,10 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\bin\Debug\4.NativeSQLQuery.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\bin\Debug\4.NativeSQLQuery.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\bin\Debug\4.NativeSQLQuery.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\obj\Debug\4.NativeSQLQuery.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\obj\Debug\4.NativeSQLQuery.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\4.NativeSQLQuery\obj\Debug\4.NativeSQLQuery.csprojResolveAssemblyReference.cache

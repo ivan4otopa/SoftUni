@@ -1,0 +1,10 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\bin\Debug\3.DatabaseSearchQueries.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\bin\Debug\3.DatabaseSearchQueries.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\bin\Debug\3.DatabaseSearchQueries.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\obj\Debug\3.DatabaseSearchQueries.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\obj\Debug\3.DatabaseSearchQueries.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\3.DatabaseSearchQueries\obj\Debug\3.DatabaseSearchQueries.pdb

@@ -1,0 +1,10 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\bin\Debug\6.CallAStoredProcedure.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\bin\Debug\6.CallAStoredProcedure.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\bin\Debug\6.CallAStoredProcedure.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\obj\Debug\6.CallAStoredProcedure.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\obj\Debug\6.CallAStoredProcedure.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\6.CallAStoredProcedure\obj\Debug\6.CallAStoredProcedure.pdb

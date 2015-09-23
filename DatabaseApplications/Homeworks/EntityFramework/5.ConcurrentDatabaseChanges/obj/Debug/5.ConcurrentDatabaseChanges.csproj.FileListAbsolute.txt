@@ -1,0 +1,10 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\bin\Debug\5.ConcurrentDatabaseChanges.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\bin\Debug\5.ConcurrentDatabaseChanges.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\bin\Debug\5.ConcurrentDatabaseChanges.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\obj\Debug\5.ConcurrentDatabaseChanges.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\obj\Debug\5.ConcurrentDatabaseChanges.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\5.ConcurrentDatabaseChanges\obj\Debug\5.ConcurrentDatabaseChanges.pdb

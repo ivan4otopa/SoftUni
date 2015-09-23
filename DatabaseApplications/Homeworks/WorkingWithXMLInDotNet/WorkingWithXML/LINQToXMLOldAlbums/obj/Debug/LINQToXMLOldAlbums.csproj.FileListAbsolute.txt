@@ -1,0 +1,6 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\LINQToXMLOldAlbums\bin\Debug\LINQToXMLOldAlbums.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\LINQToXMLOldAlbums\bin\Debug\LINQToXMLOldAlbums.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\LINQToXMLOldAlbums\bin\Debug\LINQToXMLOldAlbums.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\LINQToXMLOldAlbums\obj\Debug\LINQToXMLOldAlbums.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\LINQToXMLOldAlbums\obj\Debug\LINQToXMLOldAlbums.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\LINQToXMLOldAlbums\obj\Debug\LINQToXMLOldAlbums.pdb

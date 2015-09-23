@@ -1,0 +1,6 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\XElementDirectoryContentsAsXML\bin\Debug\XElementDirectoryContentsAsXML.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\XElementDirectoryContentsAsXML\bin\Debug\XElementDirectoryContentsAsXML.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\XElementDirectoryContentsAsXML\bin\Debug\XElementDirectoryContentsAsXML.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\XElementDirectoryContentsAsXML\obj\Debug\XElementDirectoryContentsAsXML.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\XElementDirectoryContentsAsXML\obj\Debug\XElementDirectoryContentsAsXML.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\XElementDirectoryContentsAsXML\obj\Debug\XElementDirectoryContentsAsXML.pdb

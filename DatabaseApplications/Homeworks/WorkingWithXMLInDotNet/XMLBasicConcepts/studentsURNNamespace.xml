@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students xmlns:student="urn:student" xmlns:exam="urn:exam">
+	<student:student>
+		<student:name>Zaprqn Zaprqnov</student:name>
+		<student:gender>Female</student:gender>
+		<student:birthDate>1997-05-19</student:birthDate>
+		<student:email>zaprqcho@gmail.com</student:email>
+		<student:university>Software University</student:university>
+		<student:facultyNumber>Basic Level</student:facultyNumber>
+		<exams>
+			<exam:exam>
+				<exam:examName>Programming Basics Exam</exam:examName>
+				<exam:dateTaken>2015-06-22</exam:dateTaken>
+				<exam:grade>2.99</exam:grade>
+			</exam:exam>
+		</exams>
+	</student:student>
+	<student:student>
+		<student:name>Unufri Unufriev</student:name>
+		<student:gender>Male</student:gender>
+		<student:birthDate>1993-12-11</student:birthDate>
+		<student:email>unufkata@gmail.com</student:email>
+		<student:university>Software University</student:university>
+		<student:facultyNumber>Fundamental Level</student:facultyNumber>
+		<exams>
+			<exam:exam>
+				<exam:examName>Advanced C# Exam</exam:examName>
+				<exam:dateTaken>2015-05-15</exam:dateTaken>
+				<exam:grade>5.99</exam:grade>
+			</exam:exam>
+			<exam:exam>
+				<exam:examName>OOP</exam:examName>
+				<exam:dateTaken>2015-07-02</exam:dateTaken>
+				<exam:grade>4.86</exam:grade>
+			</exam:exam>
+			<exam:exam>
+				<exam:examName>HQC</exam:examName>
+				<exam:dateTaken>Not Stated</exam:dateTaken>
+				<exam:grade>In Progress</exam:grade>
+			</exam:exam>
+			<exam:exam>
+				<exam:examName>Java Basics</exam:examName>
+				<exam:dateTaken>Not Stated</exam:dateTaken>
+				<exam:grade>In Progress</exam:grade>
+			</exam:exam>
+		</exams>
+	</student:student>
+</students>

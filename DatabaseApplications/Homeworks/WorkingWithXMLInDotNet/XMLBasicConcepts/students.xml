@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+	<student>
+		<name>Zaprqn Zaprqnov</name>
+		<gender>Female</gender>
+		<birthDate>1997-05-19</birthDate>
+		<email>zaprqcho@gmail.com</email>
+		<university>Software University</university>
+		<facultyNumber>Basic Level</facultyNumber>
+		<exams>
+			<exam>
+				<examName>Programming Basics Exam</examName>
+				<dateTaken>2015-06-22</dateTaken>
+				<grade>2.99</grade>
+			</exam>
+		</exams>
+	</student>
+	<student>
+		<name>Unufri Unufriev</name>
+		<gender>Male</gender>
+		<birthDate>1993-12-11</birthDate>
+		<email>unufkata@gmail.com</email>
+		<university>Software University</university>
+		<facultyNumber>Fundamental Level</facultyNumber>
+		<exams>
+			<exam>
+				<examName>Advanced C# Exam</examName>
+				<dateTaken>2015-05-15</dateTaken>
+				<grade>5.99</grade>
+			</exam>
+			<exam>
+				<examName>OOP</examName>
+				<dateTaken>2015-07-02</dateTaken>
+				<grade>4.86</grade>
+			</exam>
+			<exam>
+				<examName>HQC</examName>
+				<dateTaken>Not Stated</dateTaken>
+				<grade>In Progress</grade>
+			</exam>
+			<exam>
+				<examName>Java Basics</examName>
+				<dateTaken>Not Stated</dateTaken>
+				<grade>In Progress</grade>
+			</exam>
+		</exams>
+	</student>
+</students>

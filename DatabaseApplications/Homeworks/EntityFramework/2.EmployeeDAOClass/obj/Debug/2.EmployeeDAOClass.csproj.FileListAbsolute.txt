@@ -1,0 +1,10 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\bin\Debug\2.EmployeeDAOClass.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\bin\Debug\2.EmployeeDAOClass.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\bin\Debug\2.EmployeeDAOClass.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\obj\Debug\2.EmployeeDAOClass.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\obj\Debug\2.EmployeeDAOClass.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\EntityFramework\2.EmployeeDAOClass\obj\Debug\2.EmployeeDAOClass.pdb

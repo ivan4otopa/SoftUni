@@ -1,0 +1,6 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractAllArtistsAlphabetically\bin\Debug\ExtractAllArtistsAlphabetically.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractAllArtistsAlphabetically\bin\Debug\ExtractAllArtistsAlphabetically.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractAllArtistsAlphabetically\bin\Debug\ExtractAllArtistsAlphabetically.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractAllArtistsAlphabetically\obj\Debug\ExtractAllArtistsAlphabetically.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractAllArtistsAlphabetically\obj\Debug\ExtractAllArtistsAlphabetically.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractAllArtistsAlphabetically\obj\Debug\ExtractAllArtistsAlphabetically.pdb

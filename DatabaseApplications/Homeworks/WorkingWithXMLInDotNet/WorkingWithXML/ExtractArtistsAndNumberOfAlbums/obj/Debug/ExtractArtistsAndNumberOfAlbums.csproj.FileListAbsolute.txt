@@ -1,0 +1,6 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractArtistsAndNumberOfAlbums\bin\Debug\ExtractArtistsAndNumberOfAlbums.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractArtistsAndNumberOfAlbums\bin\Debug\ExtractArtistsAndNumberOfAlbums.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractArtistsAndNumberOfAlbums\bin\Debug\ExtractArtistsAndNumberOfAlbums.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractArtistsAndNumberOfAlbums\obj\Debug\ExtractArtistsAndNumberOfAlbums.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractArtistsAndNumberOfAlbums\obj\Debug\ExtractArtistsAndNumberOfAlbums.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsHomeworks\WorkingWithXML\ExtractArtistsAndNumberOfAlbums\obj\Debug\ExtractArtistsAndNumberOfAlbums.pdb
