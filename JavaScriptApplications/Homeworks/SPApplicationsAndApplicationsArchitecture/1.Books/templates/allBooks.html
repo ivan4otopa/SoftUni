@@ -1,0 +1,16 @@
+<ul id="books">
+	{{#books}}
+	<li>Title: {{title}}, author: {{author}}, isbn: {{isbn}}</li><button class="deleteBook">Delete Book</button><br />
+	{{/books}}
+</ul>
+
+<div id="addBookWrapper">
+	<label>Add Book</label><br />
+	<label for="title">Title:</label>
+	<input type="text" id="title" placeholder="Title..." />
+	<label for="author">Author:</label>
+	<input type="text" id="author" placeholder="Author..." />
+	<label for="isbn">Isbn:</label>
+	<input type="text" id="isbn" placeholder="Isbn..." />
+	<button type="submit" id="addBook">Add Book</button>
+</div>
