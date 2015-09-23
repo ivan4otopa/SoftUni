@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app='StudentPage'>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>StudentPage</title>
+    <link rel="stylesheet" type="text/css" href="styles/studentPage.css">
+</head>
+<body ng-controller='StudentPageController'>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Photo</th>
+			<th>Grade</th>
+			<th>School</th>
+			<th>Teacher</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>{{student.name}}</td>
+			<td><img ng-src="{{student.photo}}"></td>
+			<td>{{student.grade}}</td>
+			<td>{{student.school}}</td>
+			<td>{{student.teacher}}</td>
+		</tr>
+	</tbody>
+</table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/studentPageController.js"></script>
+</body>
+</html>
