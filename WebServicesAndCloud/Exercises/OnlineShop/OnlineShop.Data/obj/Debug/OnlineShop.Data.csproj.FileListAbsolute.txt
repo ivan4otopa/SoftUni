@@ -1,0 +1,16 @@
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.dll.config
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Data.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Models.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\OnlineShop.Models.pdb
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.dll
+C:\Users\ASUS\Documents\Visual Studio 2015\Projects\WebServicesAndCloudExercises\OnlineShop\OnlineShop.Data\obj\Debug\OnlineShop.Data.pdb

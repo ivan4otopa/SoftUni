@@ -1,0 +1,13 @@
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\BugTracker.Data.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\BugTracker.Data.pdb
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\obj\Debug\BugTracker.Data.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\obj\Debug\BugTracker.Data.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\BugTracker\BugTracker.Data\obj\Debug\BugTracker.Data.pdb

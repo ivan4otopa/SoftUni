@@ -1,0 +1,14 @@
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\Restaurants.Models.dll.config
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\Restaurants.Models.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\Restaurants.Models.pdb
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\obj\Debug\Restaurants.Models.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\obj\Debug\Restaurants.Models.dll
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Models\obj\Debug\Restaurants.Models.pdb
