@@ -18,14 +18,14 @@
 			echo 'Invalid Number';
 		} else if ($userNumber == $winningNumber ) {
 			echo 'Congatulations, ' . $_COOKIE['name'] . '</br><a href="index.php">Play Again</a>';
+			
+			setcookie('name', '', time() - 3600);
+			
+			unset($_COOKIE['name']);
 		} else if ($userNumber < $winningNumber) {
 			echo 'Up';
 		} else {
 			echo 'Down';
-		}		
-		
-		setcookie('name', '', time() - 3600);
-		
-		unset($_COOKIE['name']);
+		}
 	}
 ?>
