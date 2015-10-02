@@ -1,0 +1,6 @@
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\WiggleWiggle\bin\Debug\WiggleWiggle.exe.config
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\WiggleWiggle\bin\Debug\WiggleWiggle.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\WiggleWiggle\bin\Debug\WiggleWiggle.pdb
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\WiggleWiggle\obj\Debug\WiggleWiggle.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\WiggleWiggle\obj\Debug\WiggleWiggle.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\WiggleWiggle\obj\Debug\WiggleWiggle.pdb

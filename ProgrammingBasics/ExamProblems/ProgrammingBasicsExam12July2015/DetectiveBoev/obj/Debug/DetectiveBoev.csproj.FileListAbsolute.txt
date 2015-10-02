@@ -1,0 +1,6 @@
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\DetectiveBoev\bin\Debug\DetectiveBoev.exe.config
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\DetectiveBoev\bin\Debug\DetectiveBoev.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\DetectiveBoev\bin\Debug\DetectiveBoev.pdb
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\DetectiveBoev\obj\Debug\DetectiveBoev.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\DetectiveBoev\obj\Debug\DetectiveBoev.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\DetectiveBoev\obj\Debug\DetectiveBoev.pdb

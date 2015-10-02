@@ -1,0 +1,6 @@
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\LightTheTorches\bin\Debug\LightTheTorches.exe.config
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\LightTheTorches\bin\Debug\LightTheTorches.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\LightTheTorches\bin\Debug\LightTheTorches.pdb
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\LightTheTorches\obj\Debug\LightTheTorches.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\LightTheTorches\obj\Debug\LightTheTorches.exe
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\LightTheTorches\obj\Debug\LightTheTorches.pdb
