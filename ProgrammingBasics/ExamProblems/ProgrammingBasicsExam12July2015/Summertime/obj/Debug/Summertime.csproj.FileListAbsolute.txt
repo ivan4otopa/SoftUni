@@ -1,6 +1,0 @@
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\Summertime\bin\Debug\Summertime.exe.config
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\Summertime\obj\Debug\Summertime.csprojResolveAssemblyReference.cache
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\Summertime\bin\Debug\Summertime.exe
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\Summertime\bin\Debug\Summertime.pdb
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\Summertime\obj\Debug\Summertime.exe
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\Summertime\obj\Debug\Summertime.pdb

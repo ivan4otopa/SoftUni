@@ -1,6 +1,0 @@
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\FourFactors\bin\Debug\FourFactors.exe.config
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\FourFactors\bin\Debug\FourFactors.exe
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\FourFactors\bin\Debug\FourFactors.pdb
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\FourFactors\obj\Debug\FourFactors.csprojResolveAssemblyReference.cache
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\FourFactors\obj\Debug\FourFactors.exe
-C:\Users\ASUS\Documents\Visual Studio 2013\Projects\ProgrammingBasicsExam12July2015\FourFactors\obj\Debug\FourFactors.pdb
