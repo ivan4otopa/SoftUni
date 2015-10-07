@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibonacci Matrix</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+<form method="get" action="FibonacciMatrix.php">
+    Text to encrypt:
+    <br/>
+    <textarea name="jsonTable" rows="2" cols="50">[["a1B4d4","Ma4x"],["abcd","mA3x"]]</textarea><br/>
+    <input type="submit" value="Send" />
+</form>
+<p>
+    <b>Expected output:</b>
+    <br/>
+    <ul><li style="color: #3DD459">144 - is a Fibonacci number</li><li style="color: #FF5900">4 - is not a Fibonacci number</li><li style="color: #3DD459">3 - is a Fibonacci number</li></ul>
+</p>
+
+<form method="get" action="FibonacciMatrix.php">
+    Text to encrypt:
+    <br/>
+    <textarea name="jsonTable" rows="2" cols="50">[["a1B","a4tech"],["ASL7","SAP8"]]</textarea><br/>
+    <input type="submit" value="Send" />
+</form>
+<p>
+    <b>Expected output:</b>
+    <br/>
+<ul><li style="color: #3DD459">1 - is a Fibonacci number</li><li style="color: #FF5900">4 - is not a Fibonacci number</li><li style="color: #FF5900">7 - is not a Fibonacci number</li><li style="color: #3DD459">8 - is a Fibonacci number</li></ul>
+</p>
+</body>
+<?php
+if (isset($_GET['jsonTable'])) {
+	$jsonTable = $_GET['jsonTable'];
+	$array = json_decode($jsonTable);
+	
+	function isFibonacciNumber($number) {
+		$firstNumber = 0;
+		$secondNumber = 1;
+		
+		while ($firstNumber <= $number) {
+			if ($firstNumber == $number) {
+				return true;
+			}
+			
+			$secondNumber += $firstNumber;
+			$firstNumber = $secondNumber - $firstNumber;
+		} 
+		
+		return false;
+	}
+	
+	echo '<ul>';
+	
+	foreach ($array as $key => $value) {
+		for ($i = 0; $i < count($value); $i++) { 
+			$number = intval(preg_replace('/[^\d]+/', '', $value[$i]));
+			
+			if ($number != 0) {
+				if (isFibonacciNumber($number)) {
+					echo '<li style="color: #3DD459">' . $number . ' - is a Fibonacci number</li>';
+				} else {
+					echo '<li style="color: #FF5900">' . $number . ' - is not a Fibonacci number</li>';
+				}	
+			}
+		}
+	}
+	
+	echo '</ul>';
+}
+?>
+</html>
