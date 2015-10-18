@@ -8,11 +8,12 @@
     {
         private ICollection<User> usersWhoFavorited;
         private ICollection<Report> reports;
+        private ICollection<Tweet> retweets;
 
         public Tweet()
         {
             this.UsersWhoFavourited = new HashSet<User>();
-            this.Reports = new HashSet<Report>();
+            this.Reports = new HashSet<Report>();            
         }
 
         public int Id { get; set; }
@@ -53,6 +54,19 @@
             set
             {
                 this.reports = value;
+            }
+        }
+
+        public virtual ICollection<Tweet> Retweets
+        {
+            get
+            {
+                return this.retweets;
+            }
+
+            set
+            {
+                this.retweets = value;
             }
         }
     }

@@ -32,11 +32,6 @@
             get { return this.GetRepository<Tweet>(); }
         }
 
-        public IRepository<Profile> Profiles
-        {
-            get { return this.GetRepository<Profile>(); }
-        }
-
         public IRepository<Notification> Notifications
         {
             get { return this.GetRepository<Notification>(); }

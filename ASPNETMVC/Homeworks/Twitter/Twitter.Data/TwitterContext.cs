@@ -11,12 +11,10 @@ namespace Twitter.Data
         public TwitterContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<TwitterContext, Configuration>());   
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<TwitterContext, Configuration>());
         }
 
         public virtual IDbSet<Tweet> Tweets { get; set; }
-
-        public virtual IDbSet<Profile> Profiles { get; set; }
 
         public virtual IDbSet<Message> Messages { get; set; }
 

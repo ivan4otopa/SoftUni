@@ -22,3 +22,49 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.tweet {
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: deepskyblue;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    clear: both;
+}
+
+.user {
+    margin-bottom: 10px;
+}
+
+.tweet-content {
+    margin-bottom: 10px;
+    width: 90px;
+}
+
+.button {
+    color: white;
+    margin-right: 10px;
+}
+
+textarea {
+    width: 280px;
+    height: 80px;
+    float: left;
+}
+
+.tweet input[type=submit] {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.navigation {
+    margin-left: 190px;
+    margin-bottom: 20px;
+}
+
+.navigation input[type=submit] {
+    margin-right: 150px;
+}

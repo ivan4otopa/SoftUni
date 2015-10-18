@@ -7,8 +7,6 @@
     {
         IDbSet<Tweet> Tweets { get; set; }
 
-        IDbSet<Profile> Profiles { get; set; }
-
         IDbSet<Message> Messages { get; set; }
 
         IDbSet<Report> Reports { get; set; }

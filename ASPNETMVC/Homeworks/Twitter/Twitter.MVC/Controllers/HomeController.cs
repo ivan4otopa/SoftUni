@@ -1,30 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-
-namespace Twitter.MVC.Controllers
+﻿namespace Twitter.MVC.Controllers
 {
-    public class HomeController : Controller
+    using System.Web.Mvc;
+    using Data.UnitOfWork;
+    using System.Linq;
+    using Models.ViewModels;
+    using Microsoft.AspNet.Identity;
+
+    public class HomeController : BaseController
     {
-        public ActionResult Index()
+        public HomeController(ITwitterData data)
+            : base(data)
         {
-            return View();
         }
 
-        public ActionResult About()
+        public ActionResult Index(int page = 1)
         {
-            ViewBag.Message = "Your application description page.";
+            IQueryable<TweetViewModel> tweets = null;
 
-            return View();
-        }
+            string userId = this.User.Identity.GetUserId();
+            var user = this.Data.Users.All()
+                .FirstOrDefault(u => u.Id == userId);
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+            if (userId == null)
+            {
+                tweets = this.Data.Tweets.All()
+                    .OrderByDescending(t => t.CreatedOn)
+                    .Select(TweetViewModel.Create)
+                    .Skip((page - 1) * 10)
+                    .Take(10);
+            }
+            else
+            {
+                var followedUsersIds = user.Following
+                    .Select(f => f.Id)
+                    .ToList();
 
-            return View();
+                tweets = this.Data.Tweets.All()
+                    .Where(t => followedUsersIds.Contains(t.UserId))
+                    .OrderByDescending(t => t.CreatedOn)
+                    .Select(TweetViewModel.Create)
+                    .Skip((page - 1) * 10)
+                    .Take(10);
+            }
+
+            return View(tweets);
         }
     }
 }

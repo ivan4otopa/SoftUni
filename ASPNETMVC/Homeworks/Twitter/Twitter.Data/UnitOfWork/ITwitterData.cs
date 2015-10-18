@@ -9,8 +9,6 @@
 
         IRepository<Tweet> Tweets { get; }
 
-        IRepository<Profile> Profiles { get; }
-
         IRepository<Notification> Notifications { get; }
 
         IRepository<Message> Messages { get; }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0389D6F2-37F4-45AD-B083-FF36127B0E4E}</ProjectGuid>
+    <ProjectGuid>{64E71EC7-8D61-4BCF-AF2B-09D306FC6200}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Twitter.Data</RootNamespace>
@@ -69,14 +69,14 @@
     <Compile Include="UnitOfWork\TwitterData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Twitter.Models\Twitter.Models.csproj">
-      <Project>{63857241-d2dd-4f7d-86eb-843119d67b89}</Project>
-      <Name>Twitter.Models</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Twitter.Models\Twitter.Models.csproj">
+      <Project>{6d475384-bc7d-4a70-9201-361ca9d6deb4}</Project>
+      <Name>Twitter.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

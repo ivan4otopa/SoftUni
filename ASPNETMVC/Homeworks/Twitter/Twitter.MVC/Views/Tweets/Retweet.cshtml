@@ -1,0 +1,9 @@
+﻿@using Twitter.MVC.Models.BindingModels
+@model TweetBindingModel
+<div class="tweet">
+    @using (Html.BeginForm("Retweet", "Tweets", new { id = ViewBag.Id, destination = ViewBag.Destination }, FormMethod.Post, null))
+    {
+        @Html.TextAreaFor(m => m.Content, new { placeholder = "Enter tweet text..." })
+        <input type="submit" value="Retweet" />
+    }
+</div>

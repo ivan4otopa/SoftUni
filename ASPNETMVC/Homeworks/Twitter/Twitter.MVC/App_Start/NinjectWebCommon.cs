@@ -10,9 +10,8 @@ namespace Twitter.MVC.App_Start
 
     using Ninject;
     using Ninject.Web.Common;
-    using System.Reflection;
-    using Data.UnitOfWork;
     using Data;
+    using Data.UnitOfWork;
 
     public static class NinjectWebCommon 
     {

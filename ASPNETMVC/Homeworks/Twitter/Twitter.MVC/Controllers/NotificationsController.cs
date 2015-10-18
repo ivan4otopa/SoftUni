@@ -2,6 +2,9 @@
 {
     using System.Web.Mvc;
     using Data.UnitOfWork;
+    using Microsoft.AspNet.Identity;
+    using System.Linq;
+    using Models.ViewModels;
 
     public class NotificationsController : BaseController
     {
@@ -10,15 +13,39 @@
         {
         }
 
-        // GET: Notifications
-        public ActionResult Index()
+        public ActionResult Notifications()
         {
-            return View();
+            if (this.User.Identity.IsAuthenticated)
+            {
+                string userId = this.User.Identity.GetUserId();
+                var notifications = this.Data.Notifications.All()
+                    .Where(n => n.UserId == userId)
+                    .Select(NotificationViewModel.Create);
+
+                return View(notifications);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
 
-        public ActionResult About()
+        public ActionResult Notification(int id)
         {
-            return View();
+            if (this.User.Identity.IsAuthenticated)
+            {
+                string userId = this.User.Identity.GetUserId();
+                var notification = this.Data.Notifications.All()
+                    .Where(n => n.UserId == userId)
+                    .Select(NotificationViewModel.Create)
+                    .FirstOrDefault(n => n.Id == id);
+
+                return View(notification);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Account");
+            }
         }
     }
 }

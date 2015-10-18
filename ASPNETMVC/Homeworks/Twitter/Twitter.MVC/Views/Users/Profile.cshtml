@@ -1,0 +1,77 @@
+﻿@using Twitter.MVC.Models.ViewModels
+@model ProfileViewModel
+<div class="navigation">
+    <input type="submit" id="tweets" name="tweets" value="Tweets" />
+    <input type="submit" id="following" name="following" value="Following" />
+    <input type="submit" id="followers" name="followers" value="Followers" />
+    <input type="submit" id="favourite" name="favourite" value="Favourite" />
+</div>
+<div id="content">
+    @foreach (var tweet in Model.Tweets)
+    {
+        <div class="tweet">
+            <div class="user">
+                @tweet.User
+            </div>
+            <div class="tweet-content">
+                @tweet.Content
+            </div>
+            <div class="buttons">
+                @Html.ActionLink("Favourite", "Favourite", "Tweets", new { id = tweet.Id, destination = "Profile" }, new { @class = "button" })
+                @Html.ActionLink("Retweet", "Retweet", "Tweets", new { id = tweet.Id, destination = "Profile" }, new { @class = "button" })
+                @Html.ActionLink("Report", "Report", "Tweets", null, new { @class = "button" })
+                @Html.ActionLink("Reply", "Reply", "Tweets", null, new { @class = "button" })
+                @Html.ActionLink("Share", "Share", "Tweets", null, new { @class = "button" })
+            </div>
+        </div>
+    }
+</div>
+<script>
+    $('#tweets').click(function () {
+        $('#content > *').hide();
+        var model = @Html.Raw(Json.Encode(Model.Tweets));
+        for (var tweet in model)
+        {
+            $('#content').append('<div class="tweet">' +
+                '<div class="user">' +
+                    model[tweet]['User'] +
+                '</div>' +
+                '<div class="tweet-content">' +
+                    model[tweet]['Content'] +
+                '</div>' +
+            '</div>')
+        }
+    })
+
+    $('#following').click(function () {
+        $('#content > *').hide()
+        var model = @Html.Raw(Json.Encode(Model.Following));
+        for (var following in model) {
+            $('#content').append('<div>' + model[following]['Username'] + '</div>')
+        }
+    })
+
+    $('#followers').click(function () {
+        $('#content > *').hide()
+        var model = @Html.Raw(Json.Encode(Model.Followers));
+        for (var followers in model) {
+            $('#content').append('<div>' + model[followers]['Username'] + '</div>')
+        }
+    })
+
+    $('#favourite').click(function () {
+        $('#content > *').hide();
+        var model = @Html.Raw(Json.Encode(Model.FavouriteTweets));
+        for (var favouriteTweet in model)
+        {
+            $('#content').append('<div class="tweet">' +
+                '<div class="user">' +
+                    model[favouriteTweet]['User'] +
+                '</div>' +
+                '<div class="tweet-content">' +
+                    model[favouriteTweet]['Content'] +
+                '</div>' +
+            '</div>')
+        }
+    })
+</script>

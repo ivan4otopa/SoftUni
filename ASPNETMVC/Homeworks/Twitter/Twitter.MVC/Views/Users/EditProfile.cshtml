@@ -1,0 +1,11 @@
+﻿@using Twitter.MVC.Models.BindingModels
+@model UserBindingModel
+@using (Html.BeginForm("EditProfile", "Users", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.ValidationSummary(true)
+    @:New @Html.LabelFor(m => m.Username)
+    @Html.EditorFor(m => m.Username)
+    @Html.Label("Password")
+    <input type="password" name="password" />
+    <input type="submit" value="Change username" />
+}
