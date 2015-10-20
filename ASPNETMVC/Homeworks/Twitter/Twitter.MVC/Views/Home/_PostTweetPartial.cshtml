@@ -1,10 +1,11 @@
 ﻿@using Twitter.MVC.Models.BindingModels
 @model TweetBindingModel
+
 <div class="tweet">
-    @using (Html.BeginForm("Retweet", "Tweets", new { id = ViewBag.Id, destination = ViewBag.Destination }, FormMethod.Post, null))
+    @using (Html.BeginForm("PostTweet", "Tweets"))
     {
         @Html.EditorFor(m => m.Content, new { htmlAttributes = new { placeholder = "Enter tweet text..." } })
         @Html.ValidationMessageFor(m => m.Content)
-        <input type="submit" value="Retweet" />
+        <input type="submit" value="Tweet" />
     }
 </div>

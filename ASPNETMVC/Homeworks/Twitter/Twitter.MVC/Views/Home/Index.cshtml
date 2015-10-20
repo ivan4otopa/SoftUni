@@ -1,30 +1,10 @@
 ﻿@using Twitter.MVC.Models.ViewModels
+@using Twitter.MVC.Models.BindingModels
 @model IEnumerable<TweetViewModel>
+
 @if (this.User.Identity.IsAuthenticated)
 {
-    <div class="tweet">
-        @using (Html.BeginForm("PostTweet", "Tweets"))
-        {
-            <textarea name="content" placeholder="Enter tweet text..."></textarea>
-            <input type="submit" value="Tweet" />
-        }
-    </div>
+    @Html.Partial("_PostTweetPartial", new TweetBindingModel())
 }
-@foreach (var tweet in Model)
-{
-    <div class="tweet">
-        <div class="user">
-            @tweet.User
-        </div>
-        <div class="tweet-content">
-            @tweet.Content
-        </div>
-        <div class="buttons">
-            @Html.ActionLink("Favourite", "Favourite", "Tweets", new { id = tweet.Id, destination = "Index" }, new { @class = "button" })
-            @Html.ActionLink("Retweet", "Retweet", "Tweets", new { id = tweet.Id, destination = "Index" }, new { @class = "button" })
-            @Html.ActionLink("Report", "Report", null, new { @class = "button" })
-            @Html.ActionLink("Reply", "Reply", null, new { @class = "button" })
-            @Html.ActionLink("Share", "Share", null, new { @class = "button" })
-        </div>
-    </div>
-}
+
+@Html.DisplayForModel()

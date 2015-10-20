@@ -1,0 +1,18 @@
+﻿@using Twitter.MVC.Models.ViewModels
+@model TweetViewModel
+
+<div class="tweet">
+    <div class="user">
+        @Model.User
+    </div>
+    <div class="tweet-content">
+        @Model.Content
+    </div>
+    <div class="buttons">
+        @Html.ActionLink("Favourite", "Favourite", "Tweets", new { id = Model.Id, destination = "Index" }, new { @class = "button" })
+        @Html.ActionLink("Retweet", "Retweet", "Tweets", new { id = Model.Id, destination = "Index" }, new { @class = "button" })
+        @Html.ActionLink("Report", "Report", null, new { @class = "button" })
+        @Html.ActionLink("Reply", "Reply", null, new { @class = "button" })
+        @Html.ActionLink("Share", "Share", null, new { @class = "button" })
+    </div>
+</div>

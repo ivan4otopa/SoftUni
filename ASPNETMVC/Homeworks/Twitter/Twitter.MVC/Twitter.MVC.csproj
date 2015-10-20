@@ -289,6 +289,10 @@
     <Content Include="Views\Notifications\Notification.cshtml" />
     <Content Include="Views\Users\EditProfile.cshtml" />
     <Content Include="Views\Tweets\Retweet.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\TweetViewModel.cshtml" />
+    <Content Include="Views\Notifications\DisplayTemplates\NotificationViewModel.cshtml" />
+    <Content Include="Views\Home\_PostTweetPartial.cshtml" />
+    <Content Include="Views\Tweets\PostTweet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,6 +1,4 @@
 ﻿@using Twitter.MVC.Models.ViewModels
 @model IEnumerable<NotificationViewModel>
-@foreach (var notification in Model)
-{
-    <p>@notification.Content</p>
-}
+
+@Html.DisplayForModel()

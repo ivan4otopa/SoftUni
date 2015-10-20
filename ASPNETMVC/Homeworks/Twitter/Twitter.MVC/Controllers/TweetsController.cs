@@ -17,20 +17,30 @@
 
         public ActionResult PostTweet(TweetBindingModel model)
         {
-            string userId = this.User.Identity.GetUserId();
-
-            var newTweet = new Tweet()
+            if (!this.ModelState.IsValid)
             {
-                Content = model.Content,
-                CreatedOn = DateTime.Now,
-                URL = "asd",
-                UserId = userId
-            };
+                this.TempData["resultMessage"] = "Error";
+            }
+            else
+            {
+                string userId = this.User.Identity.GetUserId();
 
-            this.Data.Tweets.Add(newTweet);
-            this.Data.SaveChanges();
+                var newTweet = new Tweet()
+                {
+                    Content = model.Content,
+                    CreatedOn = DateTime.Now,
+                    URL = "asd",
+                    UserId = userId
+                };
 
-            return RedirectToAction("Index", "Home");
+                this.Data.Tweets.Add(newTweet);
+                this.Data.SaveChanges();
+                this.TempData["resultMessage"] = "Success";
+            }
+
+            var data = this.TempData["resultMessage"];
+
+            return View(data);
         }
 
         public ActionResult Favourite(int id, string destination)

@@ -7,71 +7,59 @@
     <input type="submit" id="favourite" name="favourite" value="Favourite" />
 </div>
 <div id="content">
-    @foreach (var tweet in Model.Tweets)
-    {
-        <div class="tweet">
-            <div class="user">
-                @tweet.User
-            </div>
-            <div class="tweet-content">
-                @tweet.Content
-            </div>
-            <div class="buttons">
-                @Html.ActionLink("Favourite", "Favourite", "Tweets", new { id = tweet.Id, destination = "Profile" }, new { @class = "button" })
-                @Html.ActionLink("Retweet", "Retweet", "Tweets", new { id = tweet.Id, destination = "Profile" }, new { @class = "button" })
-                @Html.ActionLink("Report", "Report", "Tweets", null, new { @class = "button" })
-                @Html.ActionLink("Reply", "Reply", "Tweets", null, new { @class = "button" })
-                @Html.ActionLink("Share", "Share", "Tweets", null, new { @class = "button" })
-            </div>
-        </div>
-    }
+@Html.DisplayFor(m => m.Tweets)
 </div>
 <script>
     $('#tweets').click(function () {
         $('#content > *').hide();
-        var model = @Html.Raw(Json.Encode(Model.Tweets));
-        for (var tweet in model)
+
+        @foreach (var tweet in Model.Tweets)
         {
-            $('#content').append('<div class="tweet">' +
-                '<div class="user">' +
-                    model[tweet]['User'] +
+            <text>$('#content').append('<div class="tweet">' +
+                '<div class="user">@tweet.User</div>' +
+                '<div class="tweet-content">@tweet.Content</div>' +
+                '<div class="buttons">' +
+                    '@Html.ActionLink("Favourite", "Favourite", "Tweets", new { id = tweet.Id, destination = "Index" }, new { @class = "button" })' +
+                    '@Html.ActionLink("Retweet", "Retweet", "Tweets", new { id = tweet.Id, destination = "Index" }, new { @class = "button" })' +
+                    '@Html.ActionLink("Report", "Report", null, new { @class = "button" })' +
+                    '@Html.ActionLink("Reply", "Reply", null, new { @class = "button" })' +
+                    '@Html.ActionLink("Share", "Share", null, new { @class = "button" })' +
                 '</div>' +
-                '<div class="tweet-content">' +
-                    model[tweet]['Content'] +
-                '</div>' +
-            '</div>')
+            '</div>')</text>
         }
     })
 
     $('#following').click(function () {
         $('#content > *').hide()
-        var model = @Html.Raw(Json.Encode(Model.Following));
-        for (var following in model) {
-            $('#content').append('<div>' + model[following]['Username'] + '</div>')
+
+        @foreach (var following in Model.Following) {
+            <text>$('#content').append('<div>@following.Username</div>')</text>
         }
     })
 
     $('#followers').click(function () {
         $('#content > *').hide()
-        var model = @Html.Raw(Json.Encode(Model.Followers));
-        for (var followers in model) {
-            $('#content').append('<div>' + model[followers]['Username'] + '</div>')
+
+        @foreach (var followers in Model.Followers) {
+            <text>$('#content').append('<div>@followers.Username</div>')</text>
         }
     })
 
     $('#favourite').click(function () {
         $('#content > *').hide();
-        var model = @Html.Raw(Json.Encode(Model.FavouriteTweets));
-        for (var favouriteTweet in model)
+
+        @foreach (var favouriteTweet in Model.FavouriteTweets)
         {
-            $('#content').append('<div class="tweet">' +
-                '<div class="user">' +
-                    model[favouriteTweet]['User'] +
+            <text>$('#content').append('<div class="tweet">' +
+                '<div class="user">@favouriteTweet.User</div>' +
+                '<div class="tweet-content">@favouriteTweet.Content</div>' +
+                '<div class="buttons">' +
+                    '@Html.ActionLink("Retweet", "Retweet", "Tweets", new { id = favouriteTweet.Id, destination = "Index" }, new { @class = "button" })' +
+                    '@Html.ActionLink("Report", "Report", null, new { @class = "button" })' +
+                    '@Html.ActionLink("Reply", "Reply", null, new { @class = "button" })' +
+                    '@Html.ActionLink("Share", "Share", null, new { @class = "button" })' +
                 '</div>' +
-                '<div class="tweet-content">' +
-                    model[favouriteTweet]['Content'] +
-                '</div>' +
-            '</div>')
+            '</div>')</text>
         }
     })
 </script>

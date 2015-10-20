@@ -2,10 +2,11 @@
 @model UserBindingModel
 @using (Html.BeginForm("EditProfile", "Users", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
-    @Html.ValidationSummary(true)
     @:New @Html.LabelFor(m => m.Username)
     @Html.EditorFor(m => m.Username)
-    @Html.Label("Password")
-    <input type="password" name="password" />
+    @Html.ValidationMessageFor(m => m.Username)
+    @Html.LabelFor(m => m.Password)
+    @Html.EditorFor(m => m.Password)
+    @Html.ValidationMessageFor(m => m.Password)
     <input type="submit" value="Change username" />
 }
