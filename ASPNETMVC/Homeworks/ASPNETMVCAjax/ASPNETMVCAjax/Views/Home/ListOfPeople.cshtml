@@ -1,0 +1,36 @@
+﻿@model IEnumerable<string>
+@{ var people = Model.ToList(); }
+@for (int i = 0; i < people.Count; i++)
+{
+    <div class="person" data-id="@i">@people[i]</div><br/>
+}
+
+<div id="details"></div>
+<p>Не съм сигурен как да го направя с tooltip</p>
+@section scripts {
+    <script>
+        $('#details').hide();
+        $('.person').mouseover(function () {            
+            var id = $(this).data('id');
+
+            $('#details').show();
+            $('#details').html('');
+
+            $.getJSON('/Home/Details', { id: id }, function (data) {
+                var image = $('<img>').attr('src', data['imageUrl']);
+                var address = $('<div>').text(data['address']);
+                var contact = $('<div>').text(data['contact']);
+                var email = $('<div>').text(data['email']);
+                var status = $('<div>').text(data['status']);
+                var age = $('<div>').text(data['age']);
+
+                $('#details').append(image);
+                $('#details').append(address);
+                $('#details').append(contact);
+                $('#details').append(email);
+                $('#details').append(status);
+                $('#details').append(age);
+            });
+        });
+    </script>
+}

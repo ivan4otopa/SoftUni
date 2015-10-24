@@ -1,0 +1,20 @@
+﻿<input type="text" id="town" list="towns" placeholder="Search town..." />
+<datalist id="towns"></datalist>
+
+@section scripts {
+    <script>
+        $('#town').keyup(function () {
+            var town = $('#town').val();
+
+            if (town.length == 1 && $('#towns').html('')) {
+                $.getJSON('/Home/AutocompleteResult', { town: town }, function (data) {
+                    data['towns'].forEach(function (town) {
+                        var datalistOption = $('<option>').text(town);
+
+                        $('#towns').append(datalistOption);
+                    });
+                });
+            }
+        });
+    </script>
+}
