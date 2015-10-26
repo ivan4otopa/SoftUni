@@ -5,6 +5,8 @@
     using Microsoft.AspNet.Identity;
     using System.Linq;
     using Models.ViewModels;
+    using Hubs;
+    using Microsoft.AspNet.SignalR;
 
     public class NotificationsController : BaseController
     {

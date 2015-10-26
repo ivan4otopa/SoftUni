@@ -7,4 +7,23 @@
     @Html.Partial("_PostTweetPartial", new TweetBindingModel())
 }
 
-@Html.DisplayForModel()
+<div id="tweets">
+    @Html.DisplayForModel()
+</div>
+
+@section scripts {
+    <script>
+        var tweetsHub = $.connection.tweets;
+
+        tweetsHub.client.receiveTweet = function (username, content) {
+            var tweet = $('<div class="tweet">')
+                .append($('<div class="user">').text(username))
+                .append($('<div class="tweet-content">').text(content));
+
+            $('#tweets').prepend(tweet);
+        }
+
+        $.connection.hub.start();
+    </script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

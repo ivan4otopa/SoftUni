@@ -7,6 +7,8 @@
     using System;
     using Microsoft.AspNet.Identity;
     using System.Linq;
+    using Hubs;
+    using Microsoft.AspNet.SignalR;
 
     public class TweetsController : BaseController
     {
@@ -17,14 +19,16 @@
 
         public ActionResult PostTweet(TweetBindingModel model)
         {
+            string userId = this.User.Identity.GetUserId();
+            var user = this.Data.Users.All()
+                .FirstOrDefault(u => u.Id == userId);
+
             if (!this.ModelState.IsValid)
             {
                 this.TempData["resultMessage"] = "Error";
             }
             else
-            {
-                string userId = this.User.Identity.GetUserId();
-
+            { 
                 var newTweet = new Tweet()
                 {
                     Content = model.Content,
@@ -39,8 +43,11 @@
             }
 
             var data = this.TempData["resultMessage"];
+            var hubContext = GlobalHost.ConnectionManager.GetHubContext<TweetsHub>();
 
-            return View(data);
+            hubContext.Clients.All.receiveTweet(user.UserName, model.Content);
+
+            return Content("Tweeted");
         }
 
         public ActionResult Favourite(int id, string destination)
