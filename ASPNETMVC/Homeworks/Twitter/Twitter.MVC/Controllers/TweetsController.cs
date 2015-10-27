@@ -17,6 +17,7 @@
         {
         }
 
+        [ValidateAntiForgeryToken]
         public ActionResult PostTweet(TweetBindingModel model)
         {
             string userId = this.User.Identity.GetUserId();
@@ -90,6 +91,7 @@
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Retweet(TweetBindingModel model, int id, string destination)
         {
             var tweet = this.Data.Tweets.Find(id);

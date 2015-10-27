@@ -68,6 +68,16 @@ namespace Twitter.Data
                     x.ToTable("UsersFavouriteTweets");
                 });
 
+            modelBuilder.Entity<Tweet>()
+                .HasMany(t => t.Retweets)
+                .WithMany()
+                .Map(x =>
+                {
+                    x.MapLeftKey("TweetId");
+                    x.MapRightKey("RetweetId");
+                    x.ToTable("TweetsRetweets");
+                });
+
             base.OnModelCreating(modelBuilder);
         }
 

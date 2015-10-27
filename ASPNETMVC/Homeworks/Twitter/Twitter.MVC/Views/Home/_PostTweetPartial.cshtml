@@ -9,7 +9,8 @@
     InsertionMode = InsertionMode.Replace
 }))
 {
-    @Html.TextBox("content", null, new { @class = "form-control" });
+    @Html.AntiForgeryToken()
+    @Html.TextBox("content", null, new { @class = "form-control" })
     <input type="submit" value="Tweet" class="btn btn-primary" />
 }
 @*<div class="tweet">
@@ -20,3 +21,7 @@
         <input type="submit" value="Tweet" />
     }
 </div>*@
+
+@section scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
