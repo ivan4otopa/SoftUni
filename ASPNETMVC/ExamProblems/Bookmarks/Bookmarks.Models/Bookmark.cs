@@ -27,8 +27,8 @@
         [Required(AllowEmptyStrings = false)]
         [DisplayFormat(ConvertEmptyStringToNull = false)]
         [StringLength(MaximumURLLength, ErrorMessage = "{0} should be no more than {1} symbols long.")]
-        public string URL { get; set; }
-
+        public string URL { get; set; }        
+        
         public string Description { get; set; }
 
         public int CategoryId { get; set; }

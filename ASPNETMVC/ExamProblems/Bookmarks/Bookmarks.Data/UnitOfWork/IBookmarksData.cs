@@ -14,5 +14,7 @@
         IRepository<User> Users { get; }
 
         IRepository<Comment> Comments { get; }
+
+        void SaveChanges();
     }
 }

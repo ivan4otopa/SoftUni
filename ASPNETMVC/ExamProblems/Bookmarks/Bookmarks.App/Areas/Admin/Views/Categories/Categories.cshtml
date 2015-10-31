@@ -1,0 +1,36 @@
+﻿@using Bookmarks.Models;
+@model IEnumerable<Category>
+@{ var categories = Model.ToList(); }
+
+<div id="categories">
+
+    @for (int i = 1; i <= categories.Count; i++)
+    {
+        if ((i - 1) % 3 == 0)
+        {
+            @Html.Raw("<div>")
+        }
+
+        <div class="category">
+            <div class="category-name">@categories[i - 1].Name</div>
+            @Html.ActionLink("Update", "Update", "Categories", new { id = categories[i - 1].Id }, new { @class = "btn btn-default" })
+            @Html.ActionLink("Delete", "Delete", "Categories", new { id = categories[i - 1].Id }, new { @class = "btn btn-default", id = "delete-category" })
+        </div>
+
+        if (i % 3 == 0)
+        {
+            @Html.Raw("</div>")
+        }
+    }
+    
+    <div id="delete-status"></div>
+</div>
+
+@section scripts {
+    <script>
+        $('#delete-category').click(function clearCategoriesHTML() {
+            $('#delete-status').load(@Url.Action("Delete"));
+        });
+    </script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

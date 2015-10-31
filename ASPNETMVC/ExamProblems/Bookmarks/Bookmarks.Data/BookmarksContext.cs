@@ -5,7 +5,7 @@ namespace Bookmarks.Data
     using Models;
     using Migrations;
 
-    public class BookmarksContext : IdentityDbContext<User>
+    public class BookmarksContext : IdentityDbContext<User>, IBookmarksContext
     {
         public BookmarksContext()
             : base("DefaultConnection", throwIfV1Schema: false)

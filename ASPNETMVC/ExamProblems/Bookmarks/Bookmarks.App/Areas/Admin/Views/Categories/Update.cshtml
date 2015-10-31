@@ -1,0 +1,8 @@
+﻿@using Bookmarks.App.Areas.Admin.Models
+@model CategoryBindingModel
+@using (Html.BeginForm("Update", "Categories", new { id = this.TempData["categoryId"] }))
+{
+    @Html.LabelFor(m => m.Name, new { id = "category-name" })
+    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })<br />
+    <input type="submit" value="Update category" />
+}

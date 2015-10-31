@@ -1,0 +1,52 @@
+﻿@using Bookmarks.App.Models
+@model BookmarkDetailsViewModel
+
+<div id="bookmark-title">@Model.Title</div>
+CategoryName: <div id="bookmark-category-name">@Model.CategoryName</div><br />
+Description: <div id="bookmark-description">@Model.Description</div><br />
+Url: <a href="@Model.URL" id="bookmark-url">@Model.URL</a>
+
+<div id="votes">
+    <div id="votes-count">Votes: @Model.VotesCount</div>
+    <input type="button" value="+" id="add-vote" data-id="@Model.Id" />
+</div>
+
+<div id="comments">
+    <h2>Comments</h2>
+    
+    @foreach (var comment in Model.Comments)
+    {
+        <div class="comment">            
+            <div class="comment-text">@comment.Text</div>
+            <div class="comment-author">created by: @comment.Author</div>
+        </div>
+    }        
+</div>
+
+Content: <input type="text" id="text" /> <input type="submit" value="Add comment" id="add-comment" data-id="@Model.Id"/>
+
+@section scripts {
+    <script>
+        $('#add-vote').click(function () {
+            var id = $(this).data('id');
+            
+            $.post('/Votes/Vote', { id: id }, function (data) {
+                $('#votes-count').text('Votes: ' + data);
+            });
+        });
+
+        $('#add-comment').click(function () {
+            var id = $(this).data('id');
+            var text = $('#text').val();
+
+            $.post('/Comments/Comment', { id: id, text: text }, function (data) {
+                var commentDiv = $('<div class="comment">')
+                    .append($('<div class="comment-text">').text(data['Text']))
+                    .append($('<div class="comment-author">').text('created by: ' + data['Author']));
+
+                $('#comments')
+                    .append(commentDiv);
+            });
+        });
+    </script>
+}
