@@ -1,0 +1,10 @@
+﻿@using SportSystem.App.Models.ViewModels
+@model TeamViewModel
+
+<div class="team">
+    <h2 class="team-name">@Model.Name</h2>
+
+    <a href="@Model.WebSite">@Model.WebSite</a>
+    
+    <span class="team-votes">Votes: @Model.VotesCount</span>
+</div>

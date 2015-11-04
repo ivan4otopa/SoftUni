@@ -1,0 +1,10 @@
+﻿@using SportSystem.App.Models.ViewModels
+@using PagedList
+@using PagedList.Mvc
+@model IPagedList<MatchViewModel>
+
+<div id="all-matches">
+    @Html.DisplayFor(m => m)
+</div>
+
+@Html.PagedListPager(Model, page => Url.Action("Matches", new { page }))

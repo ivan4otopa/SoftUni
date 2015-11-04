@@ -1,0 +1,56 @@
+﻿@using SportSystem.App.Models
+@model CreateTeamModel
+
+<div>
+    <h1>Create Team</h1>
+
+    @using (Html.BeginForm("Create", "Teams"))
+    {
+        <div id="team-labels">
+            @Html.LabelFor(m => m.TeamBindingModel.Name, new { @class = "team-label" })<br />
+
+            @Html.LabelFor(m => m.TeamBindingModel.NickName, new { @class = "team-label" })<br />
+
+            @Html.LabelFor(m => m.TeamBindingModel.Website, new { @class = "team-label" })<br />
+
+            @Html.LabelFor(m => m.TeamBindingModel.DateFounded)
+        </div>
+
+        <div id="team-textboxes">
+            @Html.TextBoxFor(m => m.TeamBindingModel.Name, new { @class = "form-control team-textbox" })
+
+            @Html.ValidationMessageFor(m => m.TeamBindingModel.Name)
+
+            @Html.TextBoxFor(m => m.TeamBindingModel.NickName, new { @class = "form-control team-textbox" })
+
+            @Html.ValidationMessageFor(m => m.TeamBindingModel.NickName)
+
+            @Html.TextBoxFor(m => m.TeamBindingModel.Website, new { @class = "form-control team-textbox" })
+
+            @Html.ValidationMessageFor(m => m.TeamBindingModel.Website)
+
+            @Html.TextBoxFor(m => m.TeamBindingModel.DateFounded, new { @class = "form-control team-textbox" })
+
+            @Html.ValidationMessageFor(m => m.TeamBindingModel.DateFounded)
+        </div>
+
+        <div>
+            <h1>Players:</h1>
+
+            <div id="player-labels">
+                @Html.LabelFor(m => m.Players, new { @class = "player-label" })
+            </div>
+
+            <div id="player-dropdowns">
+                @Html.DropDownListFor(m => m.TeamBindingModel.Players, Model.Players, new { @class = "form-control player-dropdown" })
+            </div>
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Add team" />
+    }
+</div>
+
+@section scripts {    
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}

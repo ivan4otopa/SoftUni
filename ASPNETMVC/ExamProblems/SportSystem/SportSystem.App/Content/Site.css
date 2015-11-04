@@ -1,0 +1,129 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#matches {
+    width: 50%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#teams {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;   
+}
+
+.match, .team {
+    border: 1px solid grey;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.match-name, .team-name {
+    color: cornflowerblue;
+}
+
+.team-votes {
+    float: right;
+    margin-right: 50px;
+}
+
+#all-matches {
+    margin-top: 5px;
+}
+
+#team {
+    margin-bottom: 50px;
+}
+
+.player {
+    border: 1px solid cornflowerblue;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#team-players {
+    width: 50%;
+}
+
+#team-info, #team-votes {
+    display: inline-block;
+}
+
+#team-votes {
+    margin-left: 500px;
+    vertical-align: top;
+}
+
+#all-matches-button {
+    margin-bottom: 30px;
+}
+
+#home-team-name, #away-team-name {
+    color: cornflowerblue;
+}
+
+#comment {
+    border: 1px solid grey;
+    margin-bottom: 30px;
+    padding: 20px 0 20px 20px;
+}
+
+#add-comment-text {
+    vertical-align: top;
+}
+
+#match-bet, #match-info {
+    display: inline-block;
+}
+
+#match-bet {
+    vertical-align: top;
+    margin-left: 250px;
+}
+
+#home-bet {
+    margin-bottom: 20px;
+}
+
+#team-labels, #team-textboxes, #player-labels, #player-dropdowns {
+    display: inline-block;
+}
+
+#team-labels, #player-labels {
+    vertical-align: top;
+    margin: 10px 20px 0 100px;
+}
+
+.team-label, .player-label {
+    margin-bottom: 35px;
+}
+
+.team-textbox, .player-dropdown {
+    margin-bottom: 20px;
+}

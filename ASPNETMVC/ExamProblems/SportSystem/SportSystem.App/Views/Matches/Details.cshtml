@@ -1,0 +1,63 @@
+﻿@using SportSystem.App.Models.ViewModels
+@using System.Globalization
+@model MatchDetailsViewModel
+
+<div id="match-info">
+    <h1>Match:</h1>
+
+    <h3>Home Team: <span id="home-team-name">@Model.HomeTeamName</span> (Bets: $<span id="home-team-bet">@Model.HomeTeamBet.ToString(CultureInfo.InvariantCulture)</span>)</h3>
+    
+    <h3>Away Team: <span id="away-team-name">@Model.AwayTeamName</span> (Bets: $<span id="away-team-bet">@Model.AwayTeamBet.ToString(CultureInfo.InvariantCulture)</span>)</h3>
+    
+    <h5>Date and Time: @Model.DateAndTime</h5>
+</div>
+
+<div id="match-bet">
+    <h1>Bets:</h1>
+    
+    @using (Ajax.BeginForm("Bet", "Bets", new { id = Model.Id, bet = "home" }, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "home-team-bet"
+    }, new { id = "home-bet" }))
+    {
+        <b>Home Bet:</b> @Html.TextBox("betValue", null, new { @type = "number" }) <input type="submit" class="btn btn-primary" value="Bet" />
+    }
+    
+    @using (Ajax.BeginForm("Bet", "Bets", new { id = Model.Id, bet = "away" }, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "away-team-bet"
+    }))
+    {
+        <b>Away Bet:</b> @Html.TextBox("betValue", null, new { @type = "number" }) <input type="submit" class="btn btn-primary" value="Bet" />
+    }
+</div>
+
+<div id="comments">
+    <h1>Comments:</h1>
+    
+    @Html.DisplayFor(m => m.Comments)
+</div>
+
+<div>
+    <h1>Add Comment:</h1>
+
+    @using (Ajax.BeginForm("Add", "Comments", new { id = Model.Id }, new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.InsertAfter,
+        UpdateTargetId = "comments"
+    }))
+    {
+        <b id="add-comment-text">Comment:</b> @Html.TextArea("content", new { rows = 4, cols = 40 })<br />
+
+        <input type="submit" class="btn btn-primary" value="Comment" />
+    }
+</div>
+
+@section scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

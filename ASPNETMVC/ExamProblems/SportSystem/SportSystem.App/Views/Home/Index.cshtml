@@ -1,0 +1,30 @@
+﻿@using SportSystem.App.Models.ViewModels
+@model HomeViewModel
+    
+<div id="matches">
+    <h1>Top Matches:</h1> 
+
+    @Html.DisplayFor(m => m.Matches)
+
+    @Html.ActionLink("All matches", "Matches", "Matches", null, new { @class = "btn btn-default", id = "all-matches-button" })
+
+    @using (Html.BeginForm("Details", "Matches"))
+    {
+        @:Enter match id: @Html.TextBox("id")
+
+        <input type="submit" value="View match" />
+    }
+</div>
+
+<div id="teams">
+    <h1>Best Teams:</h1>
+
+    @Html.DisplayFor(m => m.Teams)
+
+    @using (Html.BeginForm("Details", "Teams"))
+    {
+        @:Enter team id: @Html.TextBox("id")
+
+        <input type="submit" value="View team" />
+    }
+</div>

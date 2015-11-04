@@ -1,0 +1,56 @@
+﻿@using SportSystem.App.Models.ViewModels
+@model TeamDetailsViewModel
+
+<div id="team">
+    <div id="team-info">
+        <h1>@Model.Name</h1>
+
+        <h4>
+            Nickname:
+            <b>@Model.NickName</b>
+        </h4>
+
+        <h4>
+            Founded:
+            <b>@Model.DateFounded</b>
+        </h4>
+    </div>
+
+    <div id="team-votes">      
+        <h2 id="votes-count">Votes: @Model.VotesCount</h2>
+
+        @if ((bool)this.ViewData["userHasVoted"])
+        {
+            <div id="vote-button">
+                @Ajax.ActionLink("+", "Vote", "Votes", new { id = Model.Id }, new AjaxOptions()
+                {
+                    HttpMethod = "POST",
+                    InsertionMode = InsertionMode.Replace,
+                    UpdateTargetId = "votes-count",
+                    OnSuccess = "removeVoteButton"  
+                }, new { @class = "btn btn-success" })
+            </div>
+        }
+        else
+        {
+            <div style="font-style: italic">You already voted</div>
+        }
+    </div>
+</div>
+
+<div id="team-players">
+    <h1>Players:</h1>
+
+    @Html.DisplayFor(m => m.Players)
+</div>
+
+@section scripts {       
+    <script>
+        function removeVoteButton() {
+            $('#vote-button').remove('');
+            $('#team-votes')
+                .append($('<div style="font-style: italic">').text('You already voted'));
+        }
+    </script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
