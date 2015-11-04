@@ -111,11 +111,11 @@ textarea {
     margin-bottom: 20px;
 }
 
-#team-labels, #team-textboxes, #player-labels, #player-dropdowns {
+#team-labels, #team-textboxes, .player-labels, .player-dropdowns {
     display: inline-block;
 }
 
-#team-labels, #player-labels {
+#team-labels, .player-labels {
     vertical-align: top;
     margin: 10px 20px 0 100px;
 }
@@ -126,4 +126,12 @@ textarea {
 
 .team-textbox, .player-dropdown {
     margin-bottom: 20px;
+}
+
+#add-players {
+    width: 327px;
+}
+
+#add-more-players-div {
+    margin-left: 200px;
 }

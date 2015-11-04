@@ -18,6 +18,6 @@
         [DisplayName("Founded")]
         public DateTime DateFounded { get; set; }
 
-        public ICollection<PlayerBindingModel> Players { get; set; }
+        public List<string> Players { get; set; }
     }
 }

@@ -34,16 +34,20 @@
             @Html.ValidationMessageFor(m => m.TeamBindingModel.DateFounded)
         </div>
 
-        <div>
+        <div id="add-players">
             <h1>Players:</h1>
 
-            <div id="player-labels">
+            <div class="player-labels">
                 @Html.LabelFor(m => m.Players, new { @class = "player-label" })
             </div>
 
-            <div id="player-dropdowns">
+            <div class="player-dropdowns">
                 @Html.DropDownListFor(m => m.TeamBindingModel.Players, Model.Players, new { @class = "form-control player-dropdown" })
-            </div>
+            </div>            
+        </div>
+
+        <div id="add-more-players-div">
+            <input type="button" id="add-more-players" value="Add more players" />
         </div>
 
         <input type="submit" class="btn btn-primary" value="Add team" />
@@ -53,4 +57,33 @@
 @section scripts {    
     <script src="~/Scripts/jquery.validate.min.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $('#add-more-players').click(function () {
+            var newLabelDiv = $('<div class="player-labels">');
+            var newLabel = $('<label class="player-label" for="Players">').text('Player');
+            var newDropdownDiv = $('<div class="player-dropdowns">');
+            var newDropdown = $('<select class="form-control player-dropdown" id="TeamBindingModel_Players" name="TeamBindingModel.Players"><option>Alexis Sanchez</option>' +
+                '<option>Arjen Robben</option>' +
+                '<option>Franck Ribery</option>' +
+                '<option>Wayne Rooney</option>' +
+                '<option>Lionel Messi</option>' +
+                '<option>Theo Walcott</option>' +
+                '<option>Cristiano Ronaldo</option>' +
+                '<option>Aaron Lennon</option>' +
+                '<option>Gareth Bale</option>' +
+                '<option>Antonio Valencia</option>' +
+                '<option>Robin van Persie</option>' +
+                '<option>Ronaldinho</option>' +
+                '</select>');
+
+            newLabelDiv
+                .append(newLabel);
+            newDropdownDiv
+                .append(newDropdown);
+
+            $('#add-players')
+                .append(newLabelDiv)
+                .append(newDropdownDiv);
+        });
+    </script>
 }

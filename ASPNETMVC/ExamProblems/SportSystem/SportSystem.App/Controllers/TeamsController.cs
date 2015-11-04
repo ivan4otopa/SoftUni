@@ -47,7 +47,7 @@
 
             createTeamModel.TeamBindingModel = new TeamBindingModel();
             createTeamModel.Players = players;
-            createTeamModel.TeamBindingModel.Players = new List<PlayerBindingModel>();
+            createTeamModel.TeamBindingModel.Players = new List<string>();
 
             return this.View(createTeamModel);
         }
@@ -55,7 +55,30 @@
         [HttpPost]
         public ActionResult Create(CreateTeamModel model)
         {
-            return View();
+            var newTeam = new Team()
+            {
+                Name = model.TeamBindingModel.Name,
+                NickName = model.TeamBindingModel.NickName,
+                WebSite = model.TeamBindingModel.Website,
+                DateFounded = model.TeamBindingModel.DateFounded
+            };
+
+            this.Data.Teams.Add(newTeam);
+            this.Data.SaveChanges();
+
+            Player player = null;
+
+            foreach (var playerName in model.TeamBindingModel.Players)
+            {
+                player = this.Data.Players.All()
+                    .FirstOrDefault(p => p.Name == playerName);
+
+                newTeam.Players.Add(player);
+            }
+
+            this.Data.SaveChanges();
+
+            return this.RedirectToAction("Index", "Home");
         }
     }
 }
