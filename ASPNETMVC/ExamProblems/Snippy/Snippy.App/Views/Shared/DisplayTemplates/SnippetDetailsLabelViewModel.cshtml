@@ -1,0 +1,4 @@
+﻿@using Snippy.App.Models
+@model SnippetDetailsLabelViewModel
+
+<span>@Html.ActionLink(Model.Text, "Snippets", "Labels", new { id = Model.Id }, null) </span>

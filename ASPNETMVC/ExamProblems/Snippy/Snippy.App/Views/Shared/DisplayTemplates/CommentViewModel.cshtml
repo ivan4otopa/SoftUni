@@ -1,0 +1,10 @@
+﻿@using Snippy.App.Models
+@model CommentViewModel
+
+<div class="comment">
+    <div class="content">@Model.Content</div>
+
+    <div class="author">@Model.Author on <span class="date">@Model.CreationTime</span></div>
+
+    <div class="comment-snippet">on snippet @Model.Snippet</div>
+</div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snippy.Data", "Snippy.Data\Snippy.Data.csproj", "{D72DCB73-7755-4803-BA4F-4E9487CF421E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snippy.Models", "Snippy.Models\Snippy.Models.csproj", "{802D47D0-98CB-4639-A178-B3BAE26AF1C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snippy.App", "Snippy.App\Snippy.App.csproj", "{237B7BFA-68BC-4608-A948-69E8D4E9513B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D72DCB73-7755-4803-BA4F-4E9487CF421E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72DCB73-7755-4803-BA4F-4E9487CF421E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72DCB73-7755-4803-BA4F-4E9487CF421E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72DCB73-7755-4803-BA4F-4E9487CF421E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802D47D0-98CB-4639-A178-B3BAE26AF1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802D47D0-98CB-4639-A178-B3BAE26AF1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802D47D0-98CB-4639-A178-B3BAE26AF1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802D47D0-98CB-4639-A178-B3BAE26AF1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237B7BFA-68BC-4608-A948-69E8D4E9513B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237B7BFA-68BC-4608-A948-69E8D4E9513B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237B7BFA-68BC-4608-A948-69E8D4E9513B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237B7BFA-68BC-4608-A948-69E8D4E9513B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

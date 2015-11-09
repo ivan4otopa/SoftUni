@@ -1,0 +1,8 @@
+﻿@using Snippy.App.Models
+@model IEnumerable<SnippetViewModel>
+
+<div>
+    <h1>All snippets for language @this.ViewBag.LanguageName</h1>
+
+    @Html.DisplayFor(m => m)
+</div>
