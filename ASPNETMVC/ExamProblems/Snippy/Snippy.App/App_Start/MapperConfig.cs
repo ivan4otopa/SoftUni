@@ -12,8 +12,7 @@
         {
             Mapper.CreateMap<Snippet, SnippetViewModel>();
             Mapper.CreateMap<Comment, CommentViewModel>()
-                .ForMember("Author", c => c.MapFrom(co => co.Author.UserName))
-                .ForMember("Snippet", c => c.MapFrom(co => co.Snippet.Title));
+                .ForMember("Author", c => c.MapFrom(co => co.Author.UserName));
             Mapper.CreateMap<Label, LabelViewModel>()
                 .ForMember("SnippetsCount", c => c.MapFrom(l => l.Snippets.Count));
             Mapper.CreateMap<Label, SnippetLabelViewModel>();
@@ -21,7 +20,7 @@
                 .ForMember("Author", c => c.MapFrom(s => s.Author.UserName));
             Mapper.CreateMap<Comment, SnippetDetailsCommentViewModel>()
                 .ForMember("Author", c => c.MapFrom(co => co.Author.UserName));
-            Mapper.CreateMap<Label, SnippetDetailsLabelViewModel>();
+            Mapper.CreateMap<Snippet, CommentSnippetViewModel>();
         }
     }
 }

@@ -1,57 +1,59 @@
 ﻿@using Snippy.App.Models
 @model SnippetDetailsViewModel
 
-<div>
-    <span>@Html.ActionLink(Model.LanguageName, "Snippets", "Languages", new { name = Model.LanguageName }, null)</span>
-    
-    <span>@Model.Title</span>
-</div>
+<div id="snippet-details">
+    <div id="snippet-details-language-and-title">
+        <span>@Html.ActionLink(Model.LanguageName, "Snippets", "Languages", new { name = Model.LanguageName }, new { @class = "btn btn-success" })</span>
 
-<div>by @Model.Author on @Model.CreationTime.Day.@Model.CreationTime.Month.@Model.CreationTime.Year</div>
+        <span class="snippet-title">@Model.Title</span>
+    </div>
 
-@if (Model.Labels.Any())
-{
-    <div>Labels: @Html.DisplayFor(m => m.Labels)</div>
-}
+    <div>by <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b>@Model.Author</b> on @Model.CreationTime.Day.@Model.CreationTime.Month.@Model.CreationTime.Year</div>
 
-<div>@Model.Code</div>
-
-<div>
-    <h1>Comments:</h1>
-
-    @if (Model.Comments.Any())
+    @if (Model.Labels.Any())
     {
+        <div>Labels: @Html.DisplayFor(m => m.Labels)</div>
+    }
+
+    <div id="code">@Model.Code</div>
+
+    <div>
+        <h1>Comments:</h1>
+        
         <div id="snippet-comments">
-            @Html.DisplayFor(m => m.Comments)
+            @if (Model.Comments.Any())
+            {
+                @Html.DisplayFor(m => m.Comments)
+            }
+            else
+            {
+                <div id="comments-message">There are no comments right now.</div>
+            }
+        </div>
+    </div>
+
+    @if (this.User.Identity.IsAuthenticated)
+    {
+        <div>
+            @using (Ajax.BeginForm("Comment", "Comments", new { id = Model.Id }, new AjaxOptions()
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.InsertBefore,
+                UpdateTargetId = "snippet-comments",
+                OnSuccess = "removeMessage"
+            }))
+            {
+                @Html.TextArea("content", new { placeholder = "Write a public comment" })
+                <input type="submit" class="btn btn-primary" value="Add comment" />
+            }
         </div>
     }
-    else
-    {
-        <div>There are no comments right now.</div>
-    }    
 </div>
-
-@if (this.User.Identity.IsAuthenticated)
-{
-    <div>
-        @using (Ajax.BeginForm("Comment", "Comments", new { id = Model.Id }, new AjaxOptions()
-        {
-            HttpMethod = "POST",
-            InsertionMode = InsertionMode.InsertBefore,
-            UpdateTargetId = "snippet-comments",
-            OnFailure = "displayError"
-        }))
-        {
-            @Html.TextArea("content", new { placeholder = "Write a public comment" })
-            <input type="submit" class="btn btn-primary" value="Add comment" />
-        }
-    </div>
-}
 
 @section scripts {
     <script>
-        function displayError(request) {
-            console.log(request);
+        function removeMessage() {
+            $('#comments-message').remove();
         };
     </script>    
     <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>

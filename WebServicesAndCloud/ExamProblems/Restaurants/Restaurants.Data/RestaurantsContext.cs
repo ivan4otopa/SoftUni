@@ -1,5 +1,6 @@
 namespace Restaurants.Data
 {
+    using System;
     using System.Data.Entity;
     using Microsoft.AspNet.Identity.EntityFramework;
     using Migrations;

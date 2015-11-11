@@ -1,0 +1,3 @@
+SELECT Title, Date FROM Ads
+WHERE Date > '2014-12-26 00:00:00' AND Date < '2015-01-01 23:59:59'
+ORDER BY Date

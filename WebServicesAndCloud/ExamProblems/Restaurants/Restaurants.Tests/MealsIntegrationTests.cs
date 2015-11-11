@@ -1,16 +1,14 @@
 ﻿namespace Restaurants.Tests
 {
-    using System;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Microsoft.Owin.Testing;
-    using System.Linq;
-    using System.Net;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Owin;
+    using Data;
+    using Services;
     using System.Net.Http;
     using System.Web.Http;
-    using Restaurants.Services;
-    using Owin;
-    using Restaurants.Data;
-    using Restaurants.Models;
+    using Models;
+    using System.Net;
     using System.Collections.Generic;
 
     [TestClass]
@@ -27,28 +25,57 @@
                 var config = new HttpConfiguration();
 
                 WebApiConfig.Register(config);
-
                 appBuilder.UseWebApi(config);
             });
             this.httpClient = httpTestServer.HttpClient;
         }
 
+        [TestCleanup]
+        public void TestCleanup()
+        {
+            this.httpTestServer.Dispose();
+        }
+
         [TestMethod]
-        public void Edit_ShouldReturn400BadRequestWhenNullDataIsPassed()
+        public void Edit_ShouldReturn400BadRequestWhenModelIsNull()
         {
             var context = new RestaurantsContext();
+            var newTown = new Town()
+            {
+                Name = "New town"
+            };
+
+            context.Towns.Add(newTown);
+            context.SaveChanges();
+
+            var newRestaurant = new Restaurant()
+            {
+                Name = "New restaurant",
+                TownId = newTown.Id
+            };
+
+            context.Restaurants.Add(newRestaurant);
+            context.SaveChanges();
+
+            var newMeal = new Meal()
+            {
+                Name = "New meal",
+                Price = 4.99M,
+                RestaurantId = newRestaurant.Id,
+                TypeId = 3
+            };
+
+            context.Meals.Add(newMeal);
+            context.SaveChanges();
 
             var content = new FormUrlEncodedContent(new[]
             {
-                new KeyValuePair<string, string>("name", "Svinska Parjola"),
-                new KeyValuePair<string, string>("restaurantid", "1"),
-                new KeyValuePair<string, string>("typeid", "3"),
-                new KeyValuePair<string, string>("price", "5.55")
+                new KeyValuePair<string, string>("name", "aaaaa")
             });
 
-            var postResponse = httpClient.PostAsync("api/meals", content).Result;
+            var response = httpClient.PutAsync(string.Format("api/meals/{0}", newMeal.Id), content).Result;
 
-            Assert.AreEqual(HttpStatusCode.Created, postResponse.StatusCode);
+            Assert.AreEqual(HttpStatusCode.BadRequest, response.StatusCode);
         }
     }
 }

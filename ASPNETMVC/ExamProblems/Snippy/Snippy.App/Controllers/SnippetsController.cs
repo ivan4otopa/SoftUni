@@ -30,6 +30,9 @@
                 .FirstOrDefault(s => s.Id == id);
             var snippetModel = Mapper.Map<Snippet, SnippetDetailsViewModel>(snippet);
 
+            snippetModel.Comments = snippetModel.Comments
+                .OrderByDescending(c => c.CreationTime);
+
             return this.View(snippetModel);
         }
     }

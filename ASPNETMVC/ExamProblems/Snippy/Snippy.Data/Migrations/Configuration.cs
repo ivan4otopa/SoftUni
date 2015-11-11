@@ -198,7 +198,7 @@ namespace Snippy.Data.Migrations
                 Description = "How to check a Boolean value - the wrong but funny way :D",
                 Code = "var b = true;\n\r\n\rif (b.toString().length < 5)\n\r{\n\r//...\n\r}",
                 Author = context.Users.First(u => u.UserName == "admin"),
-                CreationTime = new DateTime(2015, 10, 30, 11, 50, 38),
+                CreationTime = new DateTime(2015, 10, 22, 11, 50, 38),
                 Language = context.Languages.First(l => l.Name == "JavaScript")
             });
             context.SaveChanges();

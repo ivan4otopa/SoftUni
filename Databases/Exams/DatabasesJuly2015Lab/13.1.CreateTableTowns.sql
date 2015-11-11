@@ -1,0 +1,11 @@
+CREATE TABLE Towns
+(
+	Id int IDENTITY PRIMARY KEY,
+	Name nvarchar(MAX) NOT NULL
+)
+
+ALTER TABLE Users
+ADD TownId int
+
+ALTER TABLE Users
+ADD CONSTRAINT FK_Users_Towns FOREIGN KEY (TownId) REFERENCES Towns (Id)

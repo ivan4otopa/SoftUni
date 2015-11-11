@@ -1,6 +1,8 @@
 ﻿@using Snippy.App.Models
 @model SnippetDetailsCommentViewModel
 
-<div>@Model.Content</div>
+<div class="comment">
+    <div>@Model.Content</div>
 
-<div>@Model.Author on @Model.CreationTime</div>
+    <div><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b>@Model.Author</b> on @Model.CreationTime</div>
+</div>

@@ -14,3 +14,19 @@ C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProbl
 C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Data\obj\Debug\Restaurants.Data.csprojResolveAssemblyReference.cache
 C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Data\obj\Debug\Restaurants.Data.dll
 C:\Users\ASUS\Documents\Visual Studio 2013\Projects\WebServicesAndCloudExamProblems\Restaurants\Restaurants.Data\obj\Debug\Restaurants.Data.pdb
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Restaurants.Data.dll.config
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Restaurants.Data.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Restaurants.Data.pdb
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Restaurants.Models.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Restaurants.Models.pdb
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\obj\Debug\Restaurants.Data.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\obj\Debug\Restaurants.Data.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Data\obj\Debug\Restaurants.Data.pdb

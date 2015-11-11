@@ -202,12 +202,12 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\CommentSnippetViewModel.cs" />
     <Compile Include="Models\CommentViewModel.cs" />
     <Compile Include="Models\HomeViewModel.cs" />
     <Compile Include="Models\LabelViewModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\SnippetDetailsCommentViewModel.cs" />
-    <Compile Include="Models\SnippetDetailsLabelViewModel.cs" />
     <Compile Include="Models\SnippetDetailsViewModel.cs" />
     <Compile Include="Models\SnippetLabelViewModel.cs" />
     <Compile Include="Models\SnippetViewModel.cs" />
@@ -285,7 +285,6 @@
     <Content Include="Views\Shared\DisplayTemplates\SnippetLabelViewModel.cshtml" />
     <Content Include="Views\Snippets\All.cshtml" />
     <Content Include="Views\Snippets\Details.cshtml" />
-    <Content Include="Views\Shared\DisplayTemplates\SnippetDetailsLabelViewModel.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\SnippetDetailsCommentViewModel.cshtml" />
     <Content Include="Views\Labels\Snippets.cshtml" />
     <Content Include="Views\Languages\Snippets.cshtml" />

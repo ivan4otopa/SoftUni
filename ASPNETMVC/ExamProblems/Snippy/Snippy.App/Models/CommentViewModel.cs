@@ -10,6 +10,6 @@
 
         public DateTime CreationTime { get; set; }
 
-        public string Snippet { get; set; }
+        public CommentSnippetViewModel Snippet { get; set; }
     }
 }

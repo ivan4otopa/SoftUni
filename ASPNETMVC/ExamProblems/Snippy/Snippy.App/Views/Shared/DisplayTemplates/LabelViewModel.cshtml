@@ -1,7 +1,7 @@
 ﻿@using Snippy.App.Models
 @model LabelViewModel
 
-<div>
+<div class="label-home">
     @Html.ActionLink(Model.Text, "Snippets", "Labels", new { id = Model.Id }, null)
 
     <span class="label-snippets-count">@Model.SnippetsCount</span>

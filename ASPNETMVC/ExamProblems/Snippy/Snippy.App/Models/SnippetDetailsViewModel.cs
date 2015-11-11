@@ -19,7 +19,7 @@
 
         public string Code { get; set; }
 
-        public IEnumerable<SnippetDetailsLabelViewModel> Labels { get; set; }
+        public IEnumerable<SnippetLabelViewModel> Labels { get; set; }
 
         public IEnumerable<SnippetDetailsCommentViewModel> Comments { get; set; }
     }
