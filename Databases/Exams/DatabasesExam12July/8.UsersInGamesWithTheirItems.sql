@@ -1,4 +1,4 @@
-SELECT u.Username, g.Name AS Game, COUNT(i.Id) AS [Items Count], SUM(i.Price) AS [Items Price] FROM Users u
+SELECT u.Username, g.Name AS Game, COUNT(i.Id) AS [Items Count], CONVERT(NUMERIC(9,2),REPLACE(SUM(i.Price), ',', '.')) AS [Items Price]  FROM Users u
 JOIN UsersGames ug
 ON u.Id = ug.UserId
 JOIN Games g
@@ -9,4 +9,4 @@ JOIN Items i
 ON ugi.ItemId = i.Id
 GROUP BY u.Username, g.Name
 HAVING COUNT(i.Id) >= 10
-ORDER BY [Items Count] DESC, [Items Price] DESC, u.Username
+ORDER BY COUNT(i.Id) DESC, SUM(i.Price) DESC, u.Username

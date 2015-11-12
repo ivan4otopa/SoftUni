@@ -1,4 +1,4 @@
-SELECT i.Name AS Item, i.Price, i.MinLevel, gt.Name AS [Forbidden Game Type] FROM Items i
+SELECT i.Name AS Item, CONVERT(NUMERIC(9,2),REPLACE(i.Price, ',', '.')) AS Price, i.MinLevel, gt.Name AS [Forbidden Game Type] FROM Items i
 LEFT JOIN GameTypeForbiddenItems gtfi
 ON i.Id = gtfi.ItemId
 LEFT JOIN GameTypes gt
