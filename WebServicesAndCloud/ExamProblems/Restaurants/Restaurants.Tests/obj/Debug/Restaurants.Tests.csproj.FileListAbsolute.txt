@@ -69,3 +69,5 @@ C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants
 C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Tests\bin\Debug\System.Web.WebPages.xml
 C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Tests\bin\Debug\Moq.dll
+C:\Users\ASUS\Documents\git\SoftUni\WebServicesAndCloud\ExamProblems\Restaurants\Restaurants.Tests\bin\Debug\Moq.xml

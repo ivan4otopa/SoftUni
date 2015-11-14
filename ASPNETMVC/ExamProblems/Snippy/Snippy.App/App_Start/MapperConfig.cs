@@ -19,7 +19,9 @@
             Mapper.CreateMap<Snippet, SnippetDetailsViewModel>()
                 .ForMember("Author", c => c.MapFrom(s => s.Author.UserName));
             Mapper.CreateMap<Comment, SnippetDetailsCommentViewModel>()
-                .ForMember("Author", c => c.MapFrom(co => co.Author.UserName));
+                .ForMember("Author", c => c.MapFrom(co => co.Author.UserName))
+                .ForMember("SnippetId", c => c.MapFrom(co => co.SnippetId))
+                .ForMember("AuthorId", c => c.MapFrom(co => co.AuthorId));
             Mapper.CreateMap<Snippet, CommentSnippetViewModel>();
         }
     }

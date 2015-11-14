@@ -1,8 +1,14 @@
 ﻿@using Snippy.App.Models
+@using Microsoft.AspNet.Identity
 @model SnippetDetailsCommentViewModel
 
 <div class="comment">
     <div>@Model.Content</div>
 
     <div><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b>@Model.Author</b> on @Model.CreationTime</div>
+
+    @if (this.User.Identity.IsAuthenticated && Model.AuthorId == this.User.Identity.GetUserId())
+    {
+        <a href="@Url.Action("Delete", "Comments", new { commentId = Model.Id, snippetId = Model.SnippetId })" id="delete-comment-button"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+    }
 </div>

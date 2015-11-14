@@ -43,7 +43,7 @@
                 OnSuccess = "removeMessage"
             }))
             {
-                @Html.TextArea("content", new { placeholder = "Write a public comment" })
+                @Html.TextArea("content", new { placeholder = "Write a public comment", rows = "4", cols = "36" })<br />
                 <input type="submit" class="btn btn-primary" value="Add comment" />
             }
         </div>

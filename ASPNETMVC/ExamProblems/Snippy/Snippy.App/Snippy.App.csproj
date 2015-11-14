@@ -288,10 +288,10 @@
     <Content Include="Views\Shared\DisplayTemplates\SnippetDetailsCommentViewModel.cshtml" />
     <Content Include="Views\Labels\Snippets.cshtml" />
     <Content Include="Views\Languages\Snippets.cshtml" />
+    <Content Include="Views\Comments\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Comments\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

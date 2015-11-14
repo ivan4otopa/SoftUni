@@ -1,7 +1,7 @@
 ﻿namespace Restaurants.Services.Controllers
 {
     using Restaurants.Models;
-    using Restaurants.Services.Models;
+    using Models;
     using System.Linq;
     using System.Web.Http;
 

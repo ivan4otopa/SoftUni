@@ -2,13 +2,14 @@
 {
     using Microsoft.AspNet.Identity;
     using Restaurants.Models;
-    using Restaurants.Services.Models;
+    using Models;
     using System;
     using System.Linq;
     using System.Web.Http;
 
     public class MealsController : BaseApiController
     {
+
         [Authorize]
         public IHttpActionResult Create([FromBody]CreateMealBindingModel model)
         {

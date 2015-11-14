@@ -38,5 +38,30 @@
                                                       
             return this.PartialView("DisplayTemplates/SnippetDetailsCommentViewModel", commentModel);
         }
+
+        public ActionResult Delete(int commentId, int snippetId)
+        {
+            this.TempData["commentId"] = commentId;
+            this.TempData["snippetId"] = snippetId;
+
+            var comment = this.Data.Comments.All()
+                .FirstOrDefault(c => c.Id == commentId);
+            var commentModel = Mapper.Map<Comment, CommentViewModel>(comment);
+
+            return this.View(commentModel);
+        }
+
+        public ActionResult DeleteComment()
+        {
+            int commentId = (int)this.TempData["commentId"];
+            int snippetId = (int)this.TempData["snippetId"];
+            var comment = this.Data.Comments.All()
+                .FirstOrDefault(c => c.Id == commentId);
+
+            this.Data.Comments.Remove(comment);
+            this.Data.SaveChanges();
+
+            return this.RedirectToAction("Details", "Snippets", new { id = snippetId });
+        }
     }
 }

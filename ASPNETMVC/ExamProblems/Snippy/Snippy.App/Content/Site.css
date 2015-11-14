@@ -111,3 +111,9 @@ textarea {
     padding: 20px 20px 20px 20px;
     margin-top: 5px;
 }
+
+#delete-comment-button {
+    float: right;
+    color: gray;
+    margin-top: -40px;
+}
