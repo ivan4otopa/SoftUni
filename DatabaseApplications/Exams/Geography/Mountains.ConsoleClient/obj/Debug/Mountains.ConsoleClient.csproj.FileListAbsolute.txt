@@ -1,0 +1,16 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Mountains.ConsoleClient.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Mountains.ConsoleClient.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Mountains.ConsoleClient.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Mountains.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Mountains.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Mountains.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Mountains.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\obj\Debug\Mountains.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\obj\Debug\Mountains.ConsoleClient.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.ConsoleClient\obj\Debug\Mountains.ConsoleClient.pdb

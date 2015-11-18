@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Models\bin\Debug\Mountains.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Models\bin\Debug\Mountains.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Models\obj\Debug\Mountains.Models.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Models\obj\Debug\Mountains.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Models\obj\Debug\Mountains.Models.pdb

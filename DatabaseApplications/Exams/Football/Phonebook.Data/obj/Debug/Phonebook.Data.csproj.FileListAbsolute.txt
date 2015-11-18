@@ -1,0 +1,12 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\Phonebook.Data.dll.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\Phonebook.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\Phonebook.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\Phonebook.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\Phonebook.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\obj\Debug\Phonebook.Data.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\obj\Debug\Phonebook.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Data\obj\Debug\Phonebook.Data.pdb

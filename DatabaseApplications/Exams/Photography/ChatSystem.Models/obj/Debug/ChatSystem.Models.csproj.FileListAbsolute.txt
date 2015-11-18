@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.Models\bin\Debug\ChatSystem.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.Models\bin\Debug\ChatSystem.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.Models\obj\Debug\ChatSystem.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.Models\obj\Debug\ChatSystem.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.Models\obj\Debug\ChatSystem.Models.csprojResolveAssemblyReference.cache

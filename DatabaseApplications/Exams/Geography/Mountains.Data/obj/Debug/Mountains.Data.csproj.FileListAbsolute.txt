@@ -1,0 +1,12 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\Mountains.Data.dll.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\Mountains.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\Mountains.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\Mountains.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\Mountains.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\obj\Debug\Mountains.Data.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\obj\Debug\Mountains.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Geography\Mountains.Data\obj\Debug\Mountains.Data.pdb

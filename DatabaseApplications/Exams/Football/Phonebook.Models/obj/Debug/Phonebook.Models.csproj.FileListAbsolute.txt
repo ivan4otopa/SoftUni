@@ -1,0 +1,5 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Models\bin\Debug\Phonebook.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Models\bin\Debug\Phonebook.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Models\obj\Debug\Phonebook.Models.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Models\obj\Debug\Phonebook.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.Models\obj\Debug\Phonebook.Models.pdb

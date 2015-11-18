@@ -1,0 +1,16 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\ChatSystem.ConsoleClient.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\ChatSystem.ConsoleClient.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\ChatSystem.ConsoleClient.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\ChatSystem.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\ChatSystem.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\ChatSystem.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\ChatSystem.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\obj\Debug\ChatSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\obj\Debug\ChatSystem.ConsoleClient.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\obj\Debug\ChatSystem.ConsoleClient.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExamProblems\Photography\ChatSystem.ConsoleClient\bin\Debug\Newtonsoft.Json.xml

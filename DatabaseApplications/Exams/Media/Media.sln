@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QueryTheDatabase", "QueryTheDatabase", "{81E7EB0D-7B9B-46F1-BEE7-C4974E4054FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCodeFirstDefineDataModelImportExportData", "EFCodeFirstDefineDataModelImportExportData", "{EC51EC84-298A-41EC-B242-CDD53178B20A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Models", "Movies.Models\Movies.Models.csproj", "{4A3B3153-AB3C-427C-A7B1-CBA6B29E261A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Data", "Movies.Data\Movies.Data.csproj", "{9521A6FE-A15E-4842-89B0-F9B2F861A49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdultMovies", "AdultMovies\AdultMovies.csproj", "{7F5816AB-B822-419F-B6D1-84A3ECAC37F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkMappings", "EntityFrameworkMappings\EntityFrameworkMappings.csproj", "{CC57861B-CEDA-4C14-9D90-A22DBA1CC437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportCharactersAndPlayersAsJson", "ExportCharactersAndPlayersAsJson\ExportCharactersAndPlayersAsJson.csproj", "{3430F0AC-5A0D-423C-A88F-83450EC8C7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportFinishedGamesAsXml", "ExportFinishedGamesAsXml\ExportFinishedGamesAsXml.csproj", "{60F13436-3062-4924-91DE-0AFE98E4CB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportUsersAndTheirGamesFromXml", "ImportUsersAndTheirGamesFromXml\ImportUsersAndTheirGamesFromXml.csproj", "{CBF83080-3903-4FBF-B3FA-B4EF67BE8CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatedMoviesByUser", "RatedMoviesByUser\RatedMoviesByUser.csproj", "{3B934EE1-256D-47C7-AD7B-7D6F9EE335D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top10FavouriteMovies", "Top10FavouriteMovies\Top10FavouriteMovies.csproj", "{134D1945-3636-45B9-A14A-8A4737C4C3D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A3B3153-AB3C-427C-A7B1-CBA6B29E261A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3B3153-AB3C-427C-A7B1-CBA6B29E261A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3B3153-AB3C-427C-A7B1-CBA6B29E261A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3B3153-AB3C-427C-A7B1-CBA6B29E261A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9521A6FE-A15E-4842-89B0-F9B2F861A49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9521A6FE-A15E-4842-89B0-F9B2F861A49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9521A6FE-A15E-4842-89B0-F9B2F861A49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9521A6FE-A15E-4842-89B0-F9B2F861A49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5816AB-B822-419F-B6D1-84A3ECAC37F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5816AB-B822-419F-B6D1-84A3ECAC37F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5816AB-B822-419F-B6D1-84A3ECAC37F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5816AB-B822-419F-B6D1-84A3ECAC37F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC57861B-CEDA-4C14-9D90-A22DBA1CC437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC57861B-CEDA-4C14-9D90-A22DBA1CC437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC57861B-CEDA-4C14-9D90-A22DBA1CC437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC57861B-CEDA-4C14-9D90-A22DBA1CC437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3430F0AC-5A0D-423C-A88F-83450EC8C7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3430F0AC-5A0D-423C-A88F-83450EC8C7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3430F0AC-5A0D-423C-A88F-83450EC8C7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3430F0AC-5A0D-423C-A88F-83450EC8C7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F13436-3062-4924-91DE-0AFE98E4CB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F13436-3062-4924-91DE-0AFE98E4CB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F13436-3062-4924-91DE-0AFE98E4CB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F13436-3062-4924-91DE-0AFE98E4CB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF83080-3903-4FBF-B3FA-B4EF67BE8CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF83080-3903-4FBF-B3FA-B4EF67BE8CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF83080-3903-4FBF-B3FA-B4EF67BE8CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF83080-3903-4FBF-B3FA-B4EF67BE8CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B934EE1-256D-47C7-AD7B-7D6F9EE335D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B934EE1-256D-47C7-AD7B-7D6F9EE335D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B934EE1-256D-47C7-AD7B-7D6F9EE335D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B934EE1-256D-47C7-AD7B-7D6F9EE335D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134D1945-3636-45B9-A14A-8A4737C4C3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134D1945-3636-45B9-A14A-8A4737C4C3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134D1945-3636-45B9-A14A-8A4737C4C3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134D1945-3636-45B9-A14A-8A4737C4C3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A3B3153-AB3C-427C-A7B1-CBA6B29E261A} = {EC51EC84-298A-41EC-B242-CDD53178B20A}
+		{9521A6FE-A15E-4842-89B0-F9B2F861A49A} = {EC51EC84-298A-41EC-B242-CDD53178B20A}
+		{7F5816AB-B822-419F-B6D1-84A3ECAC37F0} = {EC51EC84-298A-41EC-B242-CDD53178B20A}
+		{CC57861B-CEDA-4C14-9D90-A22DBA1CC437} = {81E7EB0D-7B9B-46F1-BEE7-C4974E4054FF}
+		{3430F0AC-5A0D-423C-A88F-83450EC8C7A3} = {81E7EB0D-7B9B-46F1-BEE7-C4974E4054FF}
+		{60F13436-3062-4924-91DE-0AFE98E4CB3E} = {81E7EB0D-7B9B-46F1-BEE7-C4974E4054FF}
+		{CBF83080-3903-4FBF-B3FA-B4EF67BE8CC1} = {81E7EB0D-7B9B-46F1-BEE7-C4974E4054FF}
+		{3B934EE1-256D-47C7-AD7B-7D6F9EE335D1} = {EC51EC84-298A-41EC-B242-CDD53178B20A}
+		{134D1945-3636-45B9-A14A-8A4737C4C3D1} = {EC51EC84-298A-41EC-B242-CDD53178B20A}
+	EndGlobalSection
+EndGlobal

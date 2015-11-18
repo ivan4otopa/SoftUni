@@ -1,0 +1,12 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\QueryExistingDatabaseImportExportData.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\obj\Debug\QueryExistingDatabaseImportExportData.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\QueryExistingDatabaseImportExportData.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\QueryExistingDatabaseImportExportData.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\obj\Debug\QueryExistingDatabaseImportExportData.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\obj\Debug\QueryExistingDatabaseImportExportData.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\QueryExistingDatabaseImportExportData\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,16 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Phonebook.ConsoleClient.exe.config
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Phonebook.ConsoleClient.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Phonebook.ConsoleClient.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Phonebook.Data.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Phonebook.Models.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Phonebook.Data.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Phonebook.Models.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\obj\Debug\Phonebook.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\obj\Debug\Phonebook.ConsoleClient.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\obj\Debug\Phonebook.ConsoleClient.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\DatabaseApplicationsExercises\Football\Phonebook.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
