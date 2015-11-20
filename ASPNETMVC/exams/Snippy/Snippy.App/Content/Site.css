@@ -1,0 +1,173 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#snippets, #comments, #labels {
+    display: inline-block;    
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.snippet-label {
+    background-color: rgb(43, 117, 181);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 5px;
+}
+
+.comment {
+    background-color: rgb(245, 245, 245);
+    border: 2px solid rgb(236, 236, 236);
+    margin-bottom: 25px;
+    padding: 20px 20px 20px 20px;
+}
+
+.content {
+    margin-bottom: 15px;
+}
+
+#labels {
+    border: 2px solid rgb(43, 117, 181);
+}
+
+#best-labels {
+    background-color: rgb(43, 117, 181);
+    height: 50px;
+    padding: 15px 0 0 10px;
+    color: white;
+}
+
+.label-home {
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.label-snippets-count {
+    margin-left: 50px;
+    background-color: rgb(108, 108, 108);
+    color: white;
+    width: 25px;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#snippets {
+    width: 33%;
+}
+
+#comments {
+    width: 40%;
+    margin-right: 20px;
+}
+
+#labels {
+    width: 16%;
+}
+
+.snippet-label a {
+    color: white;
+}
+
+#snippet-details {
+    margin-top: 50px;
+}
+
+.snippet-title {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+#snippet-details-language-and-title {
+    margin-bottom: 10px;
+}
+
+#code {
+    background-color: rgb(245, 245, 245);
+    border: 2px solid rgb(236, 236, 236);
+    margin-bottom: 25px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 5px;
+}
+
+#delete-comment-button {
+    float: right;
+    color: gray;
+    margin-top: -40px;
+}
+
+#label-text {
+    background-color: rgb(43, 117, 181);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#language-name {
+    background-color: rgb(92, 184, 92);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#snippet-labels, #snippet-inputs {
+    display: inline-block;
+}
+
+#snippet-labels {
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+#snippet-labels label {
+    display: block;
+}
+
+#snippet-labels label:first-of-type {
+    margin: 7px 0 28px 0;
+}
+
+#snippet-inputs .form-control {
+    margin-bottom: 20px;
+    max-width: none;
+    width: 900px;
+}
+
+#snippet-labels label:nth-of-type(2), label:nth-of-type(3) {
+    margin-bottom: 100px;
+}
+
+#snippet-inputs textarea {
+    height: 100px;
+}
+
+#snippet-labels label:nth-of-type(4) {
+    margin-bottom: 35px;
+}
+
+#search-form {
+    padding-top: 12px;
+}

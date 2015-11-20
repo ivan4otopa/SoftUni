@@ -1,0 +1,8 @@
+﻿@using Snippy.App.Models
+@model IEnumerable<SnippetViewModel>
+
+<div>
+    <h1>All snippets with label <span id="label-text"><b>@this.ViewBag.LabelText</b></span></h1>
+
+    @Html.DisplayFor(m => m)
+</div>

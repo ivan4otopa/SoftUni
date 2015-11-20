@@ -1,0 +1,66 @@
+﻿@using Snippy.App.Models
+@using Microsoft.AspNet.Identity
+@model SnippetDetailsViewModel
+
+<div id="snippet-details">
+    <div id="snippet-details-language-and-title">
+        <span>@Html.ActionLink(Model.LanguageName, "Snippets", "Languages", new { name = Model.LanguageName }, new { @class = "btn btn-success" })</span>
+
+        <span class="snippet-title">@Model.Title</span>
+
+        @if (this.User.Identity.GetUserId() == Model.AuthorId)
+        {
+            <span>@Html.ActionLink("Edit", "Edit", "Snippets", null, new { @class = "btn btn-warning" })</span>
+        }
+    </div>
+
+    <div>by <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <b>@Model.Author</b> on @Model.CreationTime.Day.@Model.CreationTime.Month.@Model.CreationTime.Year</div>
+
+    @if (Model.Labels.Any())
+    {
+        <div>Labels: @Html.DisplayFor(m => m.Labels)</div>
+    }
+
+    <div id="code">@Model.Code</div>
+
+    <div>
+        <h1>Comments:</h1>
+        
+        <div id="snippet-comments">
+            @if (Model.Comments.Any())
+            {
+                @Html.DisplayFor(m => m.Comments)
+            }
+            else
+            {
+                <div id="comments-message">There are no comments right now.</div>
+            }
+        </div>
+    </div>
+
+    @if (this.User.Identity.IsAuthenticated)
+    {
+        <div>
+            @using (Ajax.BeginForm("Comment", "Comments", new { id = Model.Id }, new AjaxOptions()
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.InsertBefore,
+                UpdateTargetId = "snippet-comments",
+                OnSuccess = "removeMessage"
+            }))
+            {
+                @Html.TextArea("content", new { placeholder = "Write a public comment", rows = "4", cols = "36" })<br />
+                <input type="submit" class="btn btn-primary" value="Add comment" />
+            }
+        </div>
+    }
+</div>
+
+@section scripts {
+    <script>
+        function removeMessage() {
+            $('#comments-message').remove();
+        };
+    </script>    
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}

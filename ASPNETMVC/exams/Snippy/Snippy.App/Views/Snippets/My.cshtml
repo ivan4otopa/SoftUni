@@ -1,0 +1,13 @@
+﻿@using Snippy.App.Models
+@model IEnumerable<SnippetViewModel>
+
+<h1>My Snippets</h1>
+
+@if (Model.Any())
+{
+    @Html.DisplayFor(m => m)
+}
+else
+{
+    @:You have no snippets. You can @Html.ActionLink("create", "Create", "Snippets") one now.
+}

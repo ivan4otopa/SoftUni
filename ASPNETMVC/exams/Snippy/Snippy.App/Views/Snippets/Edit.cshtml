@@ -1,0 +1,37 @@
+﻿@using Snippy.App.Models
+@model EditSnippetModel
+
+<h1>Edit snippet "@Model.Title"</h1>
+
+@using (@Html.BeginForm("EditSnippet", "Snippets", new { id = Model.SnippetId }))
+{
+    <div id="snippet-labels">
+        @Html.LabelFor(m => m.SnippetBindingModel.Title)
+
+        @Html.LabelFor(m => m.SnippetBindingModel.Description)
+
+        @Html.LabelFor(m => m.SnippetBindingModel.Code)
+
+        @Html.LabelFor(m => m.SnippetBindingModel.Language)
+
+        @Html.LabelFor(m => m.SnippetBindingModel.Labels)
+    </div>
+
+    <div id="snippet-inputs">
+        @Html.TextBoxFor(m => m.SnippetBindingModel.Title, new { placeholder = "Title", @class = "form-control" })
+
+        @Html.TextAreaFor(m => m.SnippetBindingModel.Description, new { placeholder = "Some description about the snippet", @class = "form-control" })
+
+        @Html.TextAreaFor(m => m.SnippetBindingModel.Code, new { @class = "form-control" })
+
+        @Html.DropDownListFor(m => m.SnippetBindingModel.Language, Model.Languages, new { @class = "form-control" })
+
+        @Html.TextBoxFor(m => m.SnippetBindingModel.Labels, new { placeholder = "label;new; semicolon-separated   ;       games", @class = "form-control" })
+    </div>
+
+    <div>
+        <input type="submit" class="btn btn-success" value="Edit" />
+
+        @Html.ActionLink("Cancel", "Details", "Snippets", new { id = Model.SnippetId }, new { @class = "btn btn-default" })
+    </div>
+}
