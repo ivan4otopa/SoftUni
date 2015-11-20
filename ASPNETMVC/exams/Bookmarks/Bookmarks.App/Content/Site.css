@@ -1,0 +1,130 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.bookmark {
+    width: 200px;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.bookmark-description {
+    margin-bottom: 15px;
+}
+
+.bookmark-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#view-all-bookmarks-button {
+    margin-left: 981px;
+}
+
+#header {
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 45px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+#bookmark-category-name {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#bookmark-description {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#bookmark-title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#votes {
+    margin-left: 1088px;
+}
+
+.comment {
+    background-color: lightgray;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+
+.comment-text {
+    font-size: 25px;
+}
+
+.comment-author {
+    font-size: 25px;
+}
+
+#comments {
+    margin-bottom: 20px;
+}
+
+#labels {
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.form-control {
+    display: inline-block;
+}
+
+#textboxes {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.bookmark-label {
+    margin-bottom: 11px;
+}
+
+.category {
+    width: 200px;
+    margin-right: 150px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.category-name {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#category-name {
+    margin-right: 80px;
+    margin-bottom: 20px;
+}

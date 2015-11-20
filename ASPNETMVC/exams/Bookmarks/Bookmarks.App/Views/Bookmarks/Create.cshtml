@@ -1,0 +1,45 @@
+﻿@using Bookmarks.App.Models
+@model CreateBookmarkModel
+
+@using (Html.BeginForm("Create", "Bookmarks"))
+{
+    @Html.AntiForgeryToken()
+    <div id="labels">
+        @Html.LabelFor(m => m.BookmarkBindingModel.Title, new { @class = "bookmark-label" })<br />
+        @Html.LabelFor(m => m.BookmarkBindingModel.URL, new { @class = "bookmark-label" })<br />
+        @Html.LabelFor(m => m.BookmarkBindingModel.Description, new { @class = "bookmark-label" })<br />
+        @Html.LabelFor(m => m.BookmarkBindingModel.Category, new { @class = "bookmark-label" })
+    </div>
+    <div id="textboxes">
+        @Html.TextBoxFor(m => m.BookmarkBindingModel.Title, new { @class = "form-control", id = "bookmark-textbox-title" })<span id="title-status"></span><br />
+        @Html.TextBoxFor(m => m.BookmarkBindingModel.URL, new { @class = "form-control", id = "bookmark-textbox-url" })<span id="url-status"></span><br />
+        @Html.TextBoxFor(m => m.BookmarkBindingModel.Description, new { @class = "form-control" })<br />
+        @Html.DropDownListFor(m => m.BookmarkBindingModel.Category, Model.Categories, new { @class = "form-control" })
+    </div>    
+
+    <input type="submit" value="Add bookmark" />
+}
+
+@section scripts {
+    <script>        
+        $('#bookmark-textbox-title').keyup(function () {
+            var bookmarkTitle = $('#bookmark-textbox-title').val();
+
+            $('#title-status').text('');
+
+            if (bookmarkTitle.length > 200) {
+                $('#title-status').text('Title should be no more than 200 symbols long.');
+            }
+        });
+
+        $('#bookmark-textbox-url').keyup(function () {
+            var bookmarkTitle = $('#bookmark-textbox-url').val();
+
+            $('#url-status').text('');
+
+            if (bookmarkTitle.length > 200) {
+                $('#url-status').text('Url should be no more than 200 symbols long.');
+            }
+        });
+    </script>
+}
