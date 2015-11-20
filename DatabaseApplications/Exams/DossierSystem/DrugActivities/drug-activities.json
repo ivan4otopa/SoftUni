@@ -1,0 +1,61 @@
+[
+  {
+    "fullName": "Christopher Freeman",
+    "birthDate": null,
+    "activities": [
+      {
+        "description": "Ran a small methamphetamine laboratory on the outskirts of Bogota.",
+        "activeFrom": "1991-10-06T00:00:00",
+        "activeTo": "2011-05-12T00:00:00"
+      }
+    ]
+  },
+  {
+    "fullName": "George Graham",
+    "birthDate": "1976-06-10T00:00:00",
+    "activities": [
+      {
+        "description": null,
+        "activeFrom": "1999-07-03T00:00:00",
+        "activeTo": "2010-03-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "fullName": "George Johnston",
+    "birthDate": "1955-11-27T00:00:00",
+    "activities": [
+      {
+        "description": "Biggest drug import cartel in South America.",
+        "activeFrom": "1994-10-05T00:00:00",
+        "activeTo": "2001-08-09T00:00:00"
+      },
+      {
+        "description": "Columnbian drug cartel funded by religious extremists.",
+        "activeFrom": "1996-05-28T00:00:00",
+        "activeTo": "2001-10-04T00:00:00"
+      },
+      {
+        "description": "Started shipping to Europe and Africa.",
+        "activeFrom": "1998-07-16T00:00:00",
+        "activeTo": "2005-09-10T00:00:00"
+      },
+      {
+        "description": "Founded a huge cocaine production factory in the middle of the Amazon. Worldwide export.",
+        "activeFrom": "1999-12-31T00:00:00",
+        "activeTo": "2003-07-06T00:00:00"
+      }
+    ]
+  },
+  {
+    "fullName": "Henry Morales",
+    "birthDate": "1954-03-06T00:00:00",
+    "activities": [
+      {
+        "description": "Cocaine and marijuana in great quantities.",
+        "activeFrom": "1996-02-20T00:00:00",
+        "activeTo": "2010-12-12T00:00:00"
+      }
+    ]
+  }
+]
