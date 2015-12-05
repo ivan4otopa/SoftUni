@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HayvanNumbers", "HayvanNumbers\HayvanNumbers.csproj", "{BA67DE00-1BF6-422E-8691-E3D080D9A48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsUp", "BitsUp\BitsUp.csproj", "{79E4CED3-81E1-4D48-BC9C-5B38B60C3EC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA67DE00-1BF6-422E-8691-E3D080D9A48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA67DE00-1BF6-422E-8691-E3D080D9A48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA67DE00-1BF6-422E-8691-E3D080D9A48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA67DE00-1BF6-422E-8691-E3D080D9A48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E4CED3-81E1-4D48-BC9C-5B38B60C3EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E4CED3-81E1-4D48-BC9C-5B38B60C3EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E4CED3-81E1-4D48-BC9C-5B38B60C3EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E4CED3-81E1-4D48-BC9C-5B38B60C3EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
