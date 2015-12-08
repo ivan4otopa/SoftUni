@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illuminati", "Illuminati\Illuminati.csproj", "{20E021F8-9AD3-459D-B931-A72381CC3808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewHouse", "NewHouse\NewHouse.csproj", "{CE8453D4-FF4C-48DD-9432-DB4C47E9FA98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossingSequences", "CrossingSequences\CrossingSequences.csproj", "{96527713-2979-4582-B9CF-A63991F4C4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatchTheBits", "CatchTheBits\CatchTheBits.csproj", "{300EC79B-E9B2-4505-8ECB-37676577670B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20E021F8-9AD3-459D-B931-A72381CC3808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E021F8-9AD3-459D-B931-A72381CC3808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E021F8-9AD3-459D-B931-A72381CC3808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E021F8-9AD3-459D-B931-A72381CC3808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8453D4-FF4C-48DD-9432-DB4C47E9FA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8453D4-FF4C-48DD-9432-DB4C47E9FA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8453D4-FF4C-48DD-9432-DB4C47E9FA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8453D4-FF4C-48DD-9432-DB4C47E9FA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96527713-2979-4582-B9CF-A63991F4C4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96527713-2979-4582-B9CF-A63991F4C4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96527713-2979-4582-B9CF-A63991F4C4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96527713-2979-4582-B9CF-A63991F4C4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300EC79B-E9B2-4505-8ECB-37676577670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300EC79B-E9B2-4505-8ECB-37676577670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300EC79B-E9B2-4505-8ECB-37676577670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300EC79B-E9B2-4505-8ECB-37676577670B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
