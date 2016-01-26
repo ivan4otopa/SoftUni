@@ -1,0 +1,93 @@
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class DragonSharp {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int numberOfLines = Integer.parseInt(inputReader.nextLine());
+		
+		String[] lines = new String[numberOfLines];
+		
+		for (int i = 0; i < numberOfLines; i++) {
+			lines[i] = inputReader.nextLine();
+		}
+		
+		for (int i = 0; i < lines.length; i++) {
+			String[] parts = lines[i].substring(0, lines[i].indexOf("out") + 3).split(" ");
+			
+			if (checkTextForErrors(lines[i].substring(lines[i].indexOf("out") + 4))) {
+				if (parts[0].equals("if")) {
+					if (i != lines.length - 1 && lines[i + 1].startsWith("else")) {
+						if (!checkTextForErrors(lines[i + 1].substring(lines[i + 1].indexOf("out") + 4))) {
+							System.out.println(String.format("Compile time error @ line %d", i + 2));
+							
+							continue;
+						}
+					}
+					if (evaluateCondition(parts[1])) {
+						String firstText = lines[i].substring(lines[i].indexOf("out") + 5, lines[i].length() - 2);
+						
+						if (parts[2].equals("loop")) {														
+							for (int j = 0; j < Integer.parseInt(parts[3]); j++) {
+								System.out.println(firstText);
+							}
+						} else {
+							System.out.println(firstText);
+						}
+					} else if (i != lines.length - 1 && lines[i + 1].startsWith("else")) {
+						if (checkTextForErrors(lines[i + 1].substring(lines[i + 1].indexOf("out") + 4))) {
+							String[] nextParts = lines[i + 1].substring(0, lines[i + 1].indexOf("out") + 3).split(" ");
+							String secondText = lines[i + 1].substring(lines[i + 1].indexOf("out") + 5, lines[i + 1].length() - 2);
+							
+							if (nextParts[1].equals("loop")) {
+								for (int j = 0; j < Integer.parseInt(nextParts[2]); j++) {
+									System.out.println(secondText);
+								}
+							} else {
+								System.out.println(secondText);
+							}
+							
+							i++;
+						} else {
+							System.out.println(String.format("Compile time error @ line %d", i + 2));
+						}
+					}
+				}
+			} else {
+				System.out.println(String.format("Compile time error @ line %d", i + 1));
+			}					
+		}
+	}
+	
+	static boolean evaluateCondition(String condition) {
+		String regex = "\\((\\d+)(<|==|>)(\\d+)\\)";
+		Pattern pattern = Pattern.compile(regex);
+		Matcher matcher = pattern.matcher(condition);
+		
+		matcher.matches();
+		
+		int firstNumber = Integer.parseInt(matcher.group(1));
+		
+		String conditionType = matcher.group(2);
+		
+		int secondNumber = Integer.parseInt(matcher.group(3));
+		
+		if (conditionType.equals("<")) {
+			return firstNumber < secondNumber;
+		} else if (conditionType.equals("==")) {
+			return firstNumber == secondNumber;
+		} else {
+			return firstNumber > secondNumber;
+		}
+	}
+	
+	static boolean checkTextForErrors(String text) {
+		if (text.startsWith("\"") && text.endsWith(";")) {
+			return true;
+		}
+		
+		return false;
+	}
+}

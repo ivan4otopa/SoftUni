@@ -1,0 +1,49 @@
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class DragonAccounting {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		double capital = Double.parseDouble(inputReader.nextLine());
+		int days = 0;
+		int numberOfEmployees = 0;
+		
+		while (true) {
+			String line = inputReader.nextLine();
+			
+			if (line.equals("END")) {
+				break;
+			}
+			
+			days++;
+			
+			String[] parts = line.split(";");
+			
+			numberOfEmployees += Integer.parseInt(parts[0]);
+			numberOfEmployees -= Integer.parseInt(parts[1]);
+			
+			if (parts.length > 3) {
+				for (int i = 3; i < parts.length; i++) {
+					String[] additionalEvent = parts[i].split(":");
+					String eventName = additionalEvent[0];
+					
+					double money = Double.parseDouble(additionalEvent[1]);
+					
+					if (eventName.equals("PreviousYearDeficit") || eventName.equals("Machines") || eventName.equals("Taxes")) {
+						capital -= money;
+					} else {
+						capital += money;
+					}
+				}
+			}
+		}
+		
+		DecimalFormat format = new DecimalFormat(".00");
+		
+		format.setRoundingMode(RoundingMode.DOWN);
+		
+		System.out.println(numberOfEmployees + " " + format.format(capital));
+	}
+}

@@ -1,0 +1,106 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class TheHeiganDance {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int playerHitPoints = 18500;
+		int heiganHitpoints = 3000000;
+		int[][] chamber = new int[15][];				
+		int playerDamage = Integer.parseInt(inputReader.nextLine());
+		int currentRow = 7;
+		int currentColumn = 7;
+		boolean cloudHit = false;
+		
+		while (inputReader.hasNext()) {
+			if (cloudHit) {
+				playerDamage -= 3500;
+				cloudHit = false;
+			}
+			
+			String[] parts = inputReader.nextLine().split(" ");			
+			String spellName = parts[0];
+			
+			int row = Integer.parseInt(parts[1]);
+			int column = Integer.parseInt(parts[2]);
+			
+			ArrayList<Integer[]> damagedPositions = new ArrayList<>(); 
+			
+			if (row != 0) {
+				if (row != 14) {
+					if (column != 0) {
+						if (column != 14) {
+							for (int i = row - 1; i < row + 2; i++) {
+								for (int j = column - 1; j < column + 2; j++) {
+									damagedPositions.add(new Integer[] { i, j });
+								}
+							}
+						} else {
+							for (int i = row - 1; i < row + 2; i++) {
+								for (int j = column; j < column + 2; j++) {
+									damagedPositions.add(new Integer[] { i, j });
+								}
+							}
+						}
+					} else {
+						for (int i = row - 1; i < row + 2; i++) {
+							for (int j = column; j < column + 2; j++) {
+								damagedPositions.add(new Integer[] { i, j });
+							}
+						}
+					}
+				} else {
+					for (int i = row; i < row + 2; i++) {
+						for (int j = column - 1; j < column + 2; j++) {
+							damagedPositions.add(new Integer[] { i, j });
+						}
+					}
+				}				
+			} else {
+				if (column != 0) {
+					if (column != 14) {
+						for (int i = row; i < row + 2; i++) {
+							for (int j = column - 1; j < column + 2; j++) {
+								damagedPositions.add(new Integer[] { i, j });
+							}
+						}
+					} else {
+						for (int i = row; i < row + 2; i++) {
+							for (int j = column; j < column + 2; j++) {
+								damagedPositions.add(new Integer[] { i, j });
+							}
+						}
+					}
+				} else {
+					for (int i = row; i < row + 2; i++) {
+						for (int j = column; j < column + 2; j++) {
+							damagedPositions.add(new Integer[] { i, j });
+						}
+					}
+				}
+			}			
+			
+			for (Integer[] integers : damagedPositions) {
+				for (Integer integer : integers) {
+					System.out.print(integer + " ");
+				}
+				
+				System.out.println();
+			}
+			
+			if (currentRow == row && currentColumn == column) {
+				if (spellName.equals("Cloud")) {
+					playerHitPoints -= 3500;
+					cloudHit = true;
+				} else {
+					playerHitPoints -= 7000;
+				}
+			} else if (currentRow != 0) {
+				
+			}
+			
+			inputReader.nextLine();
+		}
+	}
+}

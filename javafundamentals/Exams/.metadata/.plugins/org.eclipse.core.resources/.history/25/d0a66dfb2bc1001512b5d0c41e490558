@@ -1,0 +1,151 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import org.omg.PortableInterceptor.IORInterceptor;
+
+public class TheHeiganDance {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int playerHitPoints = 18500;
+		int heiganHitpoints = 3000000;
+		int[][] chamber = new int[15][];				
+		double playerDamage = Integer.parseInt(inputReader.nextLine());
+		int currentRow = 7;
+		int currentColumn = 7;
+		boolean cloudHit = false;
+		boolean heiganDead = false;
+		boolean playerDead = false;
+		
+		String killerSpellName = "";
+		
+		while (true) {
+			String line = inputReader.nextLine();
+			
+			if (line.isEmpty()) {
+				break;
+			}
+			
+			if (cloudHit) {
+				playerHitPoints -= 3500;
+				cloudHit = false;
+			}
+			
+			heiganHitpoints -= playerDamage;
+			
+			if (heiganHitpoints <= 0) {
+				heiganDead = true;
+				
+				break;
+			}
+			
+			String[] parts = line.split(" ");			
+			String spellName = parts[0];
+			
+			int damageCenterRow = Integer.parseInt(parts[1]);
+			int damageCenterColumn = Integer.parseInt(parts[2]);						
+	
+			if (isInDamagedPosition(damageCenterRow, damageCenterColumn, currentRow, currentColumn)) {
+				if (currentRow == damageCenterRow && currentColumn == damageCenterColumn) {
+					if (spellName.equals("Cloud")) {
+						playerHitPoints -= 3500;
+						cloudHit = true;
+						
+						if (playerHitPoints <= 0) {
+							playerDead = true;
+							killerSpellName = spellName;
+							
+							break;
+						}
+					} else {
+						playerHitPoints -= 7000;
+						
+						if (playerHitPoints <= 0) {
+							playerDead = true;
+							killerSpellName = spellName;
+							
+							break;
+						}
+					}
+				} else {
+					if (currentRow == 0 || currentRow == damageCenterRow + 1) {
+						if (currentColumn == 14 || currentColumn == damageCenterColumn - 1) {
+							if (currentRow == 14 || currentRow == damageCenterRow - 1) {
+								if (currentColumn == 0 || currentColumn == damageCenterColumn + 1) {
+									if (spellName.equals("Cloud")) {
+										playerHitPoints -= 3500;
+										
+										if (playerHitPoints <= 0) {
+											playerDead = true;
+											killerSpellName = spellName;
+											
+											break;
+										}
+										
+										cloudHit = true;
+									} else {
+										playerHitPoints -= 7000;
+										
+										if (playerHitPoints <= 0) {
+											playerDead = true;
+											killerSpellName = spellName;
+											
+											break;
+										}
+									}
+								} else {
+									currentColumn--;
+								}
+							} else {
+								currentRow++;
+							}
+						} else {
+							currentColumn++;
+						}
+					} else {
+						currentRow--;
+					}
+				}
+			}					
+		}
+		
+		if (heiganDead) {
+			System.out.println("Heigan: Defeated!");
+		} else {
+			System.out.printf("Heigan: %.2f", heiganHitpoints);
+		}
+		
+		if (playerDead) {
+			System.out.printf("Player: Killed by %s\n", killerSpellName);
+		} else {
+			System.out.printf("Player: %d\n", playerHitPoints);
+		}
+		
+		System.out.printf("Final position: %d, %d", currentRow, currentColumn);
+	}
+	
+	static boolean isInDamagedPosition(int damageCenterRow, int damageCenterColumn, int currentRow, int currentColumn) {
+		ArrayList<ArrayList<Integer>> damagedPositions = new ArrayList<>(); 
+
+		for (int i = damageCenterRow - 1; i < damageCenterRow + 2; i++) {
+			for (int j = damageCenterColumn - 1; j < damageCenterColumn + 2; j++) {
+				ArrayList<Integer> position = new ArrayList<>();
+				
+				position.add(i);
+				position.add(j);
+				damagedPositions.add(position);
+			}	
+		}
+		
+		ArrayList<Integer> check = new ArrayList<>();
+		
+		check.add(currentRow);
+		check.add(currentColumn);
+		
+		if (damagedPositions.contains(check)) {
+			return true;
+		}
+		
+		return false;
+	}
+}

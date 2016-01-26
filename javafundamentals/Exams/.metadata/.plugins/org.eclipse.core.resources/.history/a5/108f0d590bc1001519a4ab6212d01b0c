@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class TheHeiganDance {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		int[][] chamber = new int[15][15];
+		
+		for (int i = 0; i < chamber.length; i++) {
+			for (int j = 0; j < chamber[i].length; j++) {
+				chamber[i][j] = j;
+			}
+		}
+		
+		for (int[] strings : chamber) {
+			for (int string : strings) {
+				System.out.print(string + " ");
+			}
+			System.out.println();
+		}
+		int playerDamage = Integer.parseInt(inputReader.nextLine());
+		
+		while (inputReader.hasNext()) {
+			String[] parts = inputReader.nextLine().split(" ");
+		}
+	}
+}

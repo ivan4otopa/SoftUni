@@ -1,0 +1,63 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class WeirdScript {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int keyValue = Integer.parseInt(inputReader.nextLine());
+		
+		if (keyValue > 52) {
+			keyValue = mapKeyValue(keyValue);
+		}
+		
+		String key = getKey(keyValue);
+		String regex = key + "(.+?)" + key;
+		Pattern pattern = Pattern.compile(regex);
+		String allLines = "";
+		
+		while (true) {
+			String line = inputReader.nextLine();
+			
+			if (line.equals("End")) {
+				break;
+			}
+			
+			allLines += line;
+		}
+		ArrayList<String> matches = new ArrayList<>();
+		Matcher matcher = pattern.matcher(allLines);
+		while (matcher.find()) {
+			System.out.println(matcher.group().subSequence(2, matcher.group().length() - 2));
+		}
+	}
+	
+	static int mapKeyValue(int keyValue) {
+		while (keyValue > 52) {
+			keyValue -= 52;
+		}
+		
+		return keyValue;
+	}
+	
+	static String getKey(int keyValue) {
+		String key = "";
+		
+		keyValue -= 1;
+		
+		if (1 <= keyValue && keyValue <= 26) {
+			for (int i = 0; i < 2; i++) {
+				key += "abcdefghijklmnopqrstuvwxyz".charAt(keyValue);
+			}
+		} else {
+			for (int i = 0; i < 2; i++) {
+				key += "ABCDEFGHIJKLMNOPQRSTUVWXYZ".charAt(keyValue - 27);
+			}
+		}
+		
+		return key;
+	}
+}

@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class DragonSharp {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int numberOfLines = Integer.parseInt(inputReader.nextLine());
+		
+		for (int i = 0; i < numberOfLines; i++) {
+			String[] lineParts = inputReader.nextLine().split(" ");
+			
+			if (lineParts[0].equals("if")) {			
+				if (inputReader.hasNextLine()) {
+					String[] nextLineParts = inputReader.nextLine().split(" ");
+					
+					if (nextLineParts[0].equals("else")) {
+						String condition = lineParts[1].substring(1, lineParts[1].indexOf(')'));
+						String conditionType = getConditionType(condition);
+						String[] integers = condition.split(conditionType);
+System.out.println(conditionType);
+						if (conditionType.equals("<")) {
+							if (Integer.parseInt(integers[0]) < Integer.parseInt(integers[1])) {
+								if (lineParts[2].equals("out")) {
+									System.out.println(lineParts[3].substring(1, lineParts[3].length() - 2));
+								}
+							} else {
+								if (nextLineParts[1].equals("loop")) {
+									for (int j = 0; j < Integer.parseInt(nextLineParts[2]); j++) {
+										System.out.println(nextLineParts[4].substring(1));
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	static String getConditionType(String condition) {
+		if (condition.indexOf('<') > -1) {
+			return "<";
+		} else if (condition.indexOf('=') > -1) {
+			return "==";
+		} else if (condition.indexOf('>') > -1) {
+			return ">";
+		}
+		
+		return "";
+	}
+}

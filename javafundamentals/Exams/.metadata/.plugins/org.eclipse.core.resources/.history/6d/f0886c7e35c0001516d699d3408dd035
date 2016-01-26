@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+import org.omg.PortableInterceptor.IORInterceptor;
+
+public class DragonTrap {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int matrixLength = Integer.parseInt(inputReader.nextLine());
+		
+		String[][] matrix = new String[matrixLength][];
+		
+		for (int i = 0; i < matrixLength; i++) {
+			matrix[i] = inputReader.nextLine().split("");			 
+		}
+		
+		while (true) {
+			String line = inputReader.nextLine();
+			
+			if (line.equals("End")) {
+				break;
+			}
+			
+			String[] parts = line.split(" ");
+			
+			int row = Integer.parseInt(parts[0].substring(1));
+			int column = Integer.parseInt(parts[1].substring(0, parts[1].length() - 1));
+			int radius = Integer.parseInt(parts[2]);
+			int rotations = Integer.parseInt(parts[3]);
+		}
+		
+		for (String[] strings : matrix) {
+			for (String string : strings) {
+				System.out.print(string);
+			}
+			System.out.println();
+		}
+	}
+}

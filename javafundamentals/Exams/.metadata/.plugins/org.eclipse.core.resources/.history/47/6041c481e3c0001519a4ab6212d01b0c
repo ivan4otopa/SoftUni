@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class WeirdScript {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int keyValue = Integer.parseInt(inputReader.nextLine());
+		
+		if (keyValue > 52) {
+			while (keyValue > 52) {
+				keyValue -= 52;
+			}
+		}
+		
+		System.out.println(keyValue);
+	}
+}

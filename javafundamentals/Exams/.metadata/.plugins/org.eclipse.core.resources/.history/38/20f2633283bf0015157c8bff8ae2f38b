@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class DragonAccounting {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		double capital = Double.parseDouble(inputReader.nextLine());
+		
+		while (true) {
+			String line = inputReader.nextLine();
+			
+			if (line.equals("END")) {
+				break;
+			}
+			
+			String[] parts = line.split(";");
+		}
+	}
+}

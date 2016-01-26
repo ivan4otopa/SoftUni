@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class DragonSharp {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int numberOfLines = Integer.parseInt(inputReader.nextLine());
+		
+		String[] lines = new String[numberOfLines];
+		
+		for (int i = 0; i < numberOfLines; i++) {
+			lines[i] = inputReader.nextLine();
+		}
+		
+		for (int i = 0; i < lines.length; i++) {
+			System.out.println(lines [i].substring(0, lines[i].indexOf("out") + 2));
+		}
+	}
+	
+	static String getConditionType(String condition) {
+		if (condition.indexOf('<') > -1) {
+			return "<";
+		} else if (condition.indexOf('=') > -1) {
+			return "==";
+		} else if (condition.indexOf('>') > -1) {
+			return ">";
+		}
+		
+		return "";
+	}
+}

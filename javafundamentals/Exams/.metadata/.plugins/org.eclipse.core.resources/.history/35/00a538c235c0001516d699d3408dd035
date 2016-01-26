@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+import org.omg.PortableInterceptor.IORInterceptor;
+
+public class DragonTrap {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		
+		int matrixLength = Integer.parseInt(inputReader.nextLine());
+		
+		String[][] matrix = new String[matrixLength][];
+		
+		for (int i = 0; i < matrixLength; i++) {
+			matrix[i] = inputReader.nextLine().split("");			 
+		}
+		
+		int numberOfChangedSymbols = 0;
+		
+		while (true) {
+			String line = inputReader.nextLine();
+			
+			if (line.equals("End")) {
+				break;
+			}
+			
+			String[] parts = line.split(" ");
+			
+			int row = Integer.parseInt(parts[0].substring(1));
+			int column = Integer.parseInt(parts[1].substring(0, parts[1].length() - 1));
+			int radius = Integer.parseInt(parts[2]);
+			int rotations = Integer.parseInt(parts[3]);
+			
+			if (row < 0 || matrix.length -1 < row) {
+				row = 0;
+			}
+			
+			if (column < 0 || matrix[0].length - 1 < column) {
+				column = 0;
+			}
+			
+			for (int i = row - radius; i < row + radius; i++) {
+				for (int j = column - radius; j < radius * 2 + 1; j++) {
+					if (i != row && j != column) {
+						System.out.print(matrix[i][j]);
+					} else {
+						System.out.println(' ');
+					}
+				}
+				
+				System.out.println();
+			}
+		}
+		
+		for (String[] strings : matrix) {
+			for (String string : strings) {
+				System.out.print(string);
+			}
+			System.out.println();
+		}
+	}
+}
