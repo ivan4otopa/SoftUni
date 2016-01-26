@@ -1,0 +1,56 @@
+import java.security.KeyStore.Entry;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class LegendaryFarming {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		Map<String, Integer> keyMaterials = new HashMap<>();
+		Map<String, Integer> junk = new TreeMap<>();
+		String line = inputReader.nextLine();
+		
+		while (!line.isEmpty()) {
+			String[] parts = line.split(" ");
+			
+			for (int i = 0; i < parts.length; i += 2) {
+				String material = parts[i + 1].toLowerCase();
+				
+				int quantity = Integer.parseInt(parts[i]);
+				
+				if (material.equals("shards") || material.equals("fragments") || material.equals("motes")) {
+					if (!keyMaterials.containsKey(material)) {
+						keyMaterials.put(material, 0);
+					}
+					
+					keyMaterials.put(material, keyMaterials.get(material) + quantity);
+				} else {
+					if (!junk.containsKey(material)) {
+						junk.put(material, 0);
+					}
+					
+					junk.put(material, junk.get(material) + quantity);
+				}
+			}
+			
+			line = inputReader.nextLine();
+		}
+		
+		for (java.util.Map.Entry<String, Integer> keyMaterial : keyMaterials.entrySet()) {
+			String material = keyMaterial.getKey();
+			
+			int quantity = keyMaterial.getValue();
+			
+			System.out.printf("%s: %d\n", material, quantity);
+		}
+		
+		for (java.util.Map.Entry<String, Integer> junkMaterial : junk.entrySet()) {
+			String material = junkMaterial.getKey();
+			
+			int quantity = junkMaterial.getValue();
+			
+			System.out.printf("%s: %d\n", material, quantity);
+		}
+	}
+}

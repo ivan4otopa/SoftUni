@@ -1,0 +1,48 @@
+import java.security.KeyStore.Entry;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class LegendaryFarming {
+	public static void main(String[] args) {
+		Scanner inputReader = new Scanner(System.in);
+		Map<String, Integer> keyMaterials = new HashMap<>();
+		Map<String, Integer> junk = new TreeMap<>();
+		String line = inputReader.nextLine();
+		
+		while (!line.isEmpty()) {
+			String[] parts = line.split(" ");
+			
+			for (int i = 0; i < parts.length; i += 2) {
+				String materialName = parts[i];
+				
+				int quantity = Integer.parseInt(parts[i + 1]);
+				
+				if (materialName.toLowerCase().equals("shards") || materialName.toLowerCase().equals("fragments") || materialName.toLowerCase().equals("motes")) {
+					if (!keyMaterials.containsKey(materialName)) {
+						keyMaterials.put(materialName, 0);
+					}
+					
+					keyMaterials.put(materialName, keyMaterials.get(materialName) + quantity);
+				} else {
+					if (!junk.containsKey(materialName)) {
+						junk.put(materialName, 0);
+					}
+					
+					junk.put(materialName, junk.get(materialName) + quantity);
+				}
+			}
+			
+			line = inputReader.nextLine();
+		}
+		
+		for (java.util.Map.Entry<String, Integer> keyMaterial : keyMaterials.entrySet()) {
+			String material = keyMaterial.getKey();
+			
+			int quantity = keyMaterial.getValue();
+			
+			System.out.printf("%s: %d", material, quantity);
+		}
+	}
+}
