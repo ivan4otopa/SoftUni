@@ -1,0 +1,133 @@
+/* CSS Document */
+td {padding:2px;}
+
+.button {
+	text-transform:uppercase;
+	font-weight:bold;
+    border: 1px solid #666;
+    background: #CCC;
+	padding:2px;
+	margin-top:10px;
+}
+.button:hover {
+	text-transform:uppercase;
+	font-weight:bold;
+    border: 1px solid #666;
+    background: #F90;
+	padding:2px;
+	margin-top:10px;
+}
+
+#result caption {
+	padding: 10px 0;
+	text-align:left;
+	text-transform:uppercase;
+	font-size:120%;
+}
+#result table, #result th, #result td {
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+}
+#result table {
+	border:none;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+#result th {
+	padding: 5px 10px;
+	background:#999;
+	font-size: 90%;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:uppercase;
+	text-align: center;
+}
+#result td {
+	padding: 0 5px;
+	text-align: center;
+}
+#result tbody tr {
+	background: #FFF;
+}
+#result tbody tr.odd {
+	background: #EFEFEF;
+}
+#result tbody tr:hover {
+	background: #CCC;
+}
+#result tfoot td {
+	text-align: left;
+	font-weight: bold
+}
+#result a { color:#069;}
+
+#result a:hover { /*color:#F60*/
+	text-decoration:underline;}
+
+#result tr:nth-child(odd) { 
+      background-color:  #FFF;  
+ }
+#result tr:nth-child(even) { 
+      background-color:  #EFEFEF;
+}
+
+
+
+.result caption {
+	padding: 10px 0;
+	text-align:left;
+	text-transform:uppercase;
+	font-size:120%;
+}
+.result table, .result th, .result td {
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+}
+.result table {
+	border:none;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+.result th {
+	padding: 5px 10px;
+	background:#999;
+	font-size: 90%;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:uppercase;
+	text-align: center;
+}
+.result td {
+	padding: 0 10px;
+	text-align: center;
+}
+.result tbody tr {
+	background: #FFF;
+}
+.result tbody tr.even {
+	background: #EFEFEF;
+}
+.result tbody tr:hover {
+	background: #CCC;
+}
+.result tfoot td {
+	text-align: left;
+	font-weight: bold
+}
+.result a { color:#069;}
+
+.result a:hover { /*color:#F60*/
+	text-decoration:underline;}
+
+.result tr:nth-child(odd) { 
+      background-color:  #FFF;  
+ }
+.result tr:nth-child(even) { 
+      background-color:  #EFEFEF;
+}
+
+.quotes_report_error{
+	height:500px;
+	color:#f00;
+	font-size:14px;
+}
