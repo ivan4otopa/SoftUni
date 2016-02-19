@@ -1,0 +1,19 @@
+1. O(this.arr.Length)
+
+2. O(2 * this.arr.Length)
+
+3. O(2 * this.arr.Length)
+
+4. O(2 * this.arr.Length)'
+
+5. O(1)
+
+6. O(1)
+
+7. O(1)
+
+8. O(1)
+
+9. O(1)
+
+10. O(1)
