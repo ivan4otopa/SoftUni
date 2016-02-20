@@ -2,13 +2,13 @@
 
 2. O(2 * this.arr.Length)
 
-3. O(2 * this.arr.Length)
+3. O(1)
 
-4. O(2 * this.arr.Length)'
+4. O(this.arr.Length)
 
-5. O(1)
+5. O(n)
 
-6. O(1)
+6. O(n)
 
 7. O(1)
 
