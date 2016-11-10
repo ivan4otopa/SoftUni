@@ -1,0 +1,8 @@
+.ownerListItem,
+.catListItem {
+  margin-bottom: 20px;
+}
+.owner > div,
+.cat > div {
+  margin-bottom: 10px;
+}

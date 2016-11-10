@@ -1,0 +1,13 @@
+extends ../shared/layout
+block mainContent
+  h1 Articles
+  ul
+    each article in articles
+      li
+        div= article.title
+        div= article.content
+        if (currentUser)
+          a(href="/articles/details/" + article._id) Details
+        if (currentUser && currentUser.roles.indexOf('Admin') > -1)
+          br
+          a(href="/administration/delete/" + article._id) Delete

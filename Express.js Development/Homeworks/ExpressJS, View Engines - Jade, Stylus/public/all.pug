@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html
+  head
+    title All
+    link(href='styles.css' rel='stylesheet')
+  body
+    h1 Owners
+    ul
+      each owner in owners
+        li.ownerListItem
+          div.owner
+            div Name: #{owner.name} 
+            a(href='/updateOwner/' + owner._id) Update
+            br
+            a(href='/deleteOwner/' + owner._id) Delete
+          h2 Cats
+          ul
+            each cat in owner.cats
+              li.catListItem
+                div.cat
+                  div Name: #{cat.name}
+                  div Age: #{cat.age}
+                  a(href='/updateCat/' + cat._id) Update
+                  br
+                  a(href='/deleteCat/' + cat._id) Delete

@@ -1,0 +1,9 @@
+extends ../shared/layout
+block mainContent
+  h1 Tweets Containing #{tagName}
+  if (tweets)
+    ul
+      each tweet in tweets
+        li #{tweet.message}
+  else
+    h2 No tweets with tag #{tagName}

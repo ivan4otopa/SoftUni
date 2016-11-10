@@ -1,0 +1,16 @@
+extends ../shared/layout
+block mainContent
+  h1 User #{user.username}
+  if (user.tweets)
+    ul
+      each tweet in user.tweets
+        li #{tweet.message} 
+          if (currentUser && currentUser.roles.indexOf('Admin') > -1)
+            a(href="/tweets/edit/" + tweet._id) Edit 
+            a(href="/tweets/delete/" + tweet._id) Delete 
+          if (currentUser && currentUser.likedTweets.indexOf(tweet) === -1)
+            a(href="/tweets/like/" + tweet._id) Like
+          else if (currentUser && currentUser.likedTweets.indexOf(tweet) > -1)
+            a(href="/tweets/dislike/" + tweet._id) Dislike
+  else
+    h2 You haven't made a tweet yet

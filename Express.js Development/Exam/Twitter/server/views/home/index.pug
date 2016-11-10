@@ -1,0 +1,16 @@
+extends ../shared/layout
+block mainContent
+  h1 Welcome to Twitter!
+  if (tweets)
+    ul
+      each tweet in tweets
+        li #{tweet.message} 
+          if (currentUser && currentUser.roles.indexOf('Admin') > -1)
+            a(href="/tweets/edit/" + tweet._id) Edit 
+            a(href="/tweets/delete/" + tweet._id) Delete 
+          if (currentUser && currentUser.likedTweets.indexOf(tweet._id) === -1)
+            a(href="/tweets/like/" + tweet._id) Like
+          else if (currentUser && currentUser.likedTweets.indexOf(tweet._id) > -1)
+            a(href="/tweets/dislike/" + tweet._id) Dislike
+  else
+    h2 There are no tweets in the system

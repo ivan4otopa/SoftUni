@@ -1,0 +1,25 @@
+npm install standard --save --save-exact
+npm install express --save --save-exact
+npm install mongoose --save --save-exact
+npm install body-parser --save --save-exact
+npm install pug --save --save-exact
+npm install stylus --save --save-exact
+npm install multer --save --save-exact
+
+typings install dt~express dt~serve-static dt~express-serve-static-core --global --save
+typings install dt~mongoose --global --save
+typings install dt~node --global --save
+
+let express = require('express')
+let app = express()
+let mongoose = require('mongoose')
+let connection = 'mongodb://localhost:27017/express'
+
+mongoose.Promise = global.Promise
+mongoose.connect(connection)
+app.get('/', (req, res) => {
+  res.send('Hi')
+})
+app.listen(1000)
+
+mongod -dbpath D:/data/db

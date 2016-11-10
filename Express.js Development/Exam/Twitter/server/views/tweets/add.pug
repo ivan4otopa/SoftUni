@@ -1,0 +1,9 @@
+extends ../shared/layout
+block mainContent
+  h1 Add Tweet
+  form(method="POST" action="/tweet")
+    label(for="message") Message
+    br
+    textarea(name="message" id="message")
+    br
+    input(type="submit" value="Add")

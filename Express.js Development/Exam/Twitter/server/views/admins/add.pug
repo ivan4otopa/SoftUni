@@ -1,0 +1,9 @@
+extends ../shared/layout
+block mainContent
+  h1 Add Admin
+  form(method="POST" action="/admins/add")
+    label(for="username") Username
+    br
+    textarea(name="username" id="username")
+    br
+    input(type="submit" value="Make Admin")

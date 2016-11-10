@@ -1,0 +1,14 @@
+{
+  "name": "mongodb-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engine": "6.7.0",
+  "dependencies": {
+    "mongodb": "2.2.10",
+    "mongoose": "4.6.4",
+    "standard": "8.4.0"
+  }
+}

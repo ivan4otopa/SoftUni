@@ -1,0 +1,33 @@
+doctype
+html
+  head
+    title Twitter
+    link(href="/css/site.css" rel="stylesheet")
+  body
+    .container
+      ul.menu
+        li
+          a(href="/") Home
+        if (currentUser)
+          li
+            a(href="/tweet") Add Tweet
+        if (currentUser && currentUser.roles.indexOf('Admin') > -1)
+          li
+            a(href="/admins") Administration
+        li.delimiter
+        if (currentUser)
+          li
+            span= currentUser.username
+          li
+            a(href="/profile/" + currentUser.username) Profile
+          li
+            form#logoutForm(method="POST" action="/users/logout")
+              a(href="javascript:document.getElementById('logoutForm').submit()") Logout
+        else
+          li
+            a(href="/users/register") Register
+          li
+            a(href="/users/login") Login
+      if (globalError)
+        h3= globalError
+      block mainContent

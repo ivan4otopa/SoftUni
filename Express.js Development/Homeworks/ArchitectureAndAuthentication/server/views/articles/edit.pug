@@ -1,0 +1,13 @@
+extends ../shared/layout
+block mainContent
+  h1 Edit Article
+  form(method="POST" action="/articles/edit/" + article._id)
+    label(for="title") Title
+    br
+    input(type="text" name="title" id="title" value=article.title)
+    br
+    label(for="content") Content
+    br
+    input(type="textarea" name="content" id="content" value=article.content)
+    br
+    input(type="submit" value="Edit")

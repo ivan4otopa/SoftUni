@@ -1,0 +1,9 @@
+extends ../shared/layout
+block mainContent
+  h1 Edit Tweet
+  form(method="POST" action="/tweets/edit/" + tweet._id)
+    label(for="message") Message
+    br
+    textarea(name="message" id="message") #{tweet.message}
+    br
+    input(type="submit" value="Edit")

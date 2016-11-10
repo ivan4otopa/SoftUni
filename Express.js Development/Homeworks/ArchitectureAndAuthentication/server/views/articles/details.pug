@@ -1,0 +1,8 @@
+extends ../shared/layout
+block mainContent
+  h1 #{article.title}
+  div= article.content
+  if (currentUserIsMaker)
+    a(href="/articles/edit/" + article._id) Edit
+  else if (currentUser.roles.indexOf('Admin') > -1)
+    a(href="/administration/edit/" + article._id) Edit Admin

@@ -1,0 +1,35 @@
+doctype
+html
+  head
+    title Hello!
+    link(href="/css/site.css" rel="stylesheet")
+  body
+    .container
+      ul.menu
+        li
+          a(href="/") Home
+        li
+          a(href="/about") About
+        li
+          a(href="/articles/list") Articles
+        if (currentUser)
+          li
+            a(href="/articles/add") Add Article
+        if (currentUser && currentUser.roles.indexOf('Admin') > -1)
+          li
+            a(href="/administration") Administration
+        li.delimiter
+        if (currentUser)
+          li
+            span= currentUser.username
+          li
+            form#logoutForm(method="POST" action="/users/logout")
+              a(href="javascript:document.getElementById('logoutForm').submit()") Logout
+        else
+          li
+            a(href="/users/register") Register
+          li
+            a(href="/users/login") Login
+      if (globalError)
+        h3= globalError
+      block mainContent
