@@ -1,0 +1,13 @@
+{
+  "name": "blog-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engine": "6.7.0",
+  "dependencies": {
+    "multiparty": "4.1.2",
+    "standard": "8.3.0"
+  }
+}
